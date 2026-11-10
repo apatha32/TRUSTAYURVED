@@ -1,11 +1,12 @@
 ---
 /**
  * The room's light — a fixed layer behind every page.
- * Morning sun from the upper right, two slow shafts of light through the
- * canopy, drifting golden pools, and the falling-leaf canvas.
+ * Morning sun behind a banyan in the upper right, shafts of light through its
+ * canopy, drifting golden pools, and leaves falling from its branches.
  * Decorative only; the still frame (reduced motion) keeps the glow and one leaf at rest.
  */
 import Motif from './Motif.astro';
+import Banyan from './Banyan.astro';
 ---
 <div class="sky" aria-hidden="true">
   <div class="sky__sun"></div>
@@ -18,6 +19,20 @@ import Motif from './Motif.astro';
     <i style="--d:29s;--dx:4%;--dy:-5%;--delay:-14s;left:4%;top:58%;width:32rem;height:32rem"></i>
     <i style="--d:24s;--dx:-3%;--dy:-4%;--delay:-4s;left:24%;top:-8%;width:22rem;height:22rem"></i>
   </div>
+  <div class="sky__flecks">
+    <i style="right:8vw;top:10vh;width:3.2rem;height:3.2rem;--d:4.1s;--delay:0s"></i>
+    <i style="right:18vw;top:22vh;width:2.4rem;height:2.4rem;--d:5.3s;--delay:-1.2s"></i>
+    <i style="right:26vw;top:8vh;width:4.0rem;height:4.0rem;--d:6.2s;--delay:-2.5s"></i>
+    <i style="right:14vw;top:34vh;width:2.8rem;height:2.8rem;--d:3.7s;--delay:-0.6s"></i>
+    <i style="right:36vw;top:18vh;width:3.4rem;height:3.4rem;--d:5.8s;--delay:-3.1s"></i>
+    <i style="right:44vw;top:30vh;width:2.2rem;height:2.2rem;--d:4.6s;--delay:-1.8s"></i>
+    <i style="right:6vw;top:40vh;width:3.0rem;height:3.0rem;--d:6.9s;--delay:-4.0s"></i>
+    <i style="right:30vw;top:42vh;width:2.6rem;height:2.6rem;--d:3.9s;--delay:-2.2s"></i>
+    <i style="right:48vw;top:12vh;width:3.6rem;height:3.6rem;--d:5.1s;--delay:-0.9s"></i>
+    <i style="right:22vw;top:48vh;width:2.0rem;height:2.0rem;--d:4.4s;--delay:-3.6s"></i>
+  </div>
+  <Banyan />
+  <div class="sky__shaft sky__shaft--c"></div>
   <canvas data-leaves></canvas>
   <Motif name="leaf-neem" class="leaf-rest" seed={0} />
 </div>

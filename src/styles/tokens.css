@@ -39,6 +39,15 @@
   --glow-pool-opacity: 0.3;
   --shadow-glow: 0 28px 56px -30px rgb(154 116 48 / 0.45), 0 2px 6px -2px rgb(28 42 35 / 0.06);
   --surface-tint: rgb(232 238 232 / 0.62); /* translucent recessed band — lets the light through */
+  /* Banyan — a quiet silhouette in the light (decorative, behind content) */
+  --tree-leaf: #2E6A4E;
+  --tree-bark: #5B4A33;
+  --tree-sun: #C9962F;
+  --tree-root: #6B5A40;
+  --tree-opacity: 1;
+  --tree-k: 1;
+  --fleck: rgb(250 222 150 / 0.55);
+  --fleck-opacity: 0.38;
 
   /* ---- Type ------------------------------------------------------------ */
   --font-display: 'Marcellus', 'Iowan Old Style', 'Palatino Linotype', Georgia, serif;
@@ -101,6 +110,14 @@
     --glow-pool-opacity: 0.1;
     --shadow-glow: 0 28px 56px -30px rgb(0 0 0 / 0.7), 0 0 40px -18px rgb(210 174 104 / 0.25);
     --surface-tint: rgb(22 34 27 / 0.7);
+    --tree-leaf: #6FAE8C;   /* moonlit leaves */
+    --tree-bark: #9C8A64;
+    --tree-sun: #D2AE68;
+    --tree-root: #8A7A58;
+    --tree-opacity: 1;
+    --tree-k: 1.25;
+    --fleck: rgb(210 174 104 / 0.6);
+    --fleck-opacity: 0.16;
   }
 }
 

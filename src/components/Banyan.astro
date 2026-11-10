@@ -1,0 +1,24 @@
+---
+/** The banyan reaching in from the upper right. Decorative; leaves fall from its tips (see leaves.ts). */
+import { banyan, BOX } from '../lib/banyan';
+const t = banyan(7);
+const anchors = JSON.stringify(t.anchors.map((a) => [Math.round(a.x), Math.round(a.y)]));
+---
+<svg class="banyan" viewBox={`0 0 ${BOX.w} ${BOX.h}`} preserveAspectRatio="xMaxYMin meet" data-anchors={anchors} aria-hidden="true" focusable="false">
+  <g class="banyan__sway">
+    <g class="banyan__roots">
+      {[0, 1, 2].map((g) => (
+        <g class={`banyan__root banyan__root--${g}`}>
+          {t.roots.filter((x) => x.group === g).map((x) => <path d={x.d} stroke-width={x.w.toFixed(2)} />)}
+        </g>
+      ))}
+    </g>
+    <path class="banyan__leaves banyan__leaves--back" d={t.leaves.back} />
+    <g class="banyan__bark" fill="none" stroke-linecap="round">
+      {t.limbs.map((l) => <path d={l.d} stroke-width={l.w.toFixed(1)} />)}
+    </g>
+    <path class="banyan__leaves banyan__leaves--mid" d={t.leaves.mid} />
+    <path class="banyan__leaves banyan__leaves--front" d={t.leaves.front} />
+    <path class="banyan__leaves banyan__leaves--sun" d={t.leaves.sun} />
+  </g>
+</svg>

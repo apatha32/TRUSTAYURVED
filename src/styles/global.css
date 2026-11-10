@@ -172,10 +172,13 @@ button { font: inherit; color: inherit; }
   min-width: 17rem; padding: 0.5rem; margin: 0; list-style: none;
   background: var(--surface-3); border: 1px solid var(--line); border-radius: 1rem;
   box-shadow: 0 24px 60px -30px rgb(15 24 19 / 0.45);
-  opacity: 0; visibility: hidden; transform: translateY(-6px);
-  transition: opacity 200ms, transform 300ms var(--ease-out), visibility 0s 300ms;
+  opacity: 0; visibility: hidden; transform: translateY(-8px) scale(0.97); transform-origin: 50% 0;
+  transition: opacity 220ms var(--ease-out), transform 380ms var(--ease-out), visibility 0s 380ms;
 }
-.nav__menu.is-open { opacity: 1; visibility: visible; transform: none; transition: opacity 200ms, transform 300ms var(--ease-out), visibility 0s; }
+.nav__menu.is-open { opacity: 1; visibility: visible; transform: none; transition: opacity 220ms var(--ease-out), transform 420ms var(--ease-out), visibility 0s; }
+.nav__menu li { transition: opacity 300ms var(--ease-out), transform 400ms var(--ease-out); }
+.nav__menu:not(.is-open) li { opacity: 0; transform: translateY(-4px); }
+.nav__menu.is-open li:nth-child(2) { transition-delay: 30ms; } .nav__menu.is-open li:nth-child(3) { transition-delay: 60ms; } .nav__menu.is-open li:nth-child(4) { transition-delay: 90ms; } .nav__menu.is-open li:nth-child(5) { transition-delay: 120ms; } .nav__menu.is-open li:nth-child(6) { transition-delay: 150ms; }
 .nav__menu a {
   display: flex; align-items: center; min-height: var(--tap); padding: 0.5rem 0.9rem; border-radius: 0.65rem;
   color: var(--ink); text-decoration: none; font-size: 0.9375rem; line-height: 1.3;
@@ -294,8 +297,6 @@ button { font: inherit; color: inherit; }
 .page-hero { position: relative; isolation: isolate; overflow: clip; padding-block: clamp(3rem, 2rem + 5vw, 6.5rem) clamp(3rem, 2rem + 4vw, 5.5rem); border-bottom: 1px solid var(--line); }
 .page-hero__inner { position: relative; z-index: 1; display: grid; gap: 1.25rem; max-width: 50rem; }
 .page-hero h1 { font-size: var(--fs-h1); }
-.page-hero__motif { position: absolute; z-index: 0; right: max(-6rem, calc((100vw - var(--max)) / 2 - 10rem)); top: 50%; translate: 0 -50%; width: min(34rem, 70vw); color: var(--water); opacity: 0.55; pointer-events: none; }
-@media (max-width: 47.99rem) { .page-hero__motif { opacity: 0.28; right: -40%; } }
 .breadcrumbs { font-size: var(--fs-caption); color: var(--ink-2); }
 .breadcrumbs ol { list-style: none; display: flex; flex-wrap: wrap; gap: 0.25rem 0.5rem; padding: 0; margin: 0; }
 .breadcrumbs li + li::before { content: '/'; margin-right: 0.5rem; color: var(--line-strong); }
@@ -597,8 +598,8 @@ main, .site-footer, .cta-band { position: relative; z-index: 1; }
   mask-image: linear-gradient(180deg, #000 10%, transparent 85%);
   -webkit-mask-image: linear-gradient(180deg, #000 10%, transparent 85%);
 }
-.sky__shaft--a { right: 18vw; rotate: 24deg; animation: shaft 19s ease-in-out infinite alternate; }
-.sky__shaft--b { right: 34vw; width: 8vw; rotate: 30deg; opacity: 0.7; animation: shaft 26s ease-in-out -9s infinite alternate-reverse; }
+.sky__shaft--a { right: 16vw; top: -8vh; rotate: 26deg; animation: shaft 19s ease-in-out infinite alternate; }
+.sky__shaft--b { right: 30vw; top: -6vh; width: 8vw; rotate: 33deg; opacity: 0.7; animation: shaft 26s ease-in-out -9s infinite alternate-reverse; }
 .sky__pools { inset: -15%; opacity: var(--glow-pool-opacity); }
 .sky__pools i {
   position: absolute; border-radius: 50%;
@@ -608,6 +609,42 @@ main, .site-footer, .cta-band { position: relative; z-index: 1; }
 .sky canvas { inset: 0; width: 100%; height: 100%; opacity: 0; transition: opacity 1.6s var(--ease-out); }
 .sky canvas.is-live { opacity: 1; }
 .sky .leaf-rest { display: none; right: 5vw; bottom: 12vh; width: 4.5rem; color: var(--accent); opacity: 0.35; }
+/* Light through the canopy: flecks that shimmer as the leaves move */
+.sky__flecks { inset: 0; opacity: var(--fleck-opacity); }
+.sky__flecks i { position: absolute; border-radius: 50%; background: radial-gradient(circle, var(--fleck), transparent 68%); animation: fleck var(--d) ease-in-out var(--delay) infinite alternate; }
+@keyframes fleck { 0% { opacity: 0.15; transform: scale(0.85); } 60% { opacity: 1; } 100% { opacity: 0.35; transform: scale(1.15) translate(-6px, 4px); } }
+.sky__shaft--c { right: 8vw; top: -6vh; width: 5vw; min-width: 4rem; rotate: 20deg; opacity: 0.6; animation: shaft 15s ease-in-out -3s infinite alternate; }
+
+/* Scroll-driven drift: the tree and sun rise gently as you scroll (native, no scroll-jacking) */
+@supports (animation-timeline: scroll()) {
+  @media (prefers-reduced-motion: no-preference) {
+    .sky .banyan { animation: tree-rise linear both; animation-timeline: scroll(root); animation-range: 0 120vh; }
+    .sky__flecks { animation: tree-rise linear both; animation-timeline: scroll(root); animation-range: 0 120vh; }
+    @keyframes tree-rise { to { translate: 0 -7vh; } }
+  }
+}
+
+/* Banyan */
+.sky .banyan { top: -1.5rem; right: 0; width: min(56vw, 52rem); height: auto; opacity: var(--tree-opacity); overflow: visible; }
+@media (max-width: 47.99rem) { .sky .banyan { width: 104vw; right: -18vw; top: -0.5rem; opacity: calc(var(--tree-opacity) * 0.75); } }
+.banyan__bark path { stroke: var(--tree-bark); opacity: calc(0.16 * var(--tree-k)); }
+.banyan__leaves { stroke: none; }
+.banyan__leaves--back { fill: var(--tree-leaf); opacity: calc(0.06 * var(--tree-k)); }
+.banyan__leaves--mid { fill: var(--tree-leaf); opacity: calc(0.1 * var(--tree-k)); }
+.banyan__leaves--front { fill: var(--tree-leaf); opacity: calc(0.14 * var(--tree-k)); }
+.banyan__leaves--sun { fill: var(--tree-sun); opacity: calc(0.22 * var(--tree-k)); }
+.banyan__roots path { fill: none; stroke: var(--tree-root); stroke-linecap: round; opacity: calc(0.14 * var(--tree-k)); }
+/* roots and lower canopy fade out so they never sit hard behind text */
+.sky .banyan { mask-image: linear-gradient(180deg, #000 40%, transparent 92%); -webkit-mask-image: linear-gradient(180deg, #000 40%, transparent 92%); }
+.banyan__sway, .banyan__root { transform-box: view-box; }
+.banyan__sway { transform-origin: 100% 36%; animation: canopy 14s ease-in-out infinite alternate; }
+.banyan__root { animation: root var(--d, 9s) ease-in-out infinite alternate; }
+.banyan__root--0 { --d: 8s; transform-origin: 60% 20%; }
+.banyan__root--1 { --d: 11s; transform-origin: 40% 20%; animation-delay: -4s; }
+.banyan__root--2 { --d: 13s; transform-origin: 80% 25%; animation-delay: -7s; }
+@keyframes canopy { from { transform: rotate(-0.5deg); } to { transform: rotate(0.6deg); } }
+@keyframes root { from { transform: skewX(-1.2deg); } to { transform: skewX(1.4deg); } }
+
 @keyframes sun { from { transform: scale(1); opacity: 0.85; } to { transform: scale(1.07) translate(-2%, 2%); opacity: 1; } }
 @keyframes shaft { from { transform: rotate(-2.5deg); opacity: 0.55; } to { transform: rotate(2.5deg); opacity: 1; } }
 @keyframes dapple {
@@ -657,6 +694,30 @@ main, .site-footer, .cta-band { position: relative; z-index: 1; }
   .js [data-reveal] img { transform: scale(1.06); transition: transform 1600ms var(--ease-out), filter 400ms; }
   .js [data-reveal].is-in img { transform: none; }
   .js .masonry [data-reveal] img, .js .carousel img { transform: none; }
+  /* headings wipe up into view */
+  .js [data-reveal] :is(.h1, .h2, .doctor__name) {
+    clip-path: inset(-10% -5% 100% -5%); translate: 0 0.35em;
+    transition: clip-path 1200ms var(--ease-out) 120ms, translate 1200ms var(--ease-out) 120ms;
+  }
+  .js [data-reveal].is-in :is(.h1, .h2, .doctor__name) { clip-path: inset(-10% -5% -20% -5%); translate: 0 0; }
+
+  /* homepage: the pool and highlights arrive (text is visible from first paint) */
+  .hero .pool { animation: pool-in 1600ms var(--ease-out) 150ms both; }
+  .hero .chips li { animation: chip-in 900ms var(--ease-out) both; }
+  .hero .chips li:nth-child(1) { animation-delay: 300ms; } .hero .chips li:nth-child(2) { animation-delay: 380ms; }
+  .hero .chips li:nth-child(3) { animation-delay: 460ms; } .hero .chips li:nth-child(4) { animation-delay: 540ms; }
+  /* inner pages: the title settles (movement only — never hidden) */
+  .page-hero h1 { animation: settle 1000ms var(--ease-out) both; }
+  .page-hero .eyebrow, .page-hero .breadcrumbs { animation: settle 1000ms var(--ease-out) 80ms both; }
+
+  /* images breathe on hover */
+  .why__media img, .feature__media img { transition: transform 1600ms var(--ease-out), filter 600ms; }
+  .why__media:hover img, .feature__media:hover img { transform: scale(1.04); filter: saturate(1); }
+
+  /* mobile menu items cascade in */
+  .mobile-menu:not([hidden]) .mobile-menu__list > li { animation: chip-in 600ms var(--ease-out) both; }
+  .mobile-menu__list > li:nth-child(2) { animation-delay: 40ms !important; } .mobile-menu__list > li:nth-child(3) { animation-delay: 80ms !important; }
+  .mobile-menu__list > li:nth-child(4) { animation-delay: 120ms !important; } .mobile-menu__list > li:nth-child(5) { animation-delay: 160ms !important; }
 }
 @media (prefers-reduced-motion: reduce) {
   .js [data-reveal] { opacity: 0; transition: opacity 400ms linear; }
@@ -675,6 +736,9 @@ main, .site-footer, .cta-band { position: relative; z-index: 1; }
 ::view-transition-group(sky), ::view-transition-group(header) { animation: none; }
 ::view-transition-old(sky) { display: none; }
 ::view-transition-new(sky) { animation: none; }
+@keyframes pool-in { from { opacity: 0; transform: scale(0.94) translateY(18px); } }
+@keyframes chip-in { from { opacity: 0; transform: translateY(10px); } }
+@keyframes settle { from { transform: translateY(16px); } }
 @keyframes vt-out { to { opacity: 0; transform: translateY(-6px); } }
 @keyframes vt-in { from { opacity: 0; transform: translateY(14px); } }
 @media (prefers-reduced-motion: reduce) {

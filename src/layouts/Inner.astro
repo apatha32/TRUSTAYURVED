@@ -1,8 +1,6 @@
 ---
-/** Inner pages: short calm hero with a *still* leaf/water motif (no animation —
-    the homepage keeps the signature), then readable content. */
+/** Inner pages: short calm hero under the banyan (the homepage keeps the drop as its signature), then readable content. */
 import Base from './Base.astro';
-import Motif from '../components/Motif.astro';
 
 interface Props {
   title: string;          // <title> (live site's, verbatim)
@@ -19,7 +17,6 @@ const { heading, eyebrow, crumbs = [], ...rest } = Astro.props;
 ---
 <Base {...rest}>
   <section class="page-hero">
-    <Motif name="still-water" class="page-hero__motif" />
     <div class="container">
       <div class="page-hero__inner">
         {crumbs.length > 0 && (
