@@ -1,0 +1,42 @@
+---
+/**
+ * Renders crawled text blocks as semantic prose without altering a character.
+ *  - consecutive <li> → one <ul>
+ *  - "✔ …" paragraphs → a list; the ✔ stays visible (it's part of the copy)
+ *  - "Benefits:"-style lead-ins → label paragraph
+ *  - h1 inside body copy (Privacy Policy) is demoted one level so each page
+ *    keeps a single h1; `shift` demotes further when nested under a section h2.
+ */
+import type { Block } from '../lib/content';
+interface Props { blocks: Block[]; shift?: number; class?: string }
+const { blocks, shift = 0, class: cls } = Astro.props;
+
+type Node = { kind: 'h'; level: number; text: string } | { kind: 'p'; text: string; label: boolean } | { kind: 'ul'; items: { text: string; tick: boolean }[] };
+const nodes: Node[] = [];
+for (const b of blocks) {
+  const tick = b.t === 'p' && b.text.startsWith('✔');
+  if (b.t === 'li' || tick) {
+    const last = nodes[nodes.length - 1];
+    const item = { text: b.text, tick };
+    if (last && last.kind === 'ul') last.items.push(item); else nodes.push({ kind: 'ul', items: [item] });
+  } else if (/^h[1-6]$/.test(b.t)) {
+    const lvl = Math.min(6, Math.max(2, Number(b.t[1]) + (b.t === 'h1' ? 1 : 0) + shift));
+    nodes.push({ kind: 'h', level: lvl, text: b.text });
+  } else {
+    nodes.push({ kind: 'p', text: b.text, label: /:$/.test(b.text) && b.text.length < 40 });
+  }
+}
+---
+<div class:list={['prose', cls]}>
+  {nodes.map((n) => {
+    if (n.kind === 'ul') return (
+      <ul>
+        {n.items.map((it) => it.tick
+          ? <li class="check"><span class="tick" aria-hidden="true">✔</span>{it.text.replace(/^✔\s*/, '')}</li>
+          : <li>{it.text}</li>)}
+      </ul>
+    );
+    if (n.kind === 'h') { const H = `h${n.level}` as 'h2'; return <H>{n.text}</H>; }
+    return <p class:list={{ label: n.label }}>{n.text}</p>;
+  })}
+</div>

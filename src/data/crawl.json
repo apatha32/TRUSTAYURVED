@@ -1,0 +1,7688 @@
+{
+ "home": {
+  "path": "/",
+  "title": "Shraddha Ayurvedic Clinic – Holistic Healing Through Authentic Ayurveda",
+  "description": "",
+  "widgets": [
+   {
+    "type": "image",
+    "loc": "main",
+    "blocks": [],
+    "imgs": [
+     {
+      "src": "https://trustayurved.com/wp-content/uploads/2026/06/image-23.png",
+      "alt": ""
+     }
+    ],
+    "links": []
+   },
+   {
+    "type": "image",
+    "loc": "main",
+    "blocks": [],
+    "imgs": [
+     {
+      "src": "https://trustayurved.com/wp-content/uploads/2026/05/Gemini_Generated_Image_hmkgtohmkgtohmkg.png",
+      "alt": ""
+     }
+    ],
+    "links": []
+   },
+   {
+    "type": "wd_marquee",
+    "loc": "main",
+    "blocks": [
+     {
+      "t": "li",
+      "text": "Authentic Ayurvedic Treatments"
+     },
+     {
+      "t": "li",
+      "text": "27+ Years of Trusted Ayurvedic Care"
+     },
+     {
+      "t": "li",
+      "text": "Rejuvenation Therapies"
+     },
+     {
+      "t": "li",
+      "text": "Personalized Treatment Plans for Every Patient"
+     },
+     {
+      "t": "li",
+      "text": "Experienced Ayurvedic Doctors"
+     },
+     {
+      "t": "li",
+      "text": "Stress & Anxiety Management"
+     },
+     {
+      "t": "li",
+      "text": "Diabetes & Lifestyle Care"
+     },
+     {
+      "t": "li",
+      "text": "Skin & Hair Treatments"
+     },
+     {
+      "t": "li",
+      "text": "Joint Pain & Arthritis Care"
+     },
+     {
+      "t": "li",
+      "text": "Personalized Treatment Plans"
+     },
+     {
+      "t": "li",
+      "text": "Root Cause Healing Approach"
+     },
+     {
+      "t": "li",
+      "text": "Mental Wellness & Meditation"
+     },
+     {
+      "t": "li",
+      "text": "Ayurvedic Immunity Support"
+     },
+     {
+      "t": "li",
+      "text": "Women’s Health & Hormonal Care"
+     },
+     {
+      "t": "li",
+      "text": "Traditional Ayurveda for Modern Life"
+     },
+     {
+      "t": "li",
+      "text": "Authentic Ayurvedic Treatments"
+     },
+     {
+      "t": "li",
+      "text": "27+ Years of Trusted Ayurvedic Care"
+     },
+     {
+      "t": "li",
+      "text": "Rejuvenation Therapies"
+     },
+     {
+      "t": "li",
+      "text": "Personalized Treatment Plans for Every Patient"
+     },
+     {
+      "t": "li",
+      "text": "Experienced Ayurvedic Doctors"
+     },
+     {
+      "t": "li",
+      "text": "Stress & Anxiety Management"
+     },
+     {
+      "t": "li",
+      "text": "Diabetes & Lifestyle Care"
+     },
+     {
+      "t": "li",
+      "text": "Skin & Hair Treatments"
+     },
+     {
+      "t": "li",
+      "text": "Joint Pain & Arthritis Care"
+     },
+     {
+      "t": "li",
+      "text": "Personalized Treatment Plans"
+     },
+     {
+      "t": "li",
+      "text": "Root Cause Healing Approach"
+     },
+     {
+      "t": "li",
+      "text": "Mental Wellness & Meditation"
+     },
+     {
+      "t": "li",
+      "text": "Ayurvedic Immunity Support"
+     },
+     {
+      "t": "li",
+      "text": "Women’s Health & Hormonal Care"
+     },
+     {
+      "t": "li",
+      "text": "Traditional Ayurveda for Modern Life"
+     }
+    ],
+    "imgs": [],
+    "links": []
+   },
+   {
+    "type": "heading",
+    "loc": "main",
+    "blocks": [
+     {
+      "t": "h2",
+      "text": "Our Gallery"
+     }
+    ],
+    "imgs": [],
+    "links": []
+   },
+   {
+    "type": "button",
+    "loc": "main",
+    "blocks": [
+     {
+      "t": "p",
+      "text": "Browse All"
+     }
+    ],
+    "imgs": [],
+    "links": [
+     "https://trustayurved.com/gallery"
+    ]
+   },
+   {
+    "type": "image-carousel",
+    "loc": "main",
+    "blocks": [],
+    "imgs": [
+     {
+      "src": "https://trustayurved.com/wp-content/uploads/2026/05/WhatsApp-Image-2023-03-31-at-3.46.58-PM.jpeg",
+      "alt": "WhatsApp Image 2023-03-31 at 3.46.58 PM"
+     },
+     {
+      "src": "https://trustayurved.com/wp-content/uploads/2026/05/WhatsApp-Image-2023-03-31-at-3.46.57-PM-1.jpeg",
+      "alt": "WhatsApp Image 2023-03-31 at 3.46.57 PM (1)"
+     },
+     {
+      "src": "https://trustayurved.com/wp-content/uploads/2026/05/WhatsApp-Image-2023-03-31-at-3.46.57-PM.jpeg",
+      "alt": "WhatsApp Image 2023-03-31 at 3.46.57 PM"
+     },
+     {
+      "src": "https://trustayurved.com/wp-content/uploads/2026/05/WhatsApp-Image-2023-03-31-at-3.47.08-PM.jpeg",
+      "alt": "WhatsApp Image 2023-03-31 at 3.47.08 PM"
+     },
+     {
+      "src": "https://trustayurved.com/wp-content/uploads/2026/05/WhatsApp-Image-2023-03-31-at-3.47.03-PM.jpeg",
+      "alt": "WhatsApp Image 2023-03-31 at 3.47.03 PM"
+     },
+     {
+      "src": "https://trustayurved.com/wp-content/uploads/2026/05/WhatsApp-Image-2023-03-31-at-3.46.56-PM-1.jpeg",
+      "alt": "WhatsApp Image 2023-03-31 at 3.46.56 PM (1)"
+     },
+     {
+      "src": "https://trustayurved.com/wp-content/uploads/2026/05/WhatsApp-Image-2023-03-31-at-3.47.07-PM.jpeg",
+      "alt": "WhatsApp Image 2023-03-31 at 3.47.07 PM"
+     }
+    ],
+    "links": []
+   },
+   {
+    "type": "button",
+    "loc": "main",
+    "blocks": [
+     {
+      "t": "p",
+      "text": "VIEW ALL GALLERY"
+     }
+    ],
+    "imgs": [],
+    "links": [
+     "https://trustayurved.com/gallery/"
+    ]
+   },
+   {
+    "type": "heading",
+    "loc": "main",
+    "blocks": [
+     {
+      "t": "h2",
+      "text": "WHY CHOOSE SHRADDHA AYURVEDIC CLINIC?"
+     }
+    ],
+    "imgs": [],
+    "links": []
+   },
+   {
+    "type": "text-editor",
+    "loc": "main",
+    "blocks": [
+     {
+      "t": "p",
+      "text": "Choosing the right healthcare partner is essential for achieving lasting wellness and a healthier life. At Shraddha Ayurvedic Clinic, we combine authentic Ayurvedic wisdom, personalized treatments, and holistic healing approaches to help patients restore balance naturally."
+     },
+     {
+      "t": "p",
+      "text": "Our focus is not just on treating diseases but on improving overall health, immunity, mental well-being, and quality of life through safe, natural, and sustainable healing methods."
+     }
+    ],
+    "imgs": [],
+    "links": []
+   },
+   {
+    "type": "image-box",
+    "loc": "main",
+    "blocks": [
+     {
+      "t": "h3",
+      "text": "Authentic Ayurvedic Treatments"
+     },
+     {
+      "t": "p",
+      "text": "Experience traditional Ayurvedic therapies, herbal medicines, and proven healing practices designed to address the root cause of health concerns."
+     }
+    ],
+    "imgs": [
+     {
+      "src": "https://trustayurved.com/wp-content/uploads/2026/04/mortar.png",
+      "alt": ""
+     }
+    ],
+    "links": []
+   },
+   {
+    "type": "image-box",
+    "loc": "main",
+    "blocks": [
+     {
+      "t": "h3",
+      "text": "Personalized Treatment Plans"
+     },
+     {
+      "t": "p",
+      "text": "Every patient receives a customized treatment plan based on their body constitution (Prakriti), lifestyle, and specific health condition."
+     }
+    ],
+    "imgs": [
+     {
+      "src": "https://trustayurved.com/wp-content/uploads/2026/04/shield.png",
+      "alt": ""
+     }
+    ],
+    "links": []
+   },
+   {
+    "type": "image-box",
+    "loc": "main",
+    "blocks": [
+     {
+      "t": "h3",
+      "text": "Specialized Panchakarma Therapies"
+     },
+     {
+      "t": "p",
+      "text": "Detoxify, rejuvenate, and restore your body's natural balance with authentic Panchakarma treatments performed under expert supervision."
+     }
+    ],
+    "imgs": [
+     {
+      "src": "https://trustayurved.com/wp-content/uploads/2026/04/premium.png",
+      "alt": ""
+     }
+    ],
+    "links": []
+   },
+   {
+    "type": "image-box",
+    "loc": "main",
+    "blocks": [
+     {
+      "t": "h3",
+      "text": "Holistic Mind & Body Wellness"
+     },
+     {
+      "t": "p",
+      "text": "Our treatments focus on physical health, mental well-being, emotional balance, and preventive care for complete wellness."
+     }
+    ],
+    "imgs": [
+     {
+      "src": "https://trustayurved.com/wp-content/uploads/2026/04/toggles.png",
+      "alt": ""
+     }
+    ],
+    "links": []
+   },
+   {
+    "type": "image-box",
+    "loc": "main",
+    "blocks": [
+     {
+      "t": "h3",
+      "text": "Experienced Ayurvedic Doctors"
+     },
+     {
+      "t": "p",
+      "text": "Benefit from the expertise of highly qualified Ayurvedic practitioners with decades of experience in treating chronic and lifestyle disorders."
+     }
+    ],
+    "imgs": [
+     {
+      "src": "https://trustayurved.com/wp-content/uploads/2026/04/protection.png",
+      "alt": ""
+     }
+    ],
+    "links": []
+   },
+   {
+    "type": "heading",
+    "loc": "main",
+    "blocks": [
+     {
+      "t": "h4",
+      "text": "Client’s Testimonials"
+     }
+    ],
+    "imgs": [],
+    "links": []
+   },
+   {
+    "type": "heading",
+    "loc": "main",
+    "blocks": [
+     {
+      "t": "h2",
+      "text": "What Our Customers Say"
+     }
+    ],
+    "imgs": [],
+    "links": []
+   },
+   {
+    "type": "nested-carousel",
+    "loc": "main",
+    "blocks": [
+     {
+      "t": "h3",
+      "text": "Rahul Mehta"
+     },
+     {
+      "t": "h2",
+      "text": "After struggling with stress and digestive issues for years, I finally found real relief at Shraddha Ayurvedic Clinic. The personalized Ayurvedic treatment and therapies helped me feel healthier, calmer, and more energetic naturally."
+     },
+     {
+      "t": "h3",
+      "text": "Sneha Kulkarni"
+     },
+     {
+      "t": "h2",
+      "text": "I took Panchakarma treatment for chronic back pain and the improvement has been amazing. The doctors are extremely knowledgeable and genuinely care about every patient’s well-being."
+     },
+     {
+      "t": "h3",
+      "text": "Akash Verma"
+     },
+     {
+      "t": "h2",
+      "text": "My skin problems and hair fall reduced significantly after starting Ayurvedic treatment here. The herbal medicines and lifestyle guidance worked wonderfully without any side effects."
+     },
+     {
+      "t": "h3",
+      "text": "Meera Joshi"
+     },
+     {
+      "t": "h2",
+      "text": "The mental wellness therapies and meditation guidance helped me overcome anxiety and sleep issues naturally. Shraddha Ayurvedic Clinic truly focuses on complete mind and body healing."
+     }
+    ],
+    "imgs": [
+     {
+      "src": "https://trustayurved.com/wp-content/uploads/2025/09/Icon-1.png",
+      "alt": ""
+     },
+     {
+      "src": "https://trustayurved.com/wp-content/uploads/2025/09/ravi-shah-square-768._imresizer.jpg",
+      "alt": ""
+     },
+     {
+      "src": "https://trustayurved.com/wp-content/uploads/2025/09/Icon-1.png",
+      "alt": ""
+     },
+     {
+      "src": "https://trustayurved.com/wp-content/uploads/2025/09/1723124717450_imresizer.jpg",
+      "alt": ""
+     },
+     {
+      "src": "https://trustayurved.com/wp-content/uploads/2025/09/Icon-1.png",
+      "alt": ""
+     },
+     {
+      "src": "https://trustayurved.com/wp-content/uploads/2025/09/1721311839053_imresizer.jpg",
+      "alt": ""
+     },
+     {
+      "src": "https://trustayurved.com/wp-content/uploads/2025/09/Icon-1.png",
+      "alt": ""
+     },
+     {
+      "src": "https://trustayurved.com/wp-content/uploads/2025/09/1749680319724_imresizer.jpg",
+      "alt": ""
+     }
+    ],
+    "links": []
+   },
+   {
+    "type": "heading",
+    "loc": "main",
+    "blocks": [
+     {
+      "t": "h2",
+      "text": "Latest News"
+     }
+    ],
+    "imgs": [],
+    "links": []
+   },
+   {
+    "type": "button",
+    "loc": "main",
+    "blocks": [
+     {
+      "t": "p",
+      "text": "See All Articles"
+     }
+    ],
+    "imgs": [],
+    "links": [
+     "https://trustayurved.com/blog/"
+    ]
+   },
+   {
+    "type": "posts.classic",
+    "loc": "main",
+    "blocks": [
+     {
+      "t": "h3",
+      "text": "Managing Stress and Anxiety Naturally with Ayurveda"
+     },
+     {
+      "t": "p",
+      "text": "May 29, 2026"
+     },
+     {
+      "t": "p",
+      "text": "Stress has become one of the most common health concerns in today’s fast-paced world. Work pressure, financial responsibilities, family commitments,"
+     },
+     {
+      "t": "p",
+      "text": "Read More"
+     },
+     {
+      "t": "h3",
+      "text": "Panchakarma Therapy: The Ayurvedic Secret to Detoxification and Rejuvenation"
+     },
+     {
+      "t": "p",
+      "text": "May 29, 2026"
+     },
+     {
+      "t": "p",
+      "text": "Modern lifestyles often expose us to stress, unhealthy eating habits, pollution, and irregular routines. Over time, these factors can lead"
+     },
+     {
+      "t": "p",
+      "text": "Read More"
+     },
+     {
+      "t": "h3",
+      "text": "The Power of Ayurveda: A Natural Path to Complete Wellness"
+     },
+     {
+      "t": "p",
+      "text": "May 29, 2026"
+     },
+     {
+      "t": "p",
+      "text": "In today’s fast-paced world, people are increasingly facing health challenges such as stress, digestive disorders, obesity, diabetes, insomnia, and chronic"
+     },
+     {
+      "t": "p",
+      "text": "Read More"
+     }
+    ],
+    "imgs": [],
+    "links": [
+     "https://trustayurved.com/2026/05/29/managing-stress-and-anxiety-naturally-with-ayurveda/",
+     "https://trustayurved.com/2026/05/29/panchakarma-therapy-the-ayurvedic-secret-to-detoxification-and-rejuvenation/",
+     "https://trustayurved.com/2026/05/29/the-power-of-ayurveda-a-natural-path-to-complete-wellness/"
+    ]
+   },
+   {
+    "type": "heading",
+    "loc": "main",
+    "blocks": [
+     {
+      "t": "h2",
+      "text": "Frequently"
+     },
+     {
+      "t": "h2",
+      "text": "Asked Questions"
+     }
+    ],
+    "imgs": [],
+    "links": []
+   },
+   {
+    "type": "text-editor",
+    "loc": "main",
+    "blocks": [
+     {
+      "t": "p",
+      "text": "At Shraddha Ayurvedic Clinic, we understand that every patient’s health journey is unique. Our Frequently Asked Questions section is designed to help you learn more about Ayurveda, Panchakarma therapies, treatments, consultations, and our holistic healing approach. Find answers to common questions and gain better clarity about natural wellness and Ayurvedic care."
+     }
+    ],
+    "imgs": [],
+    "links": []
+   },
+   {
+    "type": "wd_accordion",
+    "loc": "main",
+    "blocks": [
+     {
+      "t": "p",
+      "text": "What is Ayurveda and how does it work?"
+     },
+     {
+      "t": "p",
+      "text": "Ayurveda is an ancient Indian system of natural healing that focuses on balancing the body, mind, and soul through herbal medicines, therapies, diet, and lifestyle modifications. It works by treating the root cause of health issues rather than only managing symptoms."
+     },
+     {
+      "t": "p",
+      "text": "What treatments are available at Shraddha Ayurvedic Clinic?"
+     },
+     {
+      "t": "p",
+      "text": "We provide Ayurvedic treatments for diabetes, digestive disorders, joint pain, arthritis, stress, anxiety, skin diseases, hair fall, obesity, hormonal imbalance, back pain, and many chronic lifestyle disorders."
+     },
+     {
+      "t": "p",
+      "text": "What is Panchakarma therapy?"
+     },
+     {
+      "t": "p",
+      "text": "Panchakarma is a detoxification and rejuvenation therapy in Ayurveda that helps cleanse the body of toxins, improve immunity, and restore natural balance for better health and wellness."
+     },
+     {
+      "t": "p",
+      "text": "Are Ayurvedic treatments safe?"
+     },
+     {
+      "t": "p",
+      "text": "Yes, Ayurvedic treatments are natural and safe when prescribed by experienced Ayurvedic doctors according to the patient’s body constitution and medical condition."
+     },
+     {
+      "t": "p",
+      "text": "Do you offer personalized treatment plans?"
+     },
+     {
+      "t": "p",
+      "text": "Yes, every patient receives a customized treatment plan based on Dosha analysis, lifestyle, health concerns, and overall body condition for the best possible results."
+     }
+    ],
+    "imgs": [],
+    "links": []
+   },
+   {
+    "type": "heading",
+    "loc": "footer",
+    "blocks": [
+     {
+      "t": "h2",
+      "text": "Connect with"
+     },
+     {
+      "t": "h2",
+      "text": "Shraddha Ayurvedic Clinic!"
+     }
+    ],
+    "imgs": [],
+    "links": []
+   },
+   {
+    "type": "icon-box",
+    "loc": "footer",
+    "blocks": [
+     {
+      "t": "h3",
+      "text": "info@shraddhaayurveda.com"
+     }
+    ],
+    "imgs": [],
+    "links": [
+     "mailto:info@shraddhaayurveda.com"
+    ]
+   },
+   {
+    "type": "text-editor",
+    "loc": "footer",
+    "blocks": [
+     {
+      "t": "p",
+      "text": "Shraddha Ayurvedic Clinic is dedicated to providing authentic Ayurvedic treatments, Panchakarma therapies, and holistic wellness solutions for complete physical, mental, and emotional healing naturally."
+     }
+    ],
+    "imgs": [],
+    "links": []
+   },
+   {
+    "type": "heading",
+    "loc": "footer",
+    "blocks": [
+     {
+      "t": "h2",
+      "text": "COMPANY"
+     }
+    ],
+    "imgs": [],
+    "links": []
+   },
+   {
+    "type": "icon-list",
+    "loc": "footer",
+    "blocks": [
+     {
+      "t": "li",
+      "text": "Home"
+     },
+     {
+      "t": "li",
+      "text": "About Us"
+     },
+     {
+      "t": "li",
+      "text": "Contact Us"
+     }
+    ],
+    "imgs": [],
+    "links": [
+     "https://trustayurved.com/",
+     "https://trustayurved.com/about/",
+     "https://trustayurved.com/contact/"
+    ]
+   },
+   {
+    "type": "heading",
+    "loc": "footer",
+    "blocks": [
+     {
+      "t": "h2",
+      "text": "PAGES"
+     }
+    ],
+    "imgs": [],
+    "links": []
+   },
+   {
+    "type": "icon-list",
+    "loc": "footer",
+    "blocks": [
+     {
+      "t": "li",
+      "text": "Blog"
+     },
+     {
+      "t": "li",
+      "text": "Gallery"
+     },
+     {
+      "t": "li",
+      "text": "FAQ"
+     }
+    ],
+    "imgs": [],
+    "links": [
+     "https://trustayurved.com/blog/",
+     "https://trustayurved.com/gallery/",
+     "https://trustayurved.com/faq"
+    ]
+   },
+   {
+    "type": "heading",
+    "loc": "footer",
+    "blocks": [
+     {
+      "t": "h2",
+      "text": "POLICIES"
+     }
+    ],
+    "imgs": [],
+    "links": []
+   },
+   {
+    "type": "icon-list",
+    "loc": "footer",
+    "blocks": [
+     {
+      "t": "li",
+      "text": "Privacy Policy"
+     },
+     {
+      "t": "li",
+      "text": "Terms Condition"
+     }
+    ],
+    "imgs": [],
+    "links": [
+     "https://trustayurved.com/privacy-policy/",
+     "https://trustayurved.com/terms-condition/"
+    ]
+   },
+   {
+    "type": "heading",
+    "loc": "footer",
+    "blocks": [
+     {
+      "t": "h2",
+      "text": "© 2026 Shraddha Ayurvedic Clinic All rights reserved."
+     }
+    ],
+    "imgs": [],
+    "links": []
+   },
+   {
+    "type": "heading",
+    "loc": "footer",
+    "blocks": [
+     {
+      "t": "h2",
+      "text": "Natural Healing for Mind & Body!"
+     }
+    ],
+    "imgs": [],
+    "links": []
+   }
+  ],
+  "maps": []
+ },
+ "about": {
+  "path": "/about/",
+  "title": "About – Shraddha Ayurvedic Clinic",
+  "description": "",
+  "widgets": [
+   {
+    "type": "heading",
+    "loc": "main",
+    "blocks": [
+     {
+      "t": "h2",
+      "text": "About Us"
+     }
+    ],
+    "imgs": [],
+    "links": []
+   },
+   {
+    "type": "heading",
+    "loc": "main",
+    "blocks": [
+     {
+      "t": "h4",
+      "text": "Who We Are"
+     }
+    ],
+    "imgs": [],
+    "links": []
+   },
+   {
+    "type": "heading",
+    "loc": "main",
+    "blocks": [
+     {
+      "t": "h2",
+      "text": "About Shraddha Ayurvedic Clinic"
+     }
+    ],
+    "imgs": [],
+    "links": []
+   },
+   {
+    "type": "heading",
+    "loc": "main",
+    "blocks": [
+     {
+      "t": "h2",
+      "text": "About Us"
+     }
+    ],
+    "imgs": [],
+    "links": []
+   },
+   {
+    "type": "text-editor",
+    "loc": "main",
+    "blocks": [
+     {
+      "t": "p",
+      "text": "At Shraddha Ayurvedic Clinic, we believe true healing begins by restoring balance between the body, mind, and soul. Rooted in the timeless wisdom of Ayurveda, our clinic focuses on identifying and treating the root cause of health concerns rather than simply managing symptoms temporarily."
+     }
+    ],
+    "imgs": [],
+    "links": []
+   },
+   {
+    "type": "text-editor",
+    "loc": "main",
+    "blocks": [
+     {
+      "t": "p",
+      "text": "With years of experience, authentic Ayurvedic therapies, and personalized treatment plans, we help individuals achieve long-term wellness naturally. Our approach combines traditional Ayurvedic principles with modern lifestyle understanding to provide safe, effective, and sustainable healing solutions for every patient."
+     }
+    ],
+    "imgs": [],
+    "links": []
+   },
+   {
+    "type": "heading",
+    "loc": "main",
+    "blocks": [
+     {
+      "t": "h2",
+      "text": "Holistic Healing Experience"
+     }
+    ],
+    "imgs": [],
+    "links": []
+   },
+   {
+    "type": "divider",
+    "loc": "main",
+    "blocks": [],
+    "imgs": [],
+    "links": []
+   },
+   {
+    "type": "text-editor",
+    "loc": "main",
+    "blocks": [
+     {
+      "t": "p",
+      "text": "Helping patients achieve healthier, balanced, and disease-free living through authentic Ayurvedic care and personalized wellness guidance."
+     }
+    ],
+    "imgs": [],
+    "links": []
+   },
+   {
+    "type": "heading",
+    "loc": "main",
+    "blocks": [
+     {
+      "t": "h2",
+      "text": "Trusted Patients"
+     }
+    ],
+    "imgs": [],
+    "links": []
+   },
+   {
+    "type": "divider",
+    "loc": "main",
+    "blocks": [],
+    "imgs": [],
+    "links": []
+   },
+   {
+    "type": "text-editor",
+    "loc": "main",
+    "blocks": [
+     {
+      "t": "p",
+      "text": "Serving individuals and families with compassionate Ayurvedic treatments focused on natural healing and long-term health improvement."
+     }
+    ],
+    "imgs": [],
+    "links": []
+   },
+   {
+    "type": "heading",
+    "loc": "main",
+    "blocks": [
+     {
+      "t": "h2",
+      "text": "Specialized Ayurvedic Care"
+     }
+    ],
+    "imgs": [],
+    "links": []
+   },
+   {
+    "type": "divider",
+    "loc": "main",
+    "blocks": [],
+    "imgs": [],
+    "links": []
+   },
+   {
+    "type": "text-editor",
+    "loc": "main",
+    "blocks": [
+     {
+      "t": "p",
+      "text": "Offering Panchakarma therapies, stress management, diabetes care, joint pain treatment, skin care, women’s wellness, and holistic lifestyle support."
+     }
+    ],
+    "imgs": [],
+    "links": []
+   },
+   {
+    "type": "text-editor",
+    "loc": "main",
+    "blocks": [
+     {
+      "t": "p",
+      "text": "At Shraddha Ayurvedic Clinic, healing is not just about medicines — it is about transforming lifestyles, improving inner balance, and guiding individuals toward complete wellness naturally. Our mission is to create a healthier community through the power of Ayurveda, preventive healthcare, and holistic living."
+     },
+     {
+      "t": "p",
+      "text": "We are committed to delivering genuine Ayurvedic care with honesty, compassion, and personalized attention. Every treatment is carefully designed according to the patient’s body constitution, lifestyle, and health condition to ensure effective and long-lasting results."
+     }
+    ],
+    "imgs": [],
+    "links": []
+   },
+   {
+    "type": "text-editor",
+    "loc": "main",
+    "blocks": [
+     {
+      "t": "p",
+      "text": "At Shraddha Ayurvedic Clinic, our mission is to provide authentic, natural, and result-oriented Ayurvedic healthcare that promotes complete physical, mental, and emotional well-being. We are committed to treating the root cause of diseases through personalized therapies, herbal medicines, Panchakarma treatments, and holistic lifestyle guidance."
+     }
+    ],
+    "imgs": [],
+    "links": []
+   },
+   {
+    "type": "heading",
+    "loc": "main",
+    "blocks": [
+     {
+      "t": "h2",
+      "text": "Our Mission"
+     }
+    ],
+    "imgs": [],
+    "links": []
+   },
+   {
+    "type": "text-editor",
+    "loc": "main",
+    "blocks": [
+     {
+      "t": "p",
+      "text": "Our vision is to become a trusted and leading center for holistic Ayurvedic healing by spreading awareness about the power of Ayurveda and natural wellness. We aim to create a healthier society where people embrace balanced living, preventive care, and sustainable healing for lifelong wellness and harmony.D"
+     }
+    ],
+    "imgs": [],
+    "links": []
+   },
+   {
+    "type": "heading",
+    "loc": "main",
+    "blocks": [
+     {
+      "t": "h2",
+      "text": "Our Vision"
+     }
+    ],
+    "imgs": [],
+    "links": []
+   },
+   {
+    "type": "image",
+    "loc": "main",
+    "blocks": [],
+    "imgs": [
+     {
+      "src": "https://trustayurved.com/wp-content/uploads/2026/05/New-Project-84.png",
+      "alt": ""
+     }
+    ],
+    "links": []
+   },
+   {
+    "type": "heading",
+    "loc": "main",
+    "blocks": [
+     {
+      "t": "h2",
+      "text": "B.A.M.S. | DHMM (Gold Medalist) | M.A. (Sanskrit) | M.A. (Psychology) | Ph.D. (Psychology)"
+     }
+    ],
+    "imgs": [],
+    "links": []
+   },
+   {
+    "type": "heading",
+    "loc": "main",
+    "blocks": [
+     {
+      "t": "h2",
+      "text": "Vd. Sohan Pathak"
+     }
+    ],
+    "imgs": [],
+    "links": []
+   },
+   {
+    "type": "text-editor",
+    "loc": "main",
+    "blocks": [
+     {
+      "t": "p",
+      "text": "Vd. Sohan Pathak is a renowned Pure Ayurvedic Physician practicing in Chhatrapati Sambhajinagar and Pune for over 27 years. Since beginning his journey in 1999, he has built a strong reputation through his deep knowledge of Ayurveda, precise diagnosis, and holistic treatment approach."
+     }
+    ],
+    "imgs": [],
+    "links": []
+   },
+   {
+    "type": "button",
+    "loc": "main",
+    "blocks": [
+     {
+      "t": "p",
+      "text": "EXPLORE MORE"
+     }
+    ],
+    "imgs": [],
+    "links": [
+     "https://trustayurved.com/vd-sohan-pathak/"
+    ]
+   },
+   {
+    "type": "heading",
+    "loc": "main",
+    "blocks": [
+     {
+      "t": "h2",
+      "text": "B.A.M.S. | M.A. (Yoga) | D.Y.A."
+     }
+    ],
+    "imgs": [],
+    "links": []
+   },
+   {
+    "type": "heading",
+    "loc": "main",
+    "blocks": [
+     {
+      "t": "h2",
+      "text": "Vd. Ashwini Pathak"
+     }
+    ],
+    "imgs": [],
+    "links": []
+   },
+   {
+    "type": "text-editor",
+    "loc": "main",
+    "blocks": [
+     {
+      "t": "p",
+      "text": "Vd. Ashwini Pathak is a dedicated Ayurvedic practitioner known for her expertise in holistic healing and patient-centered care. She specializes in treating a wide range of conditions with a focus on natural healing, emotional well-being, and lifestyle balance."
+     }
+    ],
+    "imgs": [],
+    "links": []
+   },
+   {
+    "type": "button",
+    "loc": "main",
+    "blocks": [
+     {
+      "t": "p",
+      "text": "EXPLORE MORE"
+     }
+    ],
+    "imgs": [],
+    "links": [
+     "https://trustayurved.com/vd-ashwini-pathak/"
+    ]
+   },
+   {
+    "type": "image",
+    "loc": "main",
+    "blocks": [],
+    "imgs": [
+     {
+      "src": "https://trustayurved.com/wp-content/uploads/2026/05/New-Project-85.png",
+      "alt": ""
+     }
+    ],
+    "links": []
+   },
+   {
+    "type": "heading",
+    "loc": "main",
+    "blocks": [
+     {
+      "t": "h4",
+      "text": "HEALTHY BODY • NATURAL HEALING • HOLISTIC WELLNESS"
+     }
+    ],
+    "imgs": [],
+    "links": []
+   },
+   {
+    "type": "heading",
+    "loc": "main",
+    "blocks": [
+     {
+      "t": "h2",
+      "text": "Your Journey Towards Complete Wellness Starts Here"
+     }
+    ],
+    "imgs": [],
+    "links": []
+   },
+   {
+    "type": "text-editor",
+    "loc": "main",
+    "blocks": [
+     {
+      "t": "p",
+      "text": "At Shraddha Ayurvedic Clinic, we provide personalized Ayurvedic treatments and holistic wellness therapies designed to restore balance, improve health, and support long-term healing naturally."
+     },
+     {
+      "t": "p",
+      "text": "Our expert-guided Ayurvedic care focuses on treating the root cause of health concerns through herbal medicines, Panchakarma therapies, lifestyle correction, Yoga, and holistic wellness practices — helping you achieve a healthier body and peaceful mind without harmful side effects."
+     }
+    ],
+    "imgs": [],
+    "links": []
+   },
+   {
+    "type": "heading",
+    "loc": "main",
+    "blocks": [
+     {
+      "t": "h3",
+      "text": "Panchakarma Detox Therapies"
+     }
+    ],
+    "imgs": [],
+    "links": []
+   },
+   {
+    "type": "text-editor",
+    "loc": "main",
+    "blocks": [
+     {
+      "t": "p",
+      "text": "Experience deep cleansing and rejuvenation through traditional Panchakarma therapies that help remove toxins, improve immunity, and restore internal balance naturally."
+     }
+    ],
+    "imgs": [],
+    "links": []
+   },
+   {
+    "type": "heading",
+    "loc": "main",
+    "blocks": [
+     {
+      "t": "h3",
+      "text": "Diabetes & Lifestyle Disorder Care"
+     }
+    ],
+    "imgs": [],
+    "links": []
+   },
+   {
+    "type": "text-editor",
+    "loc": "main",
+    "blocks": [
+     {
+      "t": "p",
+      "text": "Personalized Ayurvedic treatments for diabetes, obesity, hypertension, digestive issues, and metabolic disorders focused on long-term wellness and better quality of life."
+     }
+    ],
+    "imgs": [],
+    "links": []
+   },
+   {
+    "type": "heading",
+    "loc": "main",
+    "blocks": [
+     {
+      "t": "h3",
+      "text": "Joint Pain & Spine Care"
+     }
+    ],
+    "imgs": [],
+    "links": []
+   },
+   {
+    "type": "text-editor",
+    "loc": "main",
+    "blocks": [
+     {
+      "t": "p",
+      "text": "Natural therapies for arthritis, back pain, cervical pain, sciatica, slip disc, and musculoskeletal disorders to improve mobility and reduce discomfort."
+     }
+    ],
+    "imgs": [],
+    "links": []
+   },
+   {
+    "type": "heading",
+    "loc": "main",
+    "blocks": [
+     {
+      "t": "h3",
+      "text": "Skin & Hair Wellness"
+     }
+    ],
+    "imgs": [],
+    "links": []
+   },
+   {
+    "type": "text-editor",
+    "loc": "main",
+    "blocks": [
+     {
+      "t": "p",
+      "text": "Holistic Ayurvedic solutions for acne, psoriasis, eczema, pigmentation, dandruff, and hair fall using herbal treatments and detox therapies."
+     }
+    ],
+    "imgs": [],
+    "links": []
+   },
+   {
+    "type": "heading",
+    "loc": "main",
+    "blocks": [
+     {
+      "t": "h3",
+      "text": "Mental Wellness & Stress Management"
+     }
+    ],
+    "imgs": [],
+    "links": []
+   },
+   {
+    "type": "text-editor",
+    "loc": "main",
+    "blocks": [
+     {
+      "t": "p",
+      "text": "Ayurvedic therapies, meditation guidance, and relaxation treatments for stress, anxiety, insomnia, emotional imbalance, and mental fatigue."
+     }
+    ],
+    "imgs": [],
+    "links": []
+   },
+   {
+    "type": "heading",
+    "loc": "main",
+    "blocks": [
+     {
+      "t": "h3",
+      "text": "Complete Holistic Healing"
+     }
+    ],
+    "imgs": [],
+    "links": []
+   },
+   {
+    "type": "text-editor",
+    "loc": "main",
+    "blocks": [
+     {
+      "t": "p",
+      "text": "From physical wellness to emotional balance, Shraddha Ayurvedic Clinic supports your complete healing journey through authentic Ayurveda and personalized care."
+     }
+    ],
+    "imgs": [],
+    "links": []
+   },
+   {
+    "type": "heading",
+    "loc": "footer",
+    "blocks": [
+     {
+      "t": "h2",
+      "text": "Connect with"
+     },
+     {
+      "t": "h2",
+      "text": "Shraddha Ayurvedic Clinic!"
+     }
+    ],
+    "imgs": [],
+    "links": []
+   },
+   {
+    "type": "icon-box",
+    "loc": "footer",
+    "blocks": [
+     {
+      "t": "h3",
+      "text": "info@shraddhaayurveda.com"
+     }
+    ],
+    "imgs": [],
+    "links": [
+     "mailto:info@shraddhaayurveda.com"
+    ]
+   },
+   {
+    "type": "text-editor",
+    "loc": "footer",
+    "blocks": [
+     {
+      "t": "p",
+      "text": "Shraddha Ayurvedic Clinic is dedicated to providing authentic Ayurvedic treatments, Panchakarma therapies, and holistic wellness solutions for complete physical, mental, and emotional healing naturally."
+     }
+    ],
+    "imgs": [],
+    "links": []
+   },
+   {
+    "type": "heading",
+    "loc": "footer",
+    "blocks": [
+     {
+      "t": "h2",
+      "text": "COMPANY"
+     }
+    ],
+    "imgs": [],
+    "links": []
+   },
+   {
+    "type": "icon-list",
+    "loc": "footer",
+    "blocks": [
+     {
+      "t": "li",
+      "text": "Home"
+     },
+     {
+      "t": "li",
+      "text": "About Us"
+     },
+     {
+      "t": "li",
+      "text": "Contact Us"
+     }
+    ],
+    "imgs": [],
+    "links": [
+     "https://trustayurved.com/",
+     "https://trustayurved.com/about/",
+     "https://trustayurved.com/contact/"
+    ]
+   },
+   {
+    "type": "heading",
+    "loc": "footer",
+    "blocks": [
+     {
+      "t": "h2",
+      "text": "PAGES"
+     }
+    ],
+    "imgs": [],
+    "links": []
+   },
+   {
+    "type": "icon-list",
+    "loc": "footer",
+    "blocks": [
+     {
+      "t": "li",
+      "text": "Blog"
+     },
+     {
+      "t": "li",
+      "text": "Gallery"
+     },
+     {
+      "t": "li",
+      "text": "FAQ"
+     }
+    ],
+    "imgs": [],
+    "links": [
+     "https://trustayurved.com/blog/",
+     "https://trustayurved.com/gallery/",
+     "https://trustayurved.com/faq"
+    ]
+   },
+   {
+    "type": "heading",
+    "loc": "footer",
+    "blocks": [
+     {
+      "t": "h2",
+      "text": "POLICIES"
+     }
+    ],
+    "imgs": [],
+    "links": []
+   },
+   {
+    "type": "icon-list",
+    "loc": "footer",
+    "blocks": [
+     {
+      "t": "li",
+      "text": "Privacy Policy"
+     },
+     {
+      "t": "li",
+      "text": "Terms Condition"
+     }
+    ],
+    "imgs": [],
+    "links": [
+     "https://trustayurved.com/privacy-policy/",
+     "https://trustayurved.com/terms-condition/"
+    ]
+   },
+   {
+    "type": "heading",
+    "loc": "footer",
+    "blocks": [
+     {
+      "t": "h2",
+      "text": "© 2026 Shraddha Ayurvedic Clinic All rights reserved."
+     }
+    ],
+    "imgs": [],
+    "links": []
+   },
+   {
+    "type": "heading",
+    "loc": "footer",
+    "blocks": [
+     {
+      "t": "h2",
+      "text": "Natural Healing for Mind & Body!"
+     }
+    ],
+    "imgs": [],
+    "links": []
+   }
+  ],
+  "maps": []
+ },
+ "vd-sohan-pathak": {
+  "path": "/vd-sohan-pathak/",
+  "title": "Vd. Sohan Pathak – Shraddha Ayurvedic Clinic",
+  "description": "",
+  "widgets": [
+   {
+    "type": "heading",
+    "loc": "main",
+    "blocks": [
+     {
+      "t": "h2",
+      "text": "Vd. Sohan Pathak"
+     }
+    ],
+    "imgs": [],
+    "links": []
+   },
+   {
+    "type": "image",
+    "loc": "main",
+    "blocks": [],
+    "imgs": [
+     {
+      "src": "https://trustayurved.com/wp-content/uploads/2026/05/New-Project-84.png",
+      "alt": ""
+     }
+    ],
+    "links": []
+   },
+   {
+    "type": "heading",
+    "loc": "main",
+    "blocks": [
+     {
+      "t": "h2",
+      "text": "B.A.M.S. | DHMM (Gold Medalist) | M.A. (Sanskrit) | M.A. (Psychology) | Ph.D. (Psychology)"
+     }
+    ],
+    "imgs": [],
+    "links": []
+   },
+   {
+    "type": "heading",
+    "loc": "main",
+    "blocks": [
+     {
+      "t": "h2",
+      "text": "Vd. Sohan Pathak"
+     }
+    ],
+    "imgs": [],
+    "links": []
+   },
+   {
+    "type": "text-editor",
+    "loc": "main",
+    "blocks": [
+     {
+      "t": "p",
+      "text": "Vd. Sohan Pathak is a renowned Pure Ayurvedic Physician practicing in Chhatrapati Sambhajinagar and Pune for over 27 years. Since beginning his journey in 1999, he has built a strong reputation through his deep knowledge of Ayurveda, precise diagnosis, and holistic treatment approach."
+     },
+     {
+      "t": "p",
+      "text": "His practice has grown organically through patient trust and word-of-mouth, reflecting his commitment to authentic healing rather than promotional visibility. He is known for identifying the root cause of diseases and treating patients through a combination of herbal medicines, Panchakarma therapies, and lifestyle modifications."
+     },
+     {
+      "t": "p",
+      "text": "Dr. Pathak has extensive experience in treating chronic and lifestyle disorders, especially diabetes, hypertension, joint pain, digestive disorders, and stress-related conditions."
+     },
+     {
+      "t": "p",
+      "text": "He is the Director of the Innovative Ayurvedic Diabetic Club (established in 2004), a unique initiative dedicated exclusively to the Ayurvedic management of diabetic patients."
+     },
+     {
+      "t": "p",
+      "text": "An accomplished author, he has written the book “Panchakarma for Healthy Life”, which was awarded Best Ayurvedic Book (2003) by Panchakarma Niramay Sanghat. He has also co-authored a well-known book on diabetes, contributing significantly to Ayurvedic literature and awareness."
+     },
+     {
+      "t": "p",
+      "text": "With his blend of traditional wisdom and modern psychological understanding, Vd. Sohan Pathak offers a truly holistic healing experience to his patients."
+     }
+    ],
+    "imgs": [],
+    "links": []
+   },
+   {
+    "type": "heading",
+    "loc": "footer",
+    "blocks": [
+     {
+      "t": "h2",
+      "text": "Connect with"
+     },
+     {
+      "t": "h2",
+      "text": "Shraddha Ayurvedic Clinic!"
+     }
+    ],
+    "imgs": [],
+    "links": []
+   },
+   {
+    "type": "icon-box",
+    "loc": "footer",
+    "blocks": [
+     {
+      "t": "h3",
+      "text": "info@shraddhaayurveda.com"
+     }
+    ],
+    "imgs": [],
+    "links": [
+     "mailto:info@shraddhaayurveda.com"
+    ]
+   },
+   {
+    "type": "text-editor",
+    "loc": "footer",
+    "blocks": [
+     {
+      "t": "p",
+      "text": "Shraddha Ayurvedic Clinic is dedicated to providing authentic Ayurvedic treatments, Panchakarma therapies, and holistic wellness solutions for complete physical, mental, and emotional healing naturally."
+     }
+    ],
+    "imgs": [],
+    "links": []
+   },
+   {
+    "type": "heading",
+    "loc": "footer",
+    "blocks": [
+     {
+      "t": "h2",
+      "text": "COMPANY"
+     }
+    ],
+    "imgs": [],
+    "links": []
+   },
+   {
+    "type": "icon-list",
+    "loc": "footer",
+    "blocks": [
+     {
+      "t": "li",
+      "text": "Home"
+     },
+     {
+      "t": "li",
+      "text": "About Us"
+     },
+     {
+      "t": "li",
+      "text": "Contact Us"
+     }
+    ],
+    "imgs": [],
+    "links": [
+     "https://trustayurved.com/",
+     "https://trustayurved.com/about/",
+     "https://trustayurved.com/contact/"
+    ]
+   },
+   {
+    "type": "heading",
+    "loc": "footer",
+    "blocks": [
+     {
+      "t": "h2",
+      "text": "PAGES"
+     }
+    ],
+    "imgs": [],
+    "links": []
+   },
+   {
+    "type": "icon-list",
+    "loc": "footer",
+    "blocks": [
+     {
+      "t": "li",
+      "text": "Blog"
+     },
+     {
+      "t": "li",
+      "text": "Gallery"
+     },
+     {
+      "t": "li",
+      "text": "FAQ"
+     }
+    ],
+    "imgs": [],
+    "links": [
+     "https://trustayurved.com/blog/",
+     "https://trustayurved.com/gallery/",
+     "https://trustayurved.com/faq"
+    ]
+   },
+   {
+    "type": "heading",
+    "loc": "footer",
+    "blocks": [
+     {
+      "t": "h2",
+      "text": "POLICIES"
+     }
+    ],
+    "imgs": [],
+    "links": []
+   },
+   {
+    "type": "icon-list",
+    "loc": "footer",
+    "blocks": [
+     {
+      "t": "li",
+      "text": "Privacy Policy"
+     },
+     {
+      "t": "li",
+      "text": "Terms Condition"
+     }
+    ],
+    "imgs": [],
+    "links": [
+     "https://trustayurved.com/privacy-policy/",
+     "https://trustayurved.com/terms-condition/"
+    ]
+   },
+   {
+    "type": "heading",
+    "loc": "footer",
+    "blocks": [
+     {
+      "t": "h2",
+      "text": "© 2026 Shraddha Ayurvedic Clinic All rights reserved."
+     }
+    ],
+    "imgs": [],
+    "links": []
+   },
+   {
+    "type": "heading",
+    "loc": "footer",
+    "blocks": [
+     {
+      "t": "h2",
+      "text": "Natural Healing for Mind & Body!"
+     }
+    ],
+    "imgs": [],
+    "links": []
+   }
+  ],
+  "maps": []
+ },
+ "vd-ashwini-pathak": {
+  "path": "/vd-ashwini-pathak/",
+  "title": "Vd. Ashwini Pathak – Shraddha Ayurvedic Clinic",
+  "description": "",
+  "widgets": [
+   {
+    "type": "heading",
+    "loc": "main",
+    "blocks": [
+     {
+      "t": "h2",
+      "text": "Vd. Ashwini Pathak"
+     }
+    ],
+    "imgs": [],
+    "links": []
+   },
+   {
+    "type": "image",
+    "loc": "main",
+    "blocks": [],
+    "imgs": [
+     {
+      "src": "https://trustayurved.com/wp-content/uploads/2026/05/New-Project-85.png",
+      "alt": ""
+     }
+    ],
+    "links": []
+   },
+   {
+    "type": "heading",
+    "loc": "main",
+    "blocks": [
+     {
+      "t": "h2",
+      "text": "B.A.M.S. | M.A. (Yoga) | D.Y.A."
+     }
+    ],
+    "imgs": [],
+    "links": []
+   },
+   {
+    "type": "heading",
+    "loc": "main",
+    "blocks": [
+     {
+      "t": "h2",
+      "text": "Vd. Ashwini Pathak"
+     }
+    ],
+    "imgs": [],
+    "links": []
+   },
+   {
+    "type": "text-editor",
+    "loc": "main",
+    "blocks": [
+     {
+      "t": "p",
+      "text": "Vd. Ashwini Pathak is a dedicated Ayurvedic practitioner known for her expertise in holistic healing and patient-centered care. She specializes in treating a wide range of conditions with a focus on natural healing, emotional well-being, and lifestyle balance."
+     },
+     {
+      "t": "p",
+      "text": "She has strong expertise in:"
+     },
+     {
+      "t": "li",
+      "text": "Ayurvedic Management of Endocrine Disorders"
+     },
+     {
+      "t": "li",
+      "text": "Skin Diseases (Acne, Psoriasis, Eczema, etc.)"
+     },
+     {
+      "t": "li",
+      "text": "Women’s Health & Hormonal Balance"
+     },
+     {
+      "t": "li",
+      "text": "Mental Health & Stress Disorders"
+     },
+     {
+      "t": "p",
+      "text": "Dr. Ashwini Pathak is also the Director of Amrutnada Meditation Centre, where she works extensively with mentally disturbed patients using meditation techniques, Yoga, and Yoga Nidra therapies to restore emotional and psychological balance."
+     },
+     {
+      "t": "p",
+      "text": "Her approach integrates Ayurvedic treatments with yogic sciences, enabling patients to achieve not only physical healing but also mental clarity and inner peace. Her compassionate nature and personalized attention make her a trusted name among patients seeking holistic wellness."
+     }
+    ],
+    "imgs": [],
+    "links": []
+   },
+   {
+    "type": "heading",
+    "loc": "footer",
+    "blocks": [
+     {
+      "t": "h2",
+      "text": "Connect with"
+     },
+     {
+      "t": "h2",
+      "text": "Shraddha Ayurvedic Clinic!"
+     }
+    ],
+    "imgs": [],
+    "links": []
+   },
+   {
+    "type": "icon-box",
+    "loc": "footer",
+    "blocks": [
+     {
+      "t": "h3",
+      "text": "info@shraddhaayurveda.com"
+     }
+    ],
+    "imgs": [],
+    "links": [
+     "mailto:info@shraddhaayurveda.com"
+    ]
+   },
+   {
+    "type": "text-editor",
+    "loc": "footer",
+    "blocks": [
+     {
+      "t": "p",
+      "text": "Shraddha Ayurvedic Clinic is dedicated to providing authentic Ayurvedic treatments, Panchakarma therapies, and holistic wellness solutions for complete physical, mental, and emotional healing naturally."
+     }
+    ],
+    "imgs": [],
+    "links": []
+   },
+   {
+    "type": "heading",
+    "loc": "footer",
+    "blocks": [
+     {
+      "t": "h2",
+      "text": "COMPANY"
+     }
+    ],
+    "imgs": [],
+    "links": []
+   },
+   {
+    "type": "icon-list",
+    "loc": "footer",
+    "blocks": [
+     {
+      "t": "li",
+      "text": "Home"
+     },
+     {
+      "t": "li",
+      "text": "About Us"
+     },
+     {
+      "t": "li",
+      "text": "Contact Us"
+     }
+    ],
+    "imgs": [],
+    "links": [
+     "https://trustayurved.com/",
+     "https://trustayurved.com/about/",
+     "https://trustayurved.com/contact/"
+    ]
+   },
+   {
+    "type": "heading",
+    "loc": "footer",
+    "blocks": [
+     {
+      "t": "h2",
+      "text": "PAGES"
+     }
+    ],
+    "imgs": [],
+    "links": []
+   },
+   {
+    "type": "icon-list",
+    "loc": "footer",
+    "blocks": [
+     {
+      "t": "li",
+      "text": "Blog"
+     },
+     {
+      "t": "li",
+      "text": "Gallery"
+     },
+     {
+      "t": "li",
+      "text": "FAQ"
+     }
+    ],
+    "imgs": [],
+    "links": [
+     "https://trustayurved.com/blog/",
+     "https://trustayurved.com/gallery/",
+     "https://trustayurved.com/faq"
+    ]
+   },
+   {
+    "type": "heading",
+    "loc": "footer",
+    "blocks": [
+     {
+      "t": "h2",
+      "text": "POLICIES"
+     }
+    ],
+    "imgs": [],
+    "links": []
+   },
+   {
+    "type": "icon-list",
+    "loc": "footer",
+    "blocks": [
+     {
+      "t": "li",
+      "text": "Privacy Policy"
+     },
+     {
+      "t": "li",
+      "text": "Terms Condition"
+     }
+    ],
+    "imgs": [],
+    "links": [
+     "https://trustayurved.com/privacy-policy/",
+     "https://trustayurved.com/terms-condition/"
+    ]
+   },
+   {
+    "type": "heading",
+    "loc": "footer",
+    "blocks": [
+     {
+      "t": "h2",
+      "text": "© 2026 Shraddha Ayurvedic Clinic All rights reserved."
+     }
+    ],
+    "imgs": [],
+    "links": []
+   },
+   {
+    "type": "heading",
+    "loc": "footer",
+    "blocks": [
+     {
+      "t": "h2",
+      "text": "Natural Healing for Mind & Body!"
+     }
+    ],
+    "imgs": [],
+    "links": []
+   }
+  ],
+  "maps": []
+ },
+ "tadvit-counselling-center": {
+  "path": "/tadvit-counselling-center/",
+  "title": "TADVIT COUNSELLING CENTER – Shraddha Ayurvedic Clinic",
+  "description": "",
+  "widgets": [
+   {
+    "type": "heading",
+    "loc": "main",
+    "blocks": [
+     {
+      "t": "h2",
+      "text": "TADVIT COUNSELLING CENTER"
+     }
+    ],
+    "imgs": [],
+    "links": []
+   },
+   {
+    "type": "heading",
+    "loc": "main",
+    "blocks": [
+     {
+      "t": "h4",
+      "text": "Our Counselling Services"
+     }
+    ],
+    "imgs": [],
+    "links": []
+   },
+   {
+    "type": "heading",
+    "loc": "main",
+    "blocks": [
+     {
+      "t": "h2",
+      "text": "Guiding Relationships, Strengthening Families, Transforming Lives"
+     }
+    ],
+    "imgs": [],
+    "links": []
+   },
+   {
+    "type": "text-editor",
+    "loc": "main",
+    "blocks": [
+     {
+      "t": "p",
+      "text": "Tadvit Counselling Center is dedicated to helping individuals, couples, and families overcome emotional challenges, relationship difficulties, and life transitions through professional counselling and holistic guidance. Our approach focuses on understanding, communication, emotional well-being, and personal growth, enabling individuals to lead healthier, happier, and more balanced lives."
+     },
+     {
+      "t": "p",
+      "text": "Through personalized counselling sessions, practical guidance, and motivational support, we help people navigate life’s complexities with confidence, clarity, and positivity."
+     }
+    ],
+    "imgs": [],
+    "links": []
+   },
+   {
+    "type": "text-editor",
+    "loc": "main",
+    "blocks": [
+     {
+      "t": "p",
+      "text": "Healthy relationships are built on trust, communication, and mutual understanding. Our marital counselling sessions help couples address relationship conflicts, improve communication, rebuild trust, and strengthen emotional connections to create a harmonious married life."
+     }
+    ],
+    "imgs": [],
+    "links": []
+   },
+   {
+    "type": "heading",
+    "loc": "main",
+    "blocks": [
+     {
+      "t": "h2",
+      "text": "Marital Counselling"
+     }
+    ],
+    "imgs": [],
+    "links": []
+   },
+   {
+    "type": "text-editor",
+    "loc": "main",
+    "blocks": [
+     {
+      "t": "p",
+      "text": "Preparing for marriage is as important as the marriage itself. Our premarital counselling programs help couples understand expectations, communication styles, emotional compatibility, financial planning, and relationship dynamics to build a strong foundation for a successful future together."
+     }
+    ],
+    "imgs": [],
+    "links": []
+   },
+   {
+    "type": "heading",
+    "loc": "main",
+    "blocks": [
+     {
+      "t": "h2",
+      "text": "Premarital Counselling"
+     }
+    ],
+    "imgs": [],
+    "links": []
+   },
+   {
+    "type": "text-editor",
+    "loc": "main",
+    "blocks": [
+     {
+      "t": "p",
+      "text": "Family relationships can face challenges due to misunderstandings, generational differences, communication gaps, or life stressors. Our family counselling sessions help families improve communication, resolve conflicts, strengthen relationships, and create a supportive home environment."
+     }
+    ],
+    "imgs": [],
+    "links": []
+   },
+   {
+    "type": "heading",
+    "loc": "main",
+    "blocks": [
+     {
+      "t": "h2",
+      "text": "Family Counselling"
+     }
+    ],
+    "imgs": [],
+    "links": []
+   },
+   {
+    "type": "text-editor",
+    "loc": "main",
+    "blocks": [
+     {
+      "t": "p",
+      "text": "Modern lifestyles often bring stress, anxiety, and emotional pressure that can affect both mental and physical health. We provide effective stress management guidance through counselling, relaxation techniques, mindfulness practices, and personalized coping strategies to help individuals achieve emotional balance and peace of mind."
+     }
+    ],
+    "imgs": [],
+    "links": []
+   },
+   {
+    "type": "heading",
+    "loc": "main",
+    "blocks": [
+     {
+      "t": "h2",
+      "text": "Stress Management"
+     }
+    ],
+    "imgs": [],
+    "links": []
+   },
+   {
+    "type": "text-editor",
+    "loc": "main",
+    "blocks": [
+     {
+      "t": "p",
+      "text": "Our motivational lectures are designed to inspire individuals, students, professionals, and organizations to develop positive thinking, self-confidence, emotional resilience, and personal growth. These interactive sessions focus on motivation, goal achievement, stress management, leadership, and overall well-being."
+     }
+    ],
+    "imgs": [],
+    "links": []
+   },
+   {
+    "type": "heading",
+    "loc": "main",
+    "blocks": [
+     {
+      "t": "h2",
+      "text": "Motivational Lectures"
+     }
+    ],
+    "imgs": [],
+    "links": []
+   },
+   {
+    "type": "heading",
+    "loc": "main",
+    "blocks": [
+     {
+      "t": "h3",
+      "text": "Professional Guidance"
+     }
+    ],
+    "imgs": [],
+    "links": []
+   },
+   {
+    "type": "text-editor",
+    "loc": "main",
+    "blocks": [
+     {
+      "t": "p",
+      "text": "Experienced counsellors providing compassionate and confidential support."
+     }
+    ],
+    "imgs": [],
+    "links": []
+   },
+   {
+    "type": "heading",
+    "loc": "main",
+    "blocks": [
+     {
+      "t": "h3",
+      "text": "Personalized Approach"
+     }
+    ],
+    "imgs": [],
+    "links": []
+   },
+   {
+    "type": "text-editor",
+    "loc": "main",
+    "blocks": [
+     {
+      "t": "p",
+      "text": "Customized counselling solutions tailored to individual needs and situations."
+     }
+    ],
+    "imgs": [],
+    "links": []
+   },
+   {
+    "type": "heading",
+    "loc": "main",
+    "blocks": [
+     {
+      "t": "h3",
+      "text": "Confidential & Safe Environment"
+     }
+    ],
+    "imgs": [],
+    "links": []
+   },
+   {
+    "type": "text-editor",
+    "loc": "main",
+    "blocks": [
+     {
+      "t": "p",
+      "text": "A secure and judgment-free space to discuss personal concerns openly."
+     }
+    ],
+    "imgs": [],
+    "links": []
+   },
+   {
+    "type": "heading",
+    "loc": "main",
+    "blocks": [
+     {
+      "t": "h3",
+      "text": "Holistic Well-Being"
+     }
+    ],
+    "imgs": [],
+    "links": []
+   },
+   {
+    "type": "text-editor",
+    "loc": "main",
+    "blocks": [
+     {
+      "t": "p",
+      "text": "Focusing on emotional, mental, relationship, and personal development."
+     }
+    ],
+    "imgs": [],
+    "links": []
+   },
+   {
+    "type": "heading",
+    "loc": "main",
+    "blocks": [
+     {
+      "t": "h3",
+      "text": "Practical Solutions"
+     }
+    ],
+    "imgs": [],
+    "links": []
+   },
+   {
+    "type": "text-editor",
+    "loc": "main",
+    "blocks": [
+     {
+      "t": "p",
+      "text": "Providing actionable strategies and tools for long-term positive change."
+     }
+    ],
+    "imgs": [],
+    "links": []
+   },
+   {
+    "type": "heading",
+    "loc": "main",
+    "blocks": [
+     {
+      "t": "h3",
+      "text": "Support for All Age Groups"
+     }
+    ],
+    "imgs": [],
+    "links": []
+   },
+   {
+    "type": "text-editor",
+    "loc": "main",
+    "blocks": [
+     {
+      "t": "p",
+      "text": "Counselling services available for individuals, couples, families, students, and professionals."
+     }
+    ],
+    "imgs": [],
+    "links": []
+   },
+   {
+    "type": "heading",
+    "loc": "footer",
+    "blocks": [
+     {
+      "t": "h2",
+      "text": "Connect with"
+     },
+     {
+      "t": "h2",
+      "text": "Shraddha Ayurvedic Clinic!"
+     }
+    ],
+    "imgs": [],
+    "links": []
+   },
+   {
+    "type": "icon-box",
+    "loc": "footer",
+    "blocks": [
+     {
+      "t": "h3",
+      "text": "info@shraddhaayurveda.com"
+     }
+    ],
+    "imgs": [],
+    "links": [
+     "mailto:info@shraddhaayurveda.com"
+    ]
+   },
+   {
+    "type": "text-editor",
+    "loc": "footer",
+    "blocks": [
+     {
+      "t": "p",
+      "text": "Shraddha Ayurvedic Clinic is dedicated to providing authentic Ayurvedic treatments, Panchakarma therapies, and holistic wellness solutions for complete physical, mental, and emotional healing naturally."
+     }
+    ],
+    "imgs": [],
+    "links": []
+   },
+   {
+    "type": "heading",
+    "loc": "footer",
+    "blocks": [
+     {
+      "t": "h2",
+      "text": "COMPANY"
+     }
+    ],
+    "imgs": [],
+    "links": []
+   },
+   {
+    "type": "icon-list",
+    "loc": "footer",
+    "blocks": [
+     {
+      "t": "li",
+      "text": "Home"
+     },
+     {
+      "t": "li",
+      "text": "About Us"
+     },
+     {
+      "t": "li",
+      "text": "Contact Us"
+     }
+    ],
+    "imgs": [],
+    "links": [
+     "https://trustayurved.com/",
+     "https://trustayurved.com/about/",
+     "https://trustayurved.com/contact/"
+    ]
+   },
+   {
+    "type": "heading",
+    "loc": "footer",
+    "blocks": [
+     {
+      "t": "h2",
+      "text": "PAGES"
+     }
+    ],
+    "imgs": [],
+    "links": []
+   },
+   {
+    "type": "icon-list",
+    "loc": "footer",
+    "blocks": [
+     {
+      "t": "li",
+      "text": "Blog"
+     },
+     {
+      "t": "li",
+      "text": "Gallery"
+     },
+     {
+      "t": "li",
+      "text": "FAQ"
+     }
+    ],
+    "imgs": [],
+    "links": [
+     "https://trustayurved.com/blog/",
+     "https://trustayurved.com/gallery/",
+     "https://trustayurved.com/faq"
+    ]
+   },
+   {
+    "type": "heading",
+    "loc": "footer",
+    "blocks": [
+     {
+      "t": "h2",
+      "text": "POLICIES"
+     }
+    ],
+    "imgs": [],
+    "links": []
+   },
+   {
+    "type": "icon-list",
+    "loc": "footer",
+    "blocks": [
+     {
+      "t": "li",
+      "text": "Privacy Policy"
+     },
+     {
+      "t": "li",
+      "text": "Terms Condition"
+     }
+    ],
+    "imgs": [],
+    "links": [
+     "https://trustayurved.com/privacy-policy/",
+     "https://trustayurved.com/terms-condition/"
+    ]
+   },
+   {
+    "type": "heading",
+    "loc": "footer",
+    "blocks": [
+     {
+      "t": "h2",
+      "text": "© 2026 Shraddha Ayurvedic Clinic All rights reserved."
+     }
+    ],
+    "imgs": [],
+    "links": []
+   },
+   {
+    "type": "heading",
+    "loc": "footer",
+    "blocks": [
+     {
+      "t": "h2",
+      "text": "Natural Healing for Mind & Body!"
+     }
+    ],
+    "imgs": [],
+    "links": []
+   }
+  ],
+  "maps": []
+ },
+ "general-lifestyle-disorders": {
+  "path": "/general-lifestyle-disorders/",
+  "title": "General & Lifestyle Disorders – Shraddha Ayurvedic Clinic",
+  "description": "",
+  "widgets": [
+   {
+    "type": "heading",
+    "loc": "main",
+    "blocks": [
+     {
+      "t": "h2",
+      "text": "General & Lifestyle Disorders"
+     }
+    ],
+    "imgs": [],
+    "links": []
+   },
+   {
+    "type": "heading",
+    "loc": "main",
+    "blocks": [
+     {
+      "t": "h4",
+      "text": "Our Counselling Services"
+     }
+    ],
+    "imgs": [],
+    "links": []
+   },
+   {
+    "type": "heading",
+    "loc": "main",
+    "blocks": [
+     {
+      "t": "h2",
+      "text": "Natural Ayurvedic Care for Everyday Health Challenges"
+     }
+    ],
+    "imgs": [],
+    "links": []
+   },
+   {
+    "type": "text-editor",
+    "loc": "main",
+    "blocks": [
+     {
+      "t": "p",
+      "text": "Modern lifestyles, unhealthy eating habits, stress, lack of physical activity, and environmental factors have contributed to a significant rise in lifestyle-related health conditions. At Shraddha Ayurvedic Clinic, we offer holistic Ayurvedic treatments that focus on identifying and treating the root cause of diseases while restoring the body’s natural balance."
+     },
+     {
+      "t": "p",
+      "text": "Our personalized treatment plans combine Ayurvedic medicines, dietary guidance, lifestyle modifications, and therapeutic procedures to promote long-term wellness and disease prevention."
+     }
+    ],
+    "imgs": [],
+    "links": []
+   },
+   {
+    "type": "image",
+    "loc": "main",
+    "blocks": [],
+    "imgs": [
+     {
+      "src": "https://trustayurved.com/wp-content/uploads/2026/05/New-Project-86.png",
+      "alt": ""
+     }
+    ],
+    "links": []
+   },
+   {
+    "type": "heading",
+    "loc": "main",
+    "blocks": [
+     {
+      "t": "h2",
+      "text": "Fever, Cold & Immunity Disorders"
+     }
+    ],
+    "imgs": [],
+    "links": []
+   },
+   {
+    "type": "text-editor",
+    "loc": "main",
+    "blocks": [
+     {
+      "t": "p",
+      "text": "Recurring fever, seasonal infections, frequent colds, cough, allergies, and low immunity can affect daily life and overall health. Ayurvedic treatments help strengthen the body’s natural defense system, improve resistance against infections, and promote faster recovery naturally."
+     },
+     {
+      "t": "p",
+      "text": "Benefits:"
+     },
+     {
+      "t": "li",
+      "text": "Improved immunity"
+     },
+     {
+      "t": "li",
+      "text": "Reduced frequency of infections"
+     },
+     {
+      "t": "li",
+      "text": "Better respiratory health"
+     },
+     {
+      "t": "li",
+      "text": "Enhanced overall vitality"
+     }
+    ],
+    "imgs": [],
+    "links": []
+   },
+   {
+    "type": "heading",
+    "loc": "main",
+    "blocks": [
+     {
+      "t": "h2",
+      "text": "Digestive Disorders (Acidity, IBS & Constipation)"
+     }
+    ],
+    "imgs": [],
+    "links": []
+   },
+   {
+    "type": "text-editor",
+    "loc": "main",
+    "blocks": [
+     {
+      "t": "p",
+      "text": "Digestive health plays a vital role in maintaining overall wellness. According to Ayurveda, most diseases begin with digestive imbalance. We provide natural treatments for acidity, indigestion, bloating, Irritable Bowel Syndrome (IBS), gas, constipation, and poor digestion."
+     },
+     {
+      "t": "p",
+      "text": "Benefits:"
+     },
+     {
+      "t": "li",
+      "text": "Improved digestion and metabolism"
+     },
+     {
+      "t": "li",
+      "text": "Relief from acidity and bloating"
+     },
+     {
+      "t": "li",
+      "text": "Better bowel movements"
+     },
+     {
+      "t": "li",
+      "text": "Enhanced nutrient absorption"
+     }
+    ],
+    "imgs": [],
+    "links": []
+   },
+   {
+    "type": "image",
+    "loc": "main",
+    "blocks": [],
+    "imgs": [
+     {
+      "src": "https://trustayurved.com/wp-content/uploads/2026/05/New-Project-87.png",
+      "alt": ""
+     }
+    ],
+    "links": []
+   },
+   {
+    "type": "image",
+    "loc": "main",
+    "blocks": [],
+    "imgs": [
+     {
+      "src": "https://trustayurved.com/wp-content/uploads/2026/05/New-Project-88.png",
+      "alt": ""
+     }
+    ],
+    "links": []
+   },
+   {
+    "type": "heading",
+    "loc": "main",
+    "blocks": [
+     {
+      "t": "h2",
+      "text": "Diabetes (Madhumeha)"
+     }
+    ],
+    "imgs": [],
+    "links": []
+   },
+   {
+    "type": "text-editor",
+    "loc": "main",
+    "blocks": [
+     {
+      "t": "p",
+      "text": "Ayurveda offers a comprehensive approach to managing diabetes by addressing lifestyle factors, improving metabolism, and supporting healthy blood sugar regulation. Our treatment plans focus on long-term health management and prevention of complications."
+     },
+     {
+      "t": "p",
+      "text": "Benefits:"
+     },
+     {
+      "t": "li",
+      "text": "Better blood sugar management"
+     },
+     {
+      "t": "li",
+      "text": "Improved energy levels"
+     },
+     {
+      "t": "li",
+      "text": "Support for overall metabolic health"
+     },
+     {
+      "t": "li",
+      "text": "Reduced risk of diabetes-related complications"
+     }
+    ],
+    "imgs": [],
+    "links": []
+   },
+   {
+    "type": "heading",
+    "loc": "main",
+    "blocks": [
+     {
+      "t": "h2",
+      "text": "Hypertension (High Blood Pressure)"
+     }
+    ],
+    "imgs": [],
+    "links": []
+   },
+   {
+    "type": "text-editor",
+    "loc": "main",
+    "blocks": [
+     {
+      "t": "p",
+      "text": "High blood pressure is often associated with stress, unhealthy lifestyle habits, and metabolic imbalances. Ayurvedic therapies help promote cardiovascular wellness, reduce stress, and support healthy blood pressure levels naturally."
+     },
+     {
+      "t": "p",
+      "text": "Benefits:"
+     },
+     {
+      "t": "li",
+      "text": "Improved heart health"
+     },
+     {
+      "t": "li",
+      "text": "Better stress management"
+     },
+     {
+      "t": "li",
+      "text": "Enhanced circulation"
+     },
+     {
+      "t": "li",
+      "text": "Support for overall cardiovascular wellness"
+     }
+    ],
+    "imgs": [],
+    "links": []
+   },
+   {
+    "type": "image",
+    "loc": "main",
+    "blocks": [],
+    "imgs": [
+     {
+      "src": "https://trustayurved.com/wp-content/uploads/2026/05/New-Project-89.png",
+      "alt": ""
+     }
+    ],
+    "links": []
+   },
+   {
+    "type": "image",
+    "loc": "main",
+    "blocks": [],
+    "imgs": [
+     {
+      "src": "https://trustayurved.com/wp-content/uploads/2026/05/New-Project-90.png",
+      "alt": ""
+     }
+    ],
+    "links": []
+   },
+   {
+    "type": "heading",
+    "loc": "main",
+    "blocks": [
+     {
+      "t": "h2",
+      "text": "Obesity & Metabolic Disorders"
+     }
+    ],
+    "imgs": [],
+    "links": []
+   },
+   {
+    "type": "text-editor",
+    "loc": "main",
+    "blocks": [
+     {
+      "t": "p",
+      "text": "Weight gain and metabolic disorders can affect both physical and emotional well-being. Our Ayurvedic weight management programs focus on correcting metabolism, improving digestion, detoxifying the body, and encouraging healthy lifestyle habits."
+     },
+     {
+      "t": "p",
+      "text": "Benefits:"
+     },
+     {
+      "t": "li",
+      "text": "Healthy weight management"
+     },
+     {
+      "t": "li",
+      "text": "Improved metabolism"
+     },
+     {
+      "t": "li",
+      "text": "Increased energy and stamina"
+     },
+     {
+      "t": "li",
+      "text": "Better overall fitness and wellness"
+     }
+    ],
+    "imgs": [],
+    "links": []
+   },
+   {
+    "type": "heading",
+    "loc": "footer",
+    "blocks": [
+     {
+      "t": "h2",
+      "text": "Connect with"
+     },
+     {
+      "t": "h2",
+      "text": "Shraddha Ayurvedic Clinic!"
+     }
+    ],
+    "imgs": [],
+    "links": []
+   },
+   {
+    "type": "icon-box",
+    "loc": "footer",
+    "blocks": [
+     {
+      "t": "h3",
+      "text": "info@shraddhaayurveda.com"
+     }
+    ],
+    "imgs": [],
+    "links": [
+     "mailto:info@shraddhaayurveda.com"
+    ]
+   },
+   {
+    "type": "text-editor",
+    "loc": "footer",
+    "blocks": [
+     {
+      "t": "p",
+      "text": "Shraddha Ayurvedic Clinic is dedicated to providing authentic Ayurvedic treatments, Panchakarma therapies, and holistic wellness solutions for complete physical, mental, and emotional healing naturally."
+     }
+    ],
+    "imgs": [],
+    "links": []
+   },
+   {
+    "type": "heading",
+    "loc": "footer",
+    "blocks": [
+     {
+      "t": "h2",
+      "text": "COMPANY"
+     }
+    ],
+    "imgs": [],
+    "links": []
+   },
+   {
+    "type": "icon-list",
+    "loc": "footer",
+    "blocks": [
+     {
+      "t": "li",
+      "text": "Home"
+     },
+     {
+      "t": "li",
+      "text": "About Us"
+     },
+     {
+      "t": "li",
+      "text": "Contact Us"
+     }
+    ],
+    "imgs": [],
+    "links": [
+     "https://trustayurved.com/",
+     "https://trustayurved.com/about/",
+     "https://trustayurved.com/contact/"
+    ]
+   },
+   {
+    "type": "heading",
+    "loc": "footer",
+    "blocks": [
+     {
+      "t": "h2",
+      "text": "PAGES"
+     }
+    ],
+    "imgs": [],
+    "links": []
+   },
+   {
+    "type": "icon-list",
+    "loc": "footer",
+    "blocks": [
+     {
+      "t": "li",
+      "text": "Blog"
+     },
+     {
+      "t": "li",
+      "text": "Gallery"
+     },
+     {
+      "t": "li",
+      "text": "FAQ"
+     }
+    ],
+    "imgs": [],
+    "links": [
+     "https://trustayurved.com/blog/",
+     "https://trustayurved.com/gallery/",
+     "https://trustayurved.com/faq"
+    ]
+   },
+   {
+    "type": "heading",
+    "loc": "footer",
+    "blocks": [
+     {
+      "t": "h2",
+      "text": "POLICIES"
+     }
+    ],
+    "imgs": [],
+    "links": []
+   },
+   {
+    "type": "icon-list",
+    "loc": "footer",
+    "blocks": [
+     {
+      "t": "li",
+      "text": "Privacy Policy"
+     },
+     {
+      "t": "li",
+      "text": "Terms Condition"
+     }
+    ],
+    "imgs": [],
+    "links": [
+     "https://trustayurved.com/privacy-policy/",
+     "https://trustayurved.com/terms-condition/"
+    ]
+   },
+   {
+    "type": "heading",
+    "loc": "footer",
+    "blocks": [
+     {
+      "t": "h2",
+      "text": "© 2026 Shraddha Ayurvedic Clinic All rights reserved."
+     }
+    ],
+    "imgs": [],
+    "links": []
+   },
+   {
+    "type": "heading",
+    "loc": "footer",
+    "blocks": [
+     {
+      "t": "h2",
+      "text": "Natural Healing for Mind & Body!"
+     }
+    ],
+    "imgs": [],
+    "links": []
+   }
+  ],
+  "maps": []
+ },
+ "specialized-treatments": {
+  "path": "/specialized-treatments/",
+  "title": "Specialized Treatments – Shraddha Ayurvedic Clinic",
+  "description": "",
+  "widgets": [
+   {
+    "type": "heading",
+    "loc": "main",
+    "blocks": [
+     {
+      "t": "h2",
+      "text": "Specialized Treatments"
+     }
+    ],
+    "imgs": [],
+    "links": []
+   },
+   {
+    "type": "heading",
+    "loc": "main",
+    "blocks": [
+     {
+      "t": "h4",
+      "text": "Skin Diseases"
+     }
+    ],
+    "imgs": [],
+    "links": []
+   },
+   {
+    "type": "heading",
+    "loc": "main",
+    "blocks": [
+     {
+      "t": "h2",
+      "text": "Advanced Ayurvedic Care for Chronic Health Conditions"
+     }
+    ],
+    "imgs": [],
+    "links": []
+   },
+   {
+    "type": "text-editor",
+    "loc": "main",
+    "blocks": [
+     {
+      "t": "p",
+      "text": "At Shraddha Ayurvedic Clinic, we provide specialized Ayurvedic treatments for chronic and recurring health conditions that affect physical comfort, confidence, mobility, and overall quality of life. Our holistic approach focuses on identifying the root cause of the problem and creating personalized treatment plans using Ayurvedic medicines, Panchakarma therapies, dietary guidance, and lifestyle modifications."
+     },
+     {
+      "t": "p",
+      "text": "By addressing the underlying imbalance within the body, we help patients achieve long-term relief and sustainable wellness naturally."
+     }
+    ],
+    "imgs": [],
+    "links": []
+   },
+   {
+    "type": "image",
+    "loc": "main",
+    "blocks": [],
+    "imgs": [
+     {
+      "src": "https://trustayurved.com/wp-content/uploads/2026/05/New-Project-91.png",
+      "alt": ""
+     }
+    ],
+    "links": []
+   },
+   {
+    "type": "heading",
+    "loc": "main",
+    "blocks": [
+     {
+      "t": "h2",
+      "text": "Natural Ayurvedic Solutions for Healthy Skin"
+     }
+    ],
+    "imgs": [],
+    "links": []
+   },
+   {
+    "type": "text-editor",
+    "loc": "main",
+    "blocks": [
+     {
+      "t": "p",
+      "text": "Skin disorders are often linked to internal imbalances, poor digestion, toxin accumulation, stress, and lifestyle factors. Ayurveda focuses on purifying the body and restoring balance to promote healthy, radiant skin from within."
+     },
+     {
+      "t": "h3",
+      "text": "Conditions We Treat"
+     },
+     {
+      "t": "li",
+      "text": "Acne & Pimples"
+     },
+     {
+      "t": "li",
+      "text": "Psoriasis"
+     },
+     {
+      "t": "li",
+      "text": "Eczema"
+     },
+     {
+      "t": "li",
+      "text": "Skin Allergies"
+     },
+     {
+      "t": "li",
+      "text": "Itching & Rashes"
+     },
+     {
+      "t": "li",
+      "text": "Pigmentation Issues"
+     },
+     {
+      "t": "li",
+      "text": "Dry Skin Conditions"
+     }
+    ],
+    "imgs": [],
+    "links": []
+   },
+   {
+    "type": "heading",
+    "loc": "main",
+    "blocks": [
+     {
+      "t": "h2",
+      "text": "Hair Problems"
+     }
+    ],
+    "imgs": [],
+    "links": []
+   },
+   {
+    "type": "text-editor",
+    "loc": "main",
+    "blocks": [
+     {
+      "t": "p",
+      "text": "Hair-related concerns can result from stress, nutritional deficiencies, hormonal imbalances, poor lifestyle habits, and underlying health issues. Our Ayurvedic treatments help strengthen hair roots, nourish the scalp, and promote healthy hair growth naturally."
+     },
+     {
+      "t": "h3",
+      "text": "Conditions We Treat"
+     },
+     {
+      "t": "li",
+      "text": "Hair Fall"
+     },
+     {
+      "t": "li",
+      "text": "Dandruff"
+     },
+     {
+      "t": "li",
+      "text": "Premature Graying"
+     },
+     {
+      "t": "li",
+      "text": "Weak Hair Roots"
+     },
+     {
+      "t": "li",
+      "text": "Scalp Disorders"
+     },
+     {
+      "t": "li",
+      "text": "Thinning Hair"
+     }
+    ],
+    "imgs": [],
+    "links": []
+   },
+   {
+    "type": "image",
+    "loc": "main",
+    "blocks": [],
+    "imgs": [
+     {
+      "src": "https://trustayurved.com/wp-content/uploads/2026/05/New-Project-92.png",
+      "alt": ""
+     }
+    ],
+    "links": []
+   },
+   {
+    "type": "image",
+    "loc": "main",
+    "blocks": [],
+    "imgs": [
+     {
+      "src": "https://trustayurved.com/wp-content/uploads/2026/05/New-Project-93.png",
+      "alt": ""
+     }
+    ],
+    "links": []
+   },
+   {
+    "type": "heading",
+    "loc": "main",
+    "blocks": [
+     {
+      "t": "h2",
+      "text": "Joint Pain, Arthritis & Musculoskeletal Disorders"
+     }
+    ],
+    "imgs": [],
+    "links": []
+   },
+   {
+    "type": "text-editor",
+    "loc": "main",
+    "blocks": [
+     {
+      "t": "p",
+      "text": "Joint pain and musculoskeletal disorders can significantly affect daily activities and quality of life. Ayurveda offers natural therapies that help reduce inflammation, improve flexibility, strengthen joints, and support overall musculoskeletal health."
+     },
+     {
+      "t": "h3",
+      "text": "Conditions We Treat"
+     },
+     {
+      "t": "li",
+      "text": "Osteoarthritis"
+     },
+     {
+      "t": "li",
+      "text": "Rheumatoid Arthritis"
+     },
+     {
+      "t": "li",
+      "text": "Cervical Spondylosis"
+     },
+     {
+      "t": "li",
+      "text": "Frozen Shoulder"
+     },
+     {
+      "t": "li",
+      "text": "Knee Pain"
+     },
+     {
+      "t": "li",
+      "text": "Muscle Stiffness"
+     },
+     {
+      "t": "li",
+      "text": "Sports Injuries"
+     }
+    ],
+    "imgs": [],
+    "links": []
+   },
+   {
+    "type": "heading",
+    "loc": "main",
+    "blocks": [
+     {
+      "t": "h2",
+      "text": "Back Pain, Slip Disc & Sciatica"
+     }
+    ],
+    "imgs": [],
+    "links": []
+   },
+   {
+    "type": "text-editor",
+    "loc": "main",
+    "blocks": [
+     {
+      "t": "p",
+      "text": "Back pain has become increasingly common due to prolonged sitting, poor posture, stress, and physical strain. Our Ayurvedic therapies focus on relieving pain, reducing nerve compression, strengthening muscles, and improving spinal health."
+     },
+     {
+      "t": "h3",
+      "text": "Conditions We Treat"
+     },
+     {
+      "t": "li",
+      "text": "Chronic Back Pain"
+     },
+     {
+      "t": "li",
+      "text": "Slip Disc"
+     },
+     {
+      "t": "li",
+      "text": "Sciatica"
+     },
+     {
+      "t": "li",
+      "text": "Lower Back Pain"
+     },
+     {
+      "t": "li",
+      "text": "Neck Pain"
+     },
+     {
+      "t": "li",
+      "text": "Lumbar Spondylosis"
+     },
+     {
+      "t": "li",
+      "text": "Postural Disorders"
+     }
+    ],
+    "imgs": [],
+    "links": []
+   },
+   {
+    "type": "image",
+    "loc": "main",
+    "blocks": [],
+    "imgs": [
+     {
+      "src": "https://trustayurved.com/wp-content/uploads/2026/05/New-Project-94.png",
+      "alt": ""
+     }
+    ],
+    "links": []
+   },
+   {
+    "type": "heading",
+    "loc": "footer",
+    "blocks": [
+     {
+      "t": "h2",
+      "text": "Connect with"
+     },
+     {
+      "t": "h2",
+      "text": "Shraddha Ayurvedic Clinic!"
+     }
+    ],
+    "imgs": [],
+    "links": []
+   },
+   {
+    "type": "icon-box",
+    "loc": "footer",
+    "blocks": [
+     {
+      "t": "h3",
+      "text": "info@shraddhaayurveda.com"
+     }
+    ],
+    "imgs": [],
+    "links": [
+     "mailto:info@shraddhaayurveda.com"
+    ]
+   },
+   {
+    "type": "text-editor",
+    "loc": "footer",
+    "blocks": [
+     {
+      "t": "p",
+      "text": "Shraddha Ayurvedic Clinic is dedicated to providing authentic Ayurvedic treatments, Panchakarma therapies, and holistic wellness solutions for complete physical, mental, and emotional healing naturally."
+     }
+    ],
+    "imgs": [],
+    "links": []
+   },
+   {
+    "type": "heading",
+    "loc": "footer",
+    "blocks": [
+     {
+      "t": "h2",
+      "text": "COMPANY"
+     }
+    ],
+    "imgs": [],
+    "links": []
+   },
+   {
+    "type": "icon-list",
+    "loc": "footer",
+    "blocks": [
+     {
+      "t": "li",
+      "text": "Home"
+     },
+     {
+      "t": "li",
+      "text": "About Us"
+     },
+     {
+      "t": "li",
+      "text": "Contact Us"
+     }
+    ],
+    "imgs": [],
+    "links": [
+     "https://trustayurved.com/",
+     "https://trustayurved.com/about/",
+     "https://trustayurved.com/contact/"
+    ]
+   },
+   {
+    "type": "heading",
+    "loc": "footer",
+    "blocks": [
+     {
+      "t": "h2",
+      "text": "PAGES"
+     }
+    ],
+    "imgs": [],
+    "links": []
+   },
+   {
+    "type": "icon-list",
+    "loc": "footer",
+    "blocks": [
+     {
+      "t": "li",
+      "text": "Blog"
+     },
+     {
+      "t": "li",
+      "text": "Gallery"
+     },
+     {
+      "t": "li",
+      "text": "FAQ"
+     }
+    ],
+    "imgs": [],
+    "links": [
+     "https://trustayurved.com/blog/",
+     "https://trustayurved.com/gallery/",
+     "https://trustayurved.com/faq"
+    ]
+   },
+   {
+    "type": "heading",
+    "loc": "footer",
+    "blocks": [
+     {
+      "t": "h2",
+      "text": "POLICIES"
+     }
+    ],
+    "imgs": [],
+    "links": []
+   },
+   {
+    "type": "icon-list",
+    "loc": "footer",
+    "blocks": [
+     {
+      "t": "li",
+      "text": "Privacy Policy"
+     },
+     {
+      "t": "li",
+      "text": "Terms Condition"
+     }
+    ],
+    "imgs": [],
+    "links": [
+     "https://trustayurved.com/privacy-policy/",
+     "https://trustayurved.com/terms-condition/"
+    ]
+   },
+   {
+    "type": "heading",
+    "loc": "footer",
+    "blocks": [
+     {
+      "t": "h2",
+      "text": "© 2026 Shraddha Ayurvedic Clinic All rights reserved."
+     }
+    ],
+    "imgs": [],
+    "links": []
+   },
+   {
+    "type": "heading",
+    "loc": "footer",
+    "blocks": [
+     {
+      "t": "h2",
+      "text": "Natural Healing for Mind & Body!"
+     }
+    ],
+    "imgs": [],
+    "links": []
+   }
+  ],
+  "maps": []
+ },
+ "organ-specific-disorders": {
+  "path": "/organ-specific-disorders/",
+  "title": "Organ-Specific Disorders – Shraddha Ayurvedic Clinic",
+  "description": "",
+  "widgets": [
+   {
+    "type": "heading",
+    "loc": "main",
+    "blocks": [
+     {
+      "t": "h2",
+      "text": "Organ-Specific Disorders"
+     }
+    ],
+    "imgs": [],
+    "links": []
+   },
+   {
+    "type": "heading",
+    "loc": "main",
+    "blocks": [
+     {
+      "t": "h4",
+      "text": "Disorders"
+     }
+    ],
+    "imgs": [],
+    "links": []
+   },
+   {
+    "type": "heading",
+    "loc": "main",
+    "blocks": [
+     {
+      "t": "h2",
+      "text": "Specialized Ayurvedic Care for Vital Organ Health"
+     }
+    ],
+    "imgs": [],
+    "links": []
+   },
+   {
+    "type": "text-editor",
+    "loc": "main",
+    "blocks": [
+     {
+      "t": "p",
+      "text": "The proper functioning of vital organs such as the heart, liver, and kidneys is essential for overall health and well-being. At Shraddha Ayurvedic Clinic, we provide holistic Ayurvedic treatments that focus on supporting organ function, improving internal balance, and promoting long-term wellness through natural healing methods."
+     },
+     {
+      "t": "p",
+      "text": "Our personalized treatment approach combines Ayurvedic medicines, Panchakarma therapies, dietary guidance, and lifestyle modifications to address the root cause of health concerns and enhance overall quality of life."
+     }
+    ],
+    "imgs": [],
+    "links": []
+   },
+   {
+    "type": "image",
+    "loc": "main",
+    "blocks": [],
+    "imgs": [
+     {
+      "src": "https://trustayurved.com/wp-content/uploads/2026/05/New-Project-95.png",
+      "alt": ""
+     }
+    ],
+    "links": []
+   },
+   {
+    "type": "heading",
+    "loc": "main",
+    "blocks": [
+     {
+      "t": "h2",
+      "text": "Heart-Related Disorders"
+     }
+    ],
+    "imgs": [],
+    "links": []
+   },
+   {
+    "type": "text-editor",
+    "loc": "main",
+    "blocks": [
+     {
+      "t": "p",
+      "text": "Heart health is influenced by lifestyle habits, stress levels, diet, and metabolic balance. Ayurveda focuses on maintaining healthy circulation, reducing stress, and supporting cardiovascular function through natural therapies and preventive care."
+     },
+     {
+      "t": "h3",
+      "text": "Conditions We Support"
+     },
+     {
+      "t": "li",
+      "text": "Hypertension (High Blood Pressure)"
+     },
+     {
+      "t": "li",
+      "text": "Cardiac Stress"
+     },
+     {
+      "t": "li",
+      "text": "Cholesterol Imbalance"
+     },
+     {
+      "t": "li",
+      "text": "Lifestyle-Related Heart Health Concerns"
+     },
+     {
+      "t": "li",
+      "text": "Preventive Cardiovascular Care"
+     }
+    ],
+    "imgs": [],
+    "links": []
+   },
+   {
+    "type": "heading",
+    "loc": "main",
+    "blocks": [
+     {
+      "t": "h2",
+      "text": "Liver Disorders"
+     }
+    ],
+    "imgs": [],
+    "links": []
+   },
+   {
+    "type": "text-editor",
+    "loc": "main",
+    "blocks": [
+     {
+      "t": "p",
+      "text": "The liver plays a crucial role in detoxification, digestion, and metabolism. Ayurvedic treatments help strengthen liver function, support natural detoxification processes, and improve overall metabolic health."
+     },
+     {
+      "t": "h3",
+      "text": "Conditions We Support"
+     },
+     {
+      "t": "li",
+      "text": "Fatty Liver"
+     },
+     {
+      "t": "li",
+      "text": "Liver Detoxification"
+     },
+     {
+      "t": "li",
+      "text": "Hepatic Imbalance"
+     },
+     {
+      "t": "li",
+      "text": "Digestive & Metabolic Liver Disorders"
+     },
+     {
+      "t": "li",
+      "text": "Liver Function Support"
+     }
+    ],
+    "imgs": [],
+    "links": []
+   },
+   {
+    "type": "image",
+    "loc": "main",
+    "blocks": [],
+    "imgs": [
+     {
+      "src": "https://trustayurved.com/wp-content/uploads/2026/05/New-Project-96.png",
+      "alt": ""
+     }
+    ],
+    "links": []
+   },
+   {
+    "type": "image",
+    "loc": "main",
+    "blocks": [],
+    "imgs": [
+     {
+      "src": "https://trustayurved.com/wp-content/uploads/2026/05/New-Project-97.png",
+      "alt": ""
+     }
+    ],
+    "links": []
+   },
+   {
+    "type": "heading",
+    "loc": "main",
+    "blocks": [
+     {
+      "t": "h2",
+      "text": "Kidney Disorders"
+     }
+    ],
+    "imgs": [],
+    "links": []
+   },
+   {
+    "type": "text-editor",
+    "loc": "main",
+    "blocks": [
+     {
+      "t": "p",
+      "text": "Healthy kidneys are essential for maintaining fluid balance, toxin elimination, and overall body function. Ayurveda offers supportive therapies aimed at promoting kidney health and urinary system wellness."
+     },
+     {
+      "t": "h3",
+      "text": "Conditions We Support"
+     },
+     {
+      "t": "li",
+      "text": "Kidney Stones"
+     },
+     {
+      "t": "li",
+      "text": "Urinary Disorders"
+     },
+     {
+      "t": "li",
+      "text": "Recurrent Urinary Infections"
+     },
+     {
+      "t": "li",
+      "text": "Renal Health Support"
+     },
+     {
+      "t": "li",
+      "text": "Urinary Tract Imbalances"
+     }
+    ],
+    "imgs": [],
+    "links": []
+   },
+   {
+    "type": "heading",
+    "loc": "main",
+    "blocks": [
+     {
+      "t": "h2",
+      "text": "Chronic Allergies"
+     }
+    ],
+    "imgs": [],
+    "links": []
+   },
+   {
+    "type": "text-editor",
+    "loc": "main",
+    "blocks": [
+     {
+      "t": "p",
+      "text": "Recurring allergies can significantly impact daily life. Ayurvedic treatments help identify underlying imbalances and support the body’s natural resistance to allergens."
+     },
+     {
+      "t": "p",
+      "text": "Benefits:"
+     },
+     {
+      "t": "p",
+      "text": "✔ Reduced allergy recurrence"
+     },
+     {
+      "t": "p",
+      "text": "✔ Improved respiratory wellness"
+     },
+     {
+      "t": "p",
+      "text": "✔ Enhanced immune function"
+     },
+     {
+      "t": "p",
+      "text": "✔ Better overall health"
+     }
+    ],
+    "imgs": [],
+    "links": []
+   },
+   {
+    "type": "image",
+    "loc": "main",
+    "blocks": [],
+    "imgs": [
+     {
+      "src": "https://trustayurved.com/wp-content/uploads/2026/05/New-Project-98.png",
+      "alt": ""
+     }
+    ],
+    "links": []
+   },
+   {
+    "type": "image",
+    "loc": "main",
+    "blocks": [],
+    "imgs": [
+     {
+      "src": "https://trustayurved.com/wp-content/uploads/2026/05/New-Project-99.png",
+      "alt": ""
+     }
+    ],
+    "links": []
+   },
+   {
+    "type": "heading",
+    "loc": "main",
+    "blocks": [
+     {
+      "t": "h2",
+      "text": "Cancer Care Support"
+     }
+    ],
+    "imgs": [],
+    "links": []
+   },
+   {
+    "type": "text-editor",
+    "loc": "main",
+    "blocks": [
+     {
+      "t": "p",
+      "text": "Our Ayurvedic supportive care programs aim to improve immunity, enhance energy levels, reduce treatment-related discomfort, and support overall well-being during recovery and wellness management."
+     },
+     {
+      "t": "p",
+      "text": "Benefits:"
+     },
+     {
+      "t": "p",
+      "text": "✔ Improved immunity support"
+     },
+     {
+      "t": "p",
+      "text": "✔ Better quality of life"
+     },
+     {
+      "t": "p",
+      "text": "✔ Enhanced physical and emotional wellness"
+     },
+     {
+      "t": "p",
+      "text": "✔ Holistic supportive care"
+     }
+    ],
+    "imgs": [],
+    "links": []
+   },
+   {
+    "type": "heading",
+    "loc": "main",
+    "blocks": [
+     {
+      "t": "h2",
+      "text": "Migraine & Neurological Disorders"
+     }
+    ],
+    "imgs": [],
+    "links": []
+   },
+   {
+    "type": "text-editor",
+    "loc": "main",
+    "blocks": [
+     {
+      "t": "p",
+      "text": "Ayurveda offers natural therapies that help manage migraines, headaches, stress-related neurological issues, and nervous system imbalances through holistic healing approaches."
+     },
+     {
+      "t": "p",
+      "text": "Benefits:"
+     },
+     {
+      "t": "p",
+      "text": "✔ Reduced migraine frequency"
+     },
+     {
+      "t": "p",
+      "text": "✔ Improved nervous system balance"
+     },
+     {
+      "t": "p",
+      "text": "✔ Better stress management"
+     },
+     {
+      "t": "p",
+      "text": "✔ Enhanced mental well-being"
+     }
+    ],
+    "imgs": [],
+    "links": []
+   },
+   {
+    "type": "image",
+    "loc": "main",
+    "blocks": [],
+    "imgs": [
+     {
+      "src": "https://trustayurved.com/wp-content/uploads/2026/05/New-Project-100.png",
+      "alt": ""
+     }
+    ],
+    "links": []
+   },
+   {
+    "type": "image",
+    "loc": "main",
+    "blocks": [],
+    "imgs": [
+     {
+      "src": "https://trustayurved.com/wp-content/uploads/2026/05/New-Project-2026-05-31T114933.662.png",
+      "alt": ""
+     }
+    ],
+    "links": []
+   },
+   {
+    "type": "heading",
+    "loc": "main",
+    "blocks": [
+     {
+      "t": "h2",
+      "text": "Autoimmune Disorders"
+     }
+    ],
+    "imgs": [],
+    "links": []
+   },
+   {
+    "type": "text-editor",
+    "loc": "main",
+    "blocks": [
+     {
+      "t": "p",
+      "text": "Autoimmune conditions often involve immune system imbalances and chronic inflammation. Ayurvedic care focuses on restoring internal balance, supporting immunity, and promoting overall wellness through personalized therapies."
+     },
+     {
+      "t": "p",
+      "text": "Benefits:"
+     },
+     {
+      "t": "p",
+      "text": "✔ Holistic wellness support"
+     },
+     {
+      "t": "p",
+      "text": "✔ Improved immune balance"
+     },
+     {
+      "t": "p",
+      "text": "✔ Reduced inflammation support"
+     },
+     {
+      "t": "p",
+      "text": "✔ Enhanced quality of life"
+     }
+    ],
+    "imgs": [],
+    "links": []
+   },
+   {
+    "type": "heading",
+    "loc": "footer",
+    "blocks": [
+     {
+      "t": "h2",
+      "text": "Connect with"
+     },
+     {
+      "t": "h2",
+      "text": "Shraddha Ayurvedic Clinic!"
+     }
+    ],
+    "imgs": [],
+    "links": []
+   },
+   {
+    "type": "icon-box",
+    "loc": "footer",
+    "blocks": [
+     {
+      "t": "h3",
+      "text": "info@shraddhaayurveda.com"
+     }
+    ],
+    "imgs": [],
+    "links": [
+     "mailto:info@shraddhaayurveda.com"
+    ]
+   },
+   {
+    "type": "text-editor",
+    "loc": "footer",
+    "blocks": [
+     {
+      "t": "p",
+      "text": "Shraddha Ayurvedic Clinic is dedicated to providing authentic Ayurvedic treatments, Panchakarma therapies, and holistic wellness solutions for complete physical, mental, and emotional healing naturally."
+     }
+    ],
+    "imgs": [],
+    "links": []
+   },
+   {
+    "type": "heading",
+    "loc": "footer",
+    "blocks": [
+     {
+      "t": "h2",
+      "text": "COMPANY"
+     }
+    ],
+    "imgs": [],
+    "links": []
+   },
+   {
+    "type": "icon-list",
+    "loc": "footer",
+    "blocks": [
+     {
+      "t": "li",
+      "text": "Home"
+     },
+     {
+      "t": "li",
+      "text": "About Us"
+     },
+     {
+      "t": "li",
+      "text": "Contact Us"
+     }
+    ],
+    "imgs": [],
+    "links": [
+     "https://trustayurved.com/",
+     "https://trustayurved.com/about/",
+     "https://trustayurved.com/contact/"
+    ]
+   },
+   {
+    "type": "heading",
+    "loc": "footer",
+    "blocks": [
+     {
+      "t": "h2",
+      "text": "PAGES"
+     }
+    ],
+    "imgs": [],
+    "links": []
+   },
+   {
+    "type": "icon-list",
+    "loc": "footer",
+    "blocks": [
+     {
+      "t": "li",
+      "text": "Blog"
+     },
+     {
+      "t": "li",
+      "text": "Gallery"
+     },
+     {
+      "t": "li",
+      "text": "FAQ"
+     }
+    ],
+    "imgs": [],
+    "links": [
+     "https://trustayurved.com/blog/",
+     "https://trustayurved.com/gallery/",
+     "https://trustayurved.com/faq"
+    ]
+   },
+   {
+    "type": "heading",
+    "loc": "footer",
+    "blocks": [
+     {
+      "t": "h2",
+      "text": "POLICIES"
+     }
+    ],
+    "imgs": [],
+    "links": []
+   },
+   {
+    "type": "icon-list",
+    "loc": "footer",
+    "blocks": [
+     {
+      "t": "li",
+      "text": "Privacy Policy"
+     },
+     {
+      "t": "li",
+      "text": "Terms Condition"
+     }
+    ],
+    "imgs": [],
+    "links": [
+     "https://trustayurved.com/privacy-policy/",
+     "https://trustayurved.com/terms-condition/"
+    ]
+   },
+   {
+    "type": "heading",
+    "loc": "footer",
+    "blocks": [
+     {
+      "t": "h2",
+      "text": "© 2026 Shraddha Ayurvedic Clinic All rights reserved."
+     }
+    ],
+    "imgs": [],
+    "links": []
+   },
+   {
+    "type": "heading",
+    "loc": "footer",
+    "blocks": [
+     {
+      "t": "h2",
+      "text": "Natural Healing for Mind & Body!"
+     }
+    ],
+    "imgs": [],
+    "links": []
+   }
+  ],
+  "maps": []
+ },
+ "panchakarma-therapies": {
+  "path": "/panchakarma-therapies/",
+  "title": "PANCHAKARMA & THERAPIES – Shraddha Ayurvedic Clinic",
+  "description": "",
+  "widgets": [
+   {
+    "type": "heading",
+    "loc": "main",
+    "blocks": [
+     {
+      "t": "h2",
+      "text": "Panchakarma & Ayurvedic Therapies"
+     }
+    ],
+    "imgs": [],
+    "links": []
+   },
+   {
+    "type": "heading",
+    "loc": "main",
+    "blocks": [
+     {
+      "t": "h2",
+      "text": "Detoxify, Rejuvenate & Restore Balance Naturally"
+     }
+    ],
+    "imgs": [],
+    "links": []
+   },
+   {
+    "type": "text-editor",
+    "loc": "main",
+    "blocks": [
+     {
+      "t": "p",
+      "text": "Panchakarma is one of the most powerful and specialized healing therapies in Ayurveda. It is a comprehensive detoxification and rejuvenation process designed to eliminate accumulated toxins, restore the balance of the body’s Doshas (Vata, Pitta, and Kapha), strengthen immunity, and promote overall health and well-being."
+     },
+     {
+      "t": "p",
+      "text": "At Shraddha Ayurvedic Clinic, our Panchakarma therapies are carefully customized according to each individual’s body constitution, health condition, and wellness goals. Under the guidance of experienced Ayurvedic doctors, we provide authentic Panchakarma treatments that support physical healing, mental relaxation, and long-term vitality."
+     }
+    ],
+    "imgs": [],
+    "links": []
+   },
+   {
+    "type": "image",
+    "loc": "main",
+    "blocks": [],
+    "imgs": [
+     {
+      "src": "https://trustayurved.com/wp-content/uploads/2026/05/New-Project-2026-05-31T115348.397.png",
+      "alt": ""
+     }
+    ],
+    "links": []
+   },
+   {
+    "type": "heading",
+    "loc": "main",
+    "blocks": [
+     {
+      "t": "h2",
+      "text": "Abhyanga"
+     }
+    ],
+    "imgs": [],
+    "links": []
+   },
+   {
+    "type": "text-editor",
+    "loc": "main",
+    "blocks": [
+     {
+      "t": "p",
+      "text": "Abhyanga is a traditional Ayurvedic massage performed using warm medicated herbal oils selected according to the individual’s body constitution and health condition."
+     },
+     {
+      "t": "p",
+      "text": "This therapy nourishes the tissues, improves blood circulation, reduces muscle stiffness, and promotes deep relaxation."
+     },
+     {
+      "t": "h3",
+      "text": "Benefits"
+     },
+     {
+      "t": "p",
+      "text": "✔ Improves blood circulation"
+     },
+     {
+      "t": "p",
+      "text": "✔ Relieves muscle tension"
+     },
+     {
+      "t": "p",
+      "text": "✔ Nourishes skin and tissues"
+     },
+     {
+      "t": "p",
+      "text": "✔ Reduces stress and fatigue"
+     },
+     {
+      "t": "p",
+      "text": "✔ Promotes overall wellness"
+     }
+    ],
+    "imgs": [],
+    "links": []
+   },
+   {
+    "type": "heading",
+    "loc": "main",
+    "blocks": [
+     {
+      "t": "h2",
+      "text": "Shirodhara"
+     }
+    ],
+    "imgs": [],
+    "links": []
+   },
+   {
+    "type": "text-editor",
+    "loc": "main",
+    "blocks": [
+     {
+      "t": "p",
+      "text": "Shirodhara is a calming Ayurvedic therapy in which a continuous stream of warm herbal oil is gently poured onto the forehead. This therapy deeply relaxes the nervous system and helps restore mental balance."
+     },
+     {
+      "t": "h3",
+      "text": "Benefits"
+     },
+     {
+      "t": "p",
+      "text": "✔ Reduces stress and anxiety"
+     },
+     {
+      "t": "p",
+      "text": "✔ Improves sleep quality"
+     },
+     {
+      "t": "p",
+      "text": "✔ Enhances mental clarity"
+     },
+     {
+      "t": "p",
+      "text": "✔ Supports emotional well-being"
+     },
+     {
+      "t": "p",
+      "text": "✔ Relaxes the nervous system"
+     }
+    ],
+    "imgs": [],
+    "links": []
+   },
+   {
+    "type": "image",
+    "loc": "main",
+    "blocks": [],
+    "imgs": [
+     {
+      "src": "https://trustayurved.com/wp-content/uploads/2026/05/New-Project-2026-05-31T115440.517.png",
+      "alt": ""
+     }
+    ],
+    "links": []
+   },
+   {
+    "type": "image",
+    "loc": "main",
+    "blocks": [],
+    "imgs": [
+     {
+      "src": "https://trustayurved.com/wp-content/uploads/2026/05/New-Project-2026-05-31T115510.293.png",
+      "alt": ""
+     }
+    ],
+    "links": []
+   },
+   {
+    "type": "heading",
+    "loc": "main",
+    "blocks": [
+     {
+      "t": "h2",
+      "text": "Swedana"
+     }
+    ],
+    "imgs": [],
+    "links": []
+   },
+   {
+    "type": "text-editor",
+    "loc": "main",
+    "blocks": [
+     {
+      "t": "p",
+      "text": "Swedana is a therapeutic herbal steam treatment that induces sweating and helps open the body’s channels to release toxins."
+     },
+     {
+      "t": "p",
+      "text": "It is often combined with Abhyanga to maximize detoxification and relaxation benefits."
+     },
+     {
+      "t": "h3",
+      "text": "Benefits"
+     },
+     {
+      "t": "p",
+      "text": "✔ Eliminates toxins through sweating"
+     },
+     {
+      "t": "p",
+      "text": "✔ Relieves muscle and joint stiffness"
+     },
+     {
+      "t": "p",
+      "text": "✔ Improves circulation"
+     },
+     {
+      "t": "p",
+      "text": "✔ Supports detoxification"
+     },
+     {
+      "t": "p",
+      "text": "✔ Enhances flexibility"
+     }
+    ],
+    "imgs": [],
+    "links": []
+   },
+   {
+    "type": "heading",
+    "loc": "main",
+    "blocks": [
+     {
+      "t": "h2",
+      "text": "Basti"
+     }
+    ],
+    "imgs": [],
+    "links": []
+   },
+   {
+    "type": "text-editor",
+    "loc": "main",
+    "blocks": [
+     {
+      "t": "p",
+      "text": "Basti is considered one of the most important Panchakarma procedures for balancing Vata Dosha. It involves the administration of specially prepared herbal medicines through therapeutic methods under expert supervision."
+     },
+     {
+      "t": "h3",
+      "text": "Benefits"
+     },
+     {
+      "t": "p",
+      "text": "✔ Supports digestive health"
+     },
+     {
+      "t": "p",
+      "text": "✔ Helps manage joint and neurological disorders"
+     },
+     {
+      "t": "p",
+      "text": "✔ Promotes detoxification"
+     },
+     {
+      "t": "p",
+      "text": "✔ Balances Vata Dosha"
+     },
+     {
+      "t": "p",
+      "text": "✔ Improves overall vitality"
+     }
+    ],
+    "imgs": [],
+    "links": []
+   },
+   {
+    "type": "image",
+    "loc": "main",
+    "blocks": [],
+    "imgs": [
+     {
+      "src": "https://trustayurved.com/wp-content/uploads/2026/05/New-Project-2026-05-31T115607.660.png",
+      "alt": ""
+     }
+    ],
+    "links": []
+   },
+   {
+    "type": "image",
+    "loc": "main",
+    "blocks": [],
+    "imgs": [
+     {
+      "src": "https://trustayurved.com/wp-content/uploads/2026/05/New-Project-2026-05-31T115637.919.png",
+      "alt": ""
+     }
+    ],
+    "links": []
+   },
+   {
+    "type": "heading",
+    "loc": "main",
+    "blocks": [
+     {
+      "t": "h2",
+      "text": "Nasya"
+     }
+    ],
+    "imgs": [],
+    "links": []
+   },
+   {
+    "type": "text-editor",
+    "loc": "main",
+    "blocks": [
+     {
+      "t": "p",
+      "text": "Nasya involves the administration of medicated herbal oils through the nasal passages to cleanse and rejuvenate the head and neck region."
+     },
+     {
+      "t": "p",
+      "text": "It is particularly beneficial for sinus-related conditions and mental wellness."
+     },
+     {
+      "t": "h3",
+      "text": "Benefits"
+     },
+     {
+      "t": "p",
+      "text": "✔ Supports sinus health"
+     },
+     {
+      "t": "p",
+      "text": "✔ Improves breathing quality"
+     },
+     {
+      "t": "p",
+      "text": "✔ Enhances concentration and clarity"
+     },
+     {
+      "t": "p",
+      "text": "✔ Helps relieve headaches"
+     },
+     {
+      "t": "p",
+      "text": "✔ Promotes mental relaxation"
+     }
+    ],
+    "imgs": [],
+    "links": []
+   },
+   {
+    "type": "heading",
+    "loc": "main",
+    "blocks": [
+     {
+      "t": "h2",
+      "text": "Virechana"
+     }
+    ],
+    "imgs": [],
+    "links": []
+   },
+   {
+    "type": "text-editor",
+    "loc": "main",
+    "blocks": [
+     {
+      "t": "p",
+      "text": "Virechana is a specialized cleansing therapy designed to eliminate excess toxins and balance Pitta Dosha through a controlled detoxification process."
+     },
+     {
+      "t": "h3",
+      "text": "Benefits"
+     },
+     {
+      "t": "p",
+      "text": "✔ Supports liver health"
+     },
+     {
+      "t": "p",
+      "text": "✔ Improves digestion and metabolism"
+     },
+     {
+      "t": "p",
+      "text": "✔ Helps manage skin disorders"
+     },
+     {
+      "t": "p",
+      "text": "✔ Eliminates accumulated toxins"
+     },
+     {
+      "t": "p",
+      "text": "✔ Promotes internal cleansing"
+     }
+    ],
+    "imgs": [],
+    "links": []
+   },
+   {
+    "type": "image",
+    "loc": "main",
+    "blocks": [],
+    "imgs": [
+     {
+      "src": "https://trustayurved.com/wp-content/uploads/2026/05/New-Project-2026-05-31T115704.565.png",
+      "alt": ""
+     }
+    ],
+    "links": []
+   },
+   {
+    "type": "image",
+    "loc": "main",
+    "blocks": [],
+    "imgs": [
+     {
+      "src": "https://trustayurved.com/wp-content/uploads/2026/05/New-Project-2026-05-31T115755.191.png",
+      "alt": ""
+     }
+    ],
+    "links": []
+   },
+   {
+    "type": "heading",
+    "loc": "main",
+    "blocks": [
+     {
+      "t": "h2",
+      "text": "Vamana"
+     }
+    ],
+    "imgs": [],
+    "links": []
+   },
+   {
+    "type": "text-editor",
+    "loc": "main",
+    "blocks": [
+     {
+      "t": "p",
+      "text": "Vamana is a classical Ayurvedic detoxification therapy primarily used to balance Kapha Dosha and remove excess toxins from the upper digestive and respiratory systems."
+     },
+     {
+      "t": "h3",
+      "text": "Benefits"
+     },
+     {
+      "t": "p",
+      "text": "✔ Supports respiratory health"
+     },
+     {
+      "t": "p",
+      "text": "✔ Assists in detoxification"
+     },
+     {
+      "t": "p",
+      "text": "✔ Helps manage Kapha-related conditions"
+     },
+     {
+      "t": "p",
+      "text": "✔ Improves metabolic balance"
+     },
+     {
+      "t": "p",
+      "text": "✔ Promotes overall wellness"
+     }
+    ],
+    "imgs": [],
+    "links": []
+   },
+   {
+    "type": "heading",
+    "loc": "footer",
+    "blocks": [
+     {
+      "t": "h2",
+      "text": "Connect with"
+     },
+     {
+      "t": "h2",
+      "text": "Shraddha Ayurvedic Clinic!"
+     }
+    ],
+    "imgs": [],
+    "links": []
+   },
+   {
+    "type": "icon-box",
+    "loc": "footer",
+    "blocks": [
+     {
+      "t": "h3",
+      "text": "info@shraddhaayurveda.com"
+     }
+    ],
+    "imgs": [],
+    "links": [
+     "mailto:info@shraddhaayurveda.com"
+    ]
+   },
+   {
+    "type": "text-editor",
+    "loc": "footer",
+    "blocks": [
+     {
+      "t": "p",
+      "text": "Shraddha Ayurvedic Clinic is dedicated to providing authentic Ayurvedic treatments, Panchakarma therapies, and holistic wellness solutions for complete physical, mental, and emotional healing naturally."
+     }
+    ],
+    "imgs": [],
+    "links": []
+   },
+   {
+    "type": "heading",
+    "loc": "footer",
+    "blocks": [
+     {
+      "t": "h2",
+      "text": "COMPANY"
+     }
+    ],
+    "imgs": [],
+    "links": []
+   },
+   {
+    "type": "icon-list",
+    "loc": "footer",
+    "blocks": [
+     {
+      "t": "li",
+      "text": "Home"
+     },
+     {
+      "t": "li",
+      "text": "About Us"
+     },
+     {
+      "t": "li",
+      "text": "Contact Us"
+     }
+    ],
+    "imgs": [],
+    "links": [
+     "https://trustayurved.com/",
+     "https://trustayurved.com/about/",
+     "https://trustayurved.com/contact/"
+    ]
+   },
+   {
+    "type": "heading",
+    "loc": "footer",
+    "blocks": [
+     {
+      "t": "h2",
+      "text": "PAGES"
+     }
+    ],
+    "imgs": [],
+    "links": []
+   },
+   {
+    "type": "icon-list",
+    "loc": "footer",
+    "blocks": [
+     {
+      "t": "li",
+      "text": "Blog"
+     },
+     {
+      "t": "li",
+      "text": "Gallery"
+     },
+     {
+      "t": "li",
+      "text": "FAQ"
+     }
+    ],
+    "imgs": [],
+    "links": [
+     "https://trustayurved.com/blog/",
+     "https://trustayurved.com/gallery/",
+     "https://trustayurved.com/faq"
+    ]
+   },
+   {
+    "type": "heading",
+    "loc": "footer",
+    "blocks": [
+     {
+      "t": "h2",
+      "text": "POLICIES"
+     }
+    ],
+    "imgs": [],
+    "links": []
+   },
+   {
+    "type": "icon-list",
+    "loc": "footer",
+    "blocks": [
+     {
+      "t": "li",
+      "text": "Privacy Policy"
+     },
+     {
+      "t": "li",
+      "text": "Terms Condition"
+     }
+    ],
+    "imgs": [],
+    "links": [
+     "https://trustayurved.com/privacy-policy/",
+     "https://trustayurved.com/terms-condition/"
+    ]
+   },
+   {
+    "type": "heading",
+    "loc": "footer",
+    "blocks": [
+     {
+      "t": "h2",
+      "text": "© 2026 Shraddha Ayurvedic Clinic All rights reserved."
+     }
+    ],
+    "imgs": [],
+    "links": []
+   },
+   {
+    "type": "heading",
+    "loc": "footer",
+    "blocks": [
+     {
+      "t": "h2",
+      "text": "Natural Healing for Mind & Body!"
+     }
+    ],
+    "imgs": [],
+    "links": []
+   }
+  ],
+  "maps": []
+ },
+ "mental-health": {
+  "path": "/mental-health/",
+  "title": "Mental Health – Shraddha Ayurvedic Clinic",
+  "description": "",
+  "widgets": [
+   {
+    "type": "heading",
+    "loc": "main",
+    "blocks": [
+     {
+      "t": "h2",
+      "text": "Mental Health & Emotional Wellness"
+     }
+    ],
+    "imgs": [],
+    "links": []
+   },
+   {
+    "type": "heading",
+    "loc": "main",
+    "blocks": [
+     {
+      "t": "h4",
+      "text": "Our Mental Health Services"
+     }
+    ],
+    "imgs": [],
+    "links": []
+   },
+   {
+    "type": "heading",
+    "loc": "main",
+    "blocks": [
+     {
+      "t": "h2",
+      "text": "Nurturing Mental Well-Being Through Ayurveda"
+     }
+    ],
+    "imgs": [],
+    "links": []
+   },
+   {
+    "type": "text-editor",
+    "loc": "main",
+    "blocks": [
+     {
+      "t": "p",
+      "text": "Mental health is an essential part of overall wellness. In today’s fast-paced and demanding world, many individuals experience stress, anxiety, emotional disturbances, sleep disorders, and mental fatigue that affect their quality of life. At Shraddha Ayurvedic Clinic, we believe that true health can only be achieved when the mind, body, and soul are in harmony."
+     },
+     {
+      "t": "p",
+      "text": "Our holistic Ayurvedic approach focuses on understanding the root causes of mental and emotional imbalances and restoring inner balance through personalized treatments, herbal medicines, Panchakarma therapies, meditation, Yoga, and lifestyle guidance."
+     }
+    ],
+    "imgs": [],
+    "links": []
+   },
+   {
+    "type": "image",
+    "loc": "main",
+    "blocks": [],
+    "imgs": [
+     {
+      "src": "https://trustayurved.com/wp-content/uploads/2026/06/image-22.png",
+      "alt": ""
+     }
+    ],
+    "links": []
+   },
+   {
+    "type": "heading",
+    "loc": "main",
+    "blocks": [
+     {
+      "t": "h2",
+      "text": "Stress & Anxiety Management"
+     }
+    ],
+    "imgs": [],
+    "links": []
+   },
+   {
+    "type": "text-editor",
+    "loc": "main",
+    "blocks": [
+     {
+      "t": "p",
+      "text": "Stress and anxiety have become common concerns due to work pressure, personal responsibilities, financial challenges, and modern lifestyle demands. If left unmanaged, they can affect both mental and physical health."
+     },
+     {
+      "t": "p",
+      "text": "Our Ayurvedic treatments help calm the nervous system, improve emotional stability, and enhance overall mental well-being naturally."
+     },
+     {
+      "t": "h3",
+      "text": "Common Symptoms"
+     },
+     {
+      "t": "li",
+      "text": "Constant worry and overthinking"
+     },
+     {
+      "t": "li",
+      "text": "Nervousness and restlessness"
+     },
+     {
+      "t": "li",
+      "text": "Irritability and mood swings"
+     },
+     {
+      "t": "li",
+      "text": "Difficulty concentrating"
+     },
+     {
+      "t": "li",
+      "text": "Physical tension and fatigue"
+     }
+    ],
+    "imgs": [],
+    "links": []
+   },
+   {
+    "type": "heading",
+    "loc": "main",
+    "blocks": [
+     {
+      "t": "h2",
+      "text": "Depression Support"
+     }
+    ],
+    "imgs": [],
+    "links": []
+   },
+   {
+    "type": "text-editor",
+    "loc": "main",
+    "blocks": [
+     {
+      "t": "p",
+      "text": "Depression can affect a person’s thoughts, emotions, energy levels, and daily activities. Ayurveda views depression as an imbalance affecting both the mind and body."
+     },
+     {
+      "t": "p",
+      "text": "Our holistic treatment programs aim to support emotional well-being, improve mental resilience, and help individuals regain motivation and positivity."
+     },
+     {
+      "t": "h3",
+      "text": "Common Symptoms"
+     },
+     {
+      "t": "li",
+      "text": "Persistent sadness"
+     },
+     {
+      "t": "li",
+      "text": "Loss of interest in activities"
+     },
+     {
+      "t": "li",
+      "text": "Low energy and motivation"
+     },
+     {
+      "t": "li",
+      "text": "Social withdrawal"
+     },
+     {
+      "t": "li",
+      "text": "Feelings of hopelessness"
+     }
+    ],
+    "imgs": [],
+    "links": []
+   },
+   {
+    "type": "image",
+    "loc": "main",
+    "blocks": [],
+    "imgs": [
+     {
+      "src": "https://trustayurved.com/wp-content/uploads/2026/06/image-21.png",
+      "alt": ""
+     }
+    ],
+    "links": []
+   },
+   {
+    "type": "image",
+    "loc": "main",
+    "blocks": [],
+    "imgs": [
+     {
+      "src": "https://trustayurved.com/wp-content/uploads/2026/06/image-20.png",
+      "alt": ""
+     }
+    ],
+    "links": []
+   },
+   {
+    "type": "heading",
+    "loc": "main",
+    "blocks": [
+     {
+      "t": "h2",
+      "text": "Insomnia & Sleep Disorders"
+     }
+    ],
+    "imgs": [],
+    "links": []
+   },
+   {
+    "type": "text-editor",
+    "loc": "main",
+    "blocks": [
+     {
+      "t": "p",
+      "text": "Quality sleep is essential for physical health, emotional balance, and mental performance. Sleep disturbances can lead to fatigue, irritability, poor concentration, and reduced productivity."
+     },
+     {
+      "t": "p",
+      "text": "Ayurvedic therapies help relax the mind, balance the nervous system, and promote healthy sleep patterns naturally."
+     },
+     {
+      "t": "h3",
+      "text": "Common Sleep Issues"
+     },
+     {
+      "t": "li",
+      "text": "Difficulty falling asleep"
+     },
+     {
+      "t": "li",
+      "text": "Frequent night awakenings"
+     },
+     {
+      "t": "li",
+      "text": "Poor sleep quality"
+     },
+     {
+      "t": "li",
+      "text": "Restless sleep"
+     },
+     {
+      "t": "li",
+      "text": "Chronic sleep deprivation"
+     }
+    ],
+    "imgs": [],
+    "links": []
+   },
+   {
+    "type": "heading",
+    "loc": "main",
+    "blocks": [
+     {
+      "t": "h2",
+      "text": "Emotional Imbalance"
+     }
+    ],
+    "imgs": [],
+    "links": []
+   },
+   {
+    "type": "text-editor",
+    "loc": "main",
+    "blocks": [
+     {
+      "t": "p",
+      "text": "Emotional imbalances can arise from stress, trauma, relationship challenges, lifestyle factors, and personal struggles. Ayurveda helps restore emotional stability by addressing underlying mental and physical imbalances."
+     },
+     {
+      "t": "h3",
+      "text": "Common Concerns"
+     },
+     {
+      "t": "li",
+      "text": "Mood swings"
+     },
+     {
+      "t": "li",
+      "text": "Emotional sensitivity"
+     },
+     {
+      "t": "li",
+      "text": "Irritability"
+     },
+     {
+      "t": "li",
+      "text": "Lack of emotional control"
+     },
+     {
+      "t": "li",
+      "text": "Relationship stress"
+     }
+    ],
+    "imgs": [],
+    "links": []
+   },
+   {
+    "type": "image",
+    "loc": "main",
+    "blocks": [],
+    "imgs": [
+     {
+      "src": "https://trustayurved.com/wp-content/uploads/2026/06/image-19.png",
+      "alt": ""
+     }
+    ],
+    "links": []
+   },
+   {
+    "type": "image",
+    "loc": "main",
+    "blocks": [],
+    "imgs": [
+     {
+      "src": "https://trustayurved.com/wp-content/uploads/2026/06/image-18.png",
+      "alt": ""
+     }
+    ],
+    "links": []
+   },
+   {
+    "type": "heading",
+    "loc": "main",
+    "blocks": [
+     {
+      "t": "h2",
+      "text": "Burnout & Fatigue"
+     }
+    ],
+    "imgs": [],
+    "links": []
+   },
+   {
+    "type": "text-editor",
+    "loc": "main",
+    "blocks": [
+     {
+      "t": "p",
+      "text": "Continuous mental pressure, long working hours, and chronic stress can lead to burnout and exhaustion. Individuals experiencing burnout often feel emotionally drained, physically tired, and mentally overwhelmed."
+     },
+     {
+      "t": "p",
+      "text": "Our Ayurvedic wellness programs focus on rejuvenating the body, restoring mental energy, and improving overall vitality."
+     },
+     {
+      "t": "h3",
+      "text": "Common Symptoms"
+     },
+     {
+      "t": "li",
+      "text": "Constant tiredness"
+     },
+     {
+      "t": "li",
+      "text": "Lack of motivation"
+     },
+     {
+      "t": "li",
+      "text": "Reduced productivity"
+     },
+     {
+      "t": "li",
+      "text": "Mental exhaustion"
+     },
+     {
+      "t": "li",
+      "text": "Physical weakness"
+     }
+    ],
+    "imgs": [],
+    "links": []
+   },
+   {
+    "type": "heading",
+    "loc": "footer",
+    "blocks": [
+     {
+      "t": "h2",
+      "text": "Connect with"
+     },
+     {
+      "t": "h2",
+      "text": "Shraddha Ayurvedic Clinic!"
+     }
+    ],
+    "imgs": [],
+    "links": []
+   },
+   {
+    "type": "icon-box",
+    "loc": "footer",
+    "blocks": [
+     {
+      "t": "h3",
+      "text": "info@shraddhaayurveda.com"
+     }
+    ],
+    "imgs": [],
+    "links": [
+     "mailto:info@shraddhaayurveda.com"
+    ]
+   },
+   {
+    "type": "text-editor",
+    "loc": "footer",
+    "blocks": [
+     {
+      "t": "p",
+      "text": "Shraddha Ayurvedic Clinic is dedicated to providing authentic Ayurvedic treatments, Panchakarma therapies, and holistic wellness solutions for complete physical, mental, and emotional healing naturally."
+     }
+    ],
+    "imgs": [],
+    "links": []
+   },
+   {
+    "type": "heading",
+    "loc": "footer",
+    "blocks": [
+     {
+      "t": "h2",
+      "text": "COMPANY"
+     }
+    ],
+    "imgs": [],
+    "links": []
+   },
+   {
+    "type": "icon-list",
+    "loc": "footer",
+    "blocks": [
+     {
+      "t": "li",
+      "text": "Home"
+     },
+     {
+      "t": "li",
+      "text": "About Us"
+     },
+     {
+      "t": "li",
+      "text": "Contact Us"
+     }
+    ],
+    "imgs": [],
+    "links": [
+     "https://trustayurved.com/",
+     "https://trustayurved.com/about/",
+     "https://trustayurved.com/contact/"
+    ]
+   },
+   {
+    "type": "heading",
+    "loc": "footer",
+    "blocks": [
+     {
+      "t": "h2",
+      "text": "PAGES"
+     }
+    ],
+    "imgs": [],
+    "links": []
+   },
+   {
+    "type": "icon-list",
+    "loc": "footer",
+    "blocks": [
+     {
+      "t": "li",
+      "text": "Blog"
+     },
+     {
+      "t": "li",
+      "text": "Gallery"
+     },
+     {
+      "t": "li",
+      "text": "FAQ"
+     }
+    ],
+    "imgs": [],
+    "links": [
+     "https://trustayurved.com/blog/",
+     "https://trustayurved.com/gallery/",
+     "https://trustayurved.com/faq"
+    ]
+   },
+   {
+    "type": "heading",
+    "loc": "footer",
+    "blocks": [
+     {
+      "t": "h2",
+      "text": "POLICIES"
+     }
+    ],
+    "imgs": [],
+    "links": []
+   },
+   {
+    "type": "icon-list",
+    "loc": "footer",
+    "blocks": [
+     {
+      "t": "li",
+      "text": "Privacy Policy"
+     },
+     {
+      "t": "li",
+      "text": "Terms Condition"
+     }
+    ],
+    "imgs": [],
+    "links": [
+     "https://trustayurved.com/privacy-policy/",
+     "https://trustayurved.com/terms-condition/"
+    ]
+   },
+   {
+    "type": "heading",
+    "loc": "footer",
+    "blocks": [
+     {
+      "t": "h2",
+      "text": "© 2026 Shraddha Ayurvedic Clinic All rights reserved."
+     }
+    ],
+    "imgs": [],
+    "links": []
+   },
+   {
+    "type": "heading",
+    "loc": "footer",
+    "blocks": [
+     {
+      "t": "h2",
+      "text": "Natural Healing for Mind & Body!"
+     }
+    ],
+    "imgs": [],
+    "links": []
+   }
+  ],
+  "maps": []
+ },
+ "blog": {
+  "path": "/blog/",
+  "title": "Blog – Shraddha Ayurvedic Clinic",
+  "description": "",
+  "widgets": [
+   {
+    "type": "heading",
+    "loc": "main",
+    "blocks": [
+     {
+      "t": "h2",
+      "text": "Our Blogs"
+     }
+    ],
+    "imgs": [],
+    "links": []
+   },
+   {
+    "type": "posts.classic",
+    "loc": "main",
+    "blocks": [
+     {
+      "t": "h3",
+      "text": "Managing Stress and Anxiety Naturally with Ayurveda"
+     },
+     {
+      "t": "p",
+      "text": "May 29, 2026"
+     },
+     {
+      "t": "p",
+      "text": "Stress has become one of the most common health concerns in today’s fast-paced world. Work pressure, financial responsibilities, family commitments,"
+     },
+     {
+      "t": "p",
+      "text": "Read More"
+     },
+     {
+      "t": "h3",
+      "text": "Panchakarma Therapy: The Ayurvedic Secret to Detoxification and Rejuvenation"
+     },
+     {
+      "t": "p",
+      "text": "May 29, 2026"
+     },
+     {
+      "t": "p",
+      "text": "Modern lifestyles often expose us to stress, unhealthy eating habits, pollution, and irregular routines. Over time, these factors can lead"
+     },
+     {
+      "t": "p",
+      "text": "Read More"
+     },
+     {
+      "t": "h3",
+      "text": "The Power of Ayurveda: A Natural Path to Complete Wellness"
+     },
+     {
+      "t": "p",
+      "text": "May 29, 2026"
+     },
+     {
+      "t": "p",
+      "text": "In today’s fast-paced world, people are increasingly facing health challenges such as stress, digestive disorders, obesity, diabetes, insomnia, and chronic"
+     },
+     {
+      "t": "p",
+      "text": "Read More"
+     }
+    ],
+    "imgs": [],
+    "links": [
+     "https://trustayurved.com/2026/05/29/managing-stress-and-anxiety-naturally-with-ayurveda/",
+     "https://trustayurved.com/2026/05/29/panchakarma-therapy-the-ayurvedic-secret-to-detoxification-and-rejuvenation/",
+     "https://trustayurved.com/2026/05/29/the-power-of-ayurveda-a-natural-path-to-complete-wellness/"
+    ]
+   },
+   {
+    "type": "heading",
+    "loc": "footer",
+    "blocks": [
+     {
+      "t": "h2",
+      "text": "Connect with"
+     },
+     {
+      "t": "h2",
+      "text": "Shraddha Ayurvedic Clinic!"
+     }
+    ],
+    "imgs": [],
+    "links": []
+   },
+   {
+    "type": "icon-box",
+    "loc": "footer",
+    "blocks": [
+     {
+      "t": "h3",
+      "text": "info@shraddhaayurveda.com"
+     }
+    ],
+    "imgs": [],
+    "links": [
+     "mailto:info@shraddhaayurveda.com"
+    ]
+   },
+   {
+    "type": "text-editor",
+    "loc": "footer",
+    "blocks": [
+     {
+      "t": "p",
+      "text": "Shraddha Ayurvedic Clinic is dedicated to providing authentic Ayurvedic treatments, Panchakarma therapies, and holistic wellness solutions for complete physical, mental, and emotional healing naturally."
+     }
+    ],
+    "imgs": [],
+    "links": []
+   },
+   {
+    "type": "heading",
+    "loc": "footer",
+    "blocks": [
+     {
+      "t": "h2",
+      "text": "COMPANY"
+     }
+    ],
+    "imgs": [],
+    "links": []
+   },
+   {
+    "type": "icon-list",
+    "loc": "footer",
+    "blocks": [
+     {
+      "t": "li",
+      "text": "Home"
+     },
+     {
+      "t": "li",
+      "text": "About Us"
+     },
+     {
+      "t": "li",
+      "text": "Contact Us"
+     }
+    ],
+    "imgs": [],
+    "links": [
+     "https://trustayurved.com/",
+     "https://trustayurved.com/about/",
+     "https://trustayurved.com/contact/"
+    ]
+   },
+   {
+    "type": "heading",
+    "loc": "footer",
+    "blocks": [
+     {
+      "t": "h2",
+      "text": "PAGES"
+     }
+    ],
+    "imgs": [],
+    "links": []
+   },
+   {
+    "type": "icon-list",
+    "loc": "footer",
+    "blocks": [
+     {
+      "t": "li",
+      "text": "Blog"
+     },
+     {
+      "t": "li",
+      "text": "Gallery"
+     },
+     {
+      "t": "li",
+      "text": "FAQ"
+     }
+    ],
+    "imgs": [],
+    "links": [
+     "https://trustayurved.com/blog/",
+     "https://trustayurved.com/gallery/",
+     "https://trustayurved.com/faq"
+    ]
+   },
+   {
+    "type": "heading",
+    "loc": "footer",
+    "blocks": [
+     {
+      "t": "h2",
+      "text": "POLICIES"
+     }
+    ],
+    "imgs": [],
+    "links": []
+   },
+   {
+    "type": "icon-list",
+    "loc": "footer",
+    "blocks": [
+     {
+      "t": "li",
+      "text": "Privacy Policy"
+     },
+     {
+      "t": "li",
+      "text": "Terms Condition"
+     }
+    ],
+    "imgs": [],
+    "links": [
+     "https://trustayurved.com/privacy-policy/",
+     "https://trustayurved.com/terms-condition/"
+    ]
+   },
+   {
+    "type": "heading",
+    "loc": "footer",
+    "blocks": [
+     {
+      "t": "h2",
+      "text": "© 2026 Shraddha Ayurvedic Clinic All rights reserved."
+     }
+    ],
+    "imgs": [],
+    "links": []
+   },
+   {
+    "type": "heading",
+    "loc": "footer",
+    "blocks": [
+     {
+      "t": "h2",
+      "text": "Natural Healing for Mind & Body!"
+     }
+    ],
+    "imgs": [],
+    "links": []
+   }
+  ],
+  "maps": []
+ },
+ "gallery": {
+  "path": "/gallery/",
+  "title": "Gallery – Shraddha Ayurvedic Clinic",
+  "description": "",
+  "widgets": [
+   {
+    "type": "heading",
+    "loc": "main",
+    "blocks": [
+     {
+      "t": "h2",
+      "text": "Gallery"
+     }
+    ],
+    "imgs": [],
+    "links": []
+   },
+   {
+    "type": "gallery",
+    "loc": "main",
+    "blocks": [],
+    "imgs": [],
+    "links": [
+     "https://trustayurved.com/wp-content/uploads/2026/05/WhatsApp-Image-2023-03-31-at-3.47.10-PM.jpeg",
+     "https://trustayurved.com/wp-content/uploads/2026/05/WhatsApp-Image-2023-03-31-at-3.47.03-PM-1.jpeg",
+     "https://trustayurved.com/wp-content/uploads/2026/05/WhatsApp-Image-2023-03-31-at-3.47.08-PM-1.jpeg",
+     "https://trustayurved.com/wp-content/uploads/2026/05/WhatsApp-Image-2023-03-31-at-3.46.57-PM-2.jpeg",
+     "https://trustayurved.com/wp-content/uploads/2026/05/WhatsApp-Image-2023-03-31-at-3.46.57-PM-1-1.jpeg",
+     "https://trustayurved.com/wp-content/uploads/2026/05/WhatsApp-Image-2023-03-31-at-3.46.58-PM-1.jpeg",
+     "https://trustayurved.com/wp-content/uploads/2026/05/WhatsApp-Image-2023-03-31-at-3.46.59-PM.jpeg",
+     "https://trustayurved.com/wp-content/uploads/2026/05/WhatsApp-Image-2023-03-31-at-3.47.07-PM-1.jpeg",
+     "https://trustayurved.com/wp-content/uploads/2026/05/WhatsApp-Image-2023-03-31-at-3.46.56-PM-1-1.jpeg",
+     "https://trustayurved.com/wp-content/uploads/2026/05/IMG-20220816-WA0011.jpg",
+     "https://trustayurved.com/wp-content/uploads/2026/05/IMG-20210624-WA0007.jpg",
+     "https://trustayurved.com/wp-content/uploads/2026/05/IMG-20210729-WA0004.jpg",
+     "https://trustayurved.com/wp-content/uploads/2026/05/IMG-20210723-WA0056.jpg",
+     "https://trustayurved.com/wp-content/uploads/2026/05/IMG-20221113-WA0001.jpg",
+     "https://trustayurved.com/wp-content/uploads/2026/05/IMG-20201026-WA0024.jpg",
+     "https://trustayurved.com/wp-content/uploads/2026/05/IMG-20210729-WA0002.jpg",
+     "https://trustayurved.com/wp-content/uploads/2026/05/IMG-20211123-WA0037.jpg",
+     "https://trustayurved.com/wp-content/uploads/2026/05/IMG-20210421-WA0014.jpg",
+     "https://trustayurved.com/wp-content/uploads/2026/05/IMG-20210421-WA0016.jpg",
+     "https://trustayurved.com/wp-content/uploads/2026/05/IMG-20211121-WA0027.jpg",
+     "https://trustayurved.com/wp-content/uploads/2026/05/IMG-20211123-WA0040.jpg",
+     "https://trustayurved.com/wp-content/uploads/2026/05/IMG-20221003-WA0013.jpg",
+     "https://trustayurved.com/wp-content/uploads/2026/05/IMG-20221217-WA0002.jpg",
+     "https://trustayurved.com/wp-content/uploads/2026/05/IMG-20221123-WA0027.jpg",
+     "https://trustayurved.com/wp-content/uploads/2026/05/IMG-20210729-WA0001.jpg",
+     "https://trustayurved.com/wp-content/uploads/2026/05/IMG-20221123-WA0026.jpg",
+     "https://trustayurved.com/wp-content/uploads/2026/05/IMG-20221217-WA0004.jpg",
+     "https://trustayurved.com/wp-content/uploads/2026/05/IMG-20211121-WA0014.jpg",
+     "https://trustayurved.com/wp-content/uploads/2026/05/IMG-20221112-WA0006.jpg",
+     "https://trustayurved.com/wp-content/uploads/2026/05/WhatsApp-Image-2023-03-31-at-3.47.16-PM.jpeg",
+     "https://trustayurved.com/wp-content/uploads/2026/05/WhatsApp-Image-2023-03-31-at-3.46.58-PM.jpeg",
+     "https://trustayurved.com/wp-content/uploads/2026/05/WhatsApp-Image-2023-03-31-at-3.47.07-PM.jpeg",
+     "https://trustayurved.com/wp-content/uploads/2026/05/WhatsApp-Image-2023-03-31-at-3.46.56-PM-1.jpeg",
+     "https://trustayurved.com/wp-content/uploads/2026/05/WhatsApp-Image-2023-03-31-at-3.47.03-PM.jpeg",
+     "https://trustayurved.com/wp-content/uploads/2026/05/WhatsApp-Image-2023-03-31-at-3.47.08-PM.jpeg",
+     "https://trustayurved.com/wp-content/uploads/2026/05/WhatsApp-Image-2023-03-31-at-3.46.57-PM.jpeg",
+     "https://trustayurved.com/wp-content/uploads/2026/05/WhatsApp-Image-2023-03-31-at-3.46.57-PM-1.jpeg"
+    ]
+   },
+   {
+    "type": "heading",
+    "loc": "footer",
+    "blocks": [
+     {
+      "t": "h2",
+      "text": "Connect with"
+     },
+     {
+      "t": "h2",
+      "text": "Shraddha Ayurvedic Clinic!"
+     }
+    ],
+    "imgs": [],
+    "links": []
+   },
+   {
+    "type": "icon-box",
+    "loc": "footer",
+    "blocks": [
+     {
+      "t": "h3",
+      "text": "info@shraddhaayurveda.com"
+     }
+    ],
+    "imgs": [],
+    "links": [
+     "mailto:info@shraddhaayurveda.com"
+    ]
+   },
+   {
+    "type": "text-editor",
+    "loc": "footer",
+    "blocks": [
+     {
+      "t": "p",
+      "text": "Shraddha Ayurvedic Clinic is dedicated to providing authentic Ayurvedic treatments, Panchakarma therapies, and holistic wellness solutions for complete physical, mental, and emotional healing naturally."
+     }
+    ],
+    "imgs": [],
+    "links": []
+   },
+   {
+    "type": "heading",
+    "loc": "footer",
+    "blocks": [
+     {
+      "t": "h2",
+      "text": "COMPANY"
+     }
+    ],
+    "imgs": [],
+    "links": []
+   },
+   {
+    "type": "icon-list",
+    "loc": "footer",
+    "blocks": [
+     {
+      "t": "li",
+      "text": "Home"
+     },
+     {
+      "t": "li",
+      "text": "About Us"
+     },
+     {
+      "t": "li",
+      "text": "Contact Us"
+     }
+    ],
+    "imgs": [],
+    "links": [
+     "https://trustayurved.com/",
+     "https://trustayurved.com/about/",
+     "https://trustayurved.com/contact/"
+    ]
+   },
+   {
+    "type": "heading",
+    "loc": "footer",
+    "blocks": [
+     {
+      "t": "h2",
+      "text": "PAGES"
+     }
+    ],
+    "imgs": [],
+    "links": []
+   },
+   {
+    "type": "icon-list",
+    "loc": "footer",
+    "blocks": [
+     {
+      "t": "li",
+      "text": "Blog"
+     },
+     {
+      "t": "li",
+      "text": "Gallery"
+     },
+     {
+      "t": "li",
+      "text": "FAQ"
+     }
+    ],
+    "imgs": [],
+    "links": [
+     "https://trustayurved.com/blog/",
+     "https://trustayurved.com/gallery/",
+     "https://trustayurved.com/faq"
+    ]
+   },
+   {
+    "type": "heading",
+    "loc": "footer",
+    "blocks": [
+     {
+      "t": "h2",
+      "text": "POLICIES"
+     }
+    ],
+    "imgs": [],
+    "links": []
+   },
+   {
+    "type": "icon-list",
+    "loc": "footer",
+    "blocks": [
+     {
+      "t": "li",
+      "text": "Privacy Policy"
+     },
+     {
+      "t": "li",
+      "text": "Terms Condition"
+     }
+    ],
+    "imgs": [],
+    "links": [
+     "https://trustayurved.com/privacy-policy/",
+     "https://trustayurved.com/terms-condition/"
+    ]
+   },
+   {
+    "type": "heading",
+    "loc": "footer",
+    "blocks": [
+     {
+      "t": "h2",
+      "text": "© 2026 Shraddha Ayurvedic Clinic All rights reserved."
+     }
+    ],
+    "imgs": [],
+    "links": []
+   },
+   {
+    "type": "heading",
+    "loc": "footer",
+    "blocks": [
+     {
+      "t": "h2",
+      "text": "Natural Healing for Mind & Body!"
+     }
+    ],
+    "imgs": [],
+    "links": []
+   }
+  ],
+  "maps": []
+ },
+ "contact": {
+  "path": "/contact/",
+  "title": "Contact – Shraddha Ayurvedic Clinic",
+  "description": "",
+  "widgets": [
+   {
+    "type": "heading",
+    "loc": "main",
+    "blocks": [
+     {
+      "t": "h2",
+      "text": "Contact Us"
+     }
+    ],
+    "imgs": [],
+    "links": []
+   },
+   {
+    "type": "wd_title",
+    "loc": "main",
+    "blocks": [
+     {
+      "t": "p",
+      "text": "CONTACT US"
+     },
+     {
+      "t": "h4",
+      "text": "Get in Touch"
+     }
+    ],
+    "imgs": [],
+    "links": []
+   },
+   {
+    "type": "text-editor",
+    "loc": "main",
+    "blocks": [
+     {
+      "t": "p",
+      "text": "At Shraddha Ayurvedic Clinic, we are committed to helping you achieve better health through authentic Ayurvedic care and holistic healing solutions. Whether you have questions about our treatments, Panchakarma therapies, consultations, or wellness programs, our team is here to assist you. We believe every healing journey begins with the right guidance, and we are dedicated to providing personalized support for your health and well-being. Reach out to us today to schedule a consultation and take the first step toward a healthier, balanced, and more fulfilling life."
+     }
+    ],
+    "imgs": [],
+    "links": []
+   },
+   {
+    "type": "divider",
+    "loc": "main",
+    "blocks": [],
+    "imgs": [],
+    "links": []
+   },
+   {
+    "type": "wd_list",
+    "loc": "main",
+    "blocks": [
+     {
+      "t": "li",
+      "text": "Flat No 1, Chetan Plaza, Beside Renuka Driving School, Opposite Roplekar Hospital, Samrat Nagar, Chatrapati Sambhajinagar, Maharashtra 431005"
+     },
+     {
+      "t": "li",
+      "text": "Varad polyclinic, Shivram smruti appartment 561, Shaniwar peth, opp hdfc bank ,above vrundavan fresh ,raman baug chowk, Pune 30"
+     },
+     {
+      "t": "li",
+      "text": "+91 9595450251"
+     },
+     {
+      "t": "li",
+      "text": "+91 9552561079"
+     },
+     {
+      "t": "li",
+      "text": "+91 9822303175"
+     },
+     {
+      "t": "li",
+      "text": "trustayurved@trustayurved.in"
+     }
+    ],
+    "imgs": [
+     {
+      "src": "https://trustayurved.com/wp-content/uploads/2026/05/location-black-png-10.png",
+      "alt": ""
+     },
+     {
+      "src": "https://trustayurved.com/wp-content/uploads/2026/05/location-black-png-10.png",
+      "alt": ""
+     },
+     {
+      "src": "https://trustayurved.com/wp-content/uploads/2025/09/telephone.png",
+      "alt": ""
+     },
+     {
+      "src": "https://trustayurved.com/wp-content/uploads/2025/09/telephone.png",
+      "alt": ""
+     },
+     {
+      "src": "https://trustayurved.com/wp-content/uploads/2025/09/telephone.png",
+      "alt": ""
+     },
+     {
+      "src": "https://trustayurved.com/wp-content/uploads/2025/09/email-1.png",
+      "alt": ""
+     }
+    ],
+    "links": [
+     "mailto:trustayurved@trustayurved.in"
+    ]
+   },
+   {
+    "type": "wd_title",
+    "loc": "main",
+    "blocks": [
+     {
+      "t": "p",
+      "text": "INFORMATION ABOUT US"
+     },
+     {
+      "t": "h4",
+      "text": "CONTACT US FOR ANY QUESTIONS"
+     }
+    ],
+    "imgs": [],
+    "links": []
+   },
+   {
+    "type": "form",
+    "loc": "main",
+    "blocks": [],
+    "imgs": [],
+    "links": []
+   },
+   {
+    "type": "google_maps",
+    "loc": "main",
+    "blocks": [],
+    "imgs": [],
+    "links": []
+   },
+   {
+    "type": "google_maps",
+    "loc": "main",
+    "blocks": [],
+    "imgs": [],
+    "links": []
+   },
+   {
+    "type": "heading",
+    "loc": "footer",
+    "blocks": [
+     {
+      "t": "h2",
+      "text": "Connect with"
+     },
+     {
+      "t": "h2",
+      "text": "Shraddha Ayurvedic Clinic!"
+     }
+    ],
+    "imgs": [],
+    "links": []
+   },
+   {
+    "type": "icon-box",
+    "loc": "footer",
+    "blocks": [
+     {
+      "t": "h3",
+      "text": "info@shraddhaayurveda.com"
+     }
+    ],
+    "imgs": [],
+    "links": [
+     "mailto:info@shraddhaayurveda.com"
+    ]
+   },
+   {
+    "type": "text-editor",
+    "loc": "footer",
+    "blocks": [
+     {
+      "t": "p",
+      "text": "Shraddha Ayurvedic Clinic is dedicated to providing authentic Ayurvedic treatments, Panchakarma therapies, and holistic wellness solutions for complete physical, mental, and emotional healing naturally."
+     }
+    ],
+    "imgs": [],
+    "links": []
+   },
+   {
+    "type": "heading",
+    "loc": "footer",
+    "blocks": [
+     {
+      "t": "h2",
+      "text": "COMPANY"
+     }
+    ],
+    "imgs": [],
+    "links": []
+   },
+   {
+    "type": "icon-list",
+    "loc": "footer",
+    "blocks": [
+     {
+      "t": "li",
+      "text": "Home"
+     },
+     {
+      "t": "li",
+      "text": "About Us"
+     },
+     {
+      "t": "li",
+      "text": "Contact Us"
+     }
+    ],
+    "imgs": [],
+    "links": [
+     "https://trustayurved.com/",
+     "https://trustayurved.com/about/",
+     "https://trustayurved.com/contact/"
+    ]
+   },
+   {
+    "type": "heading",
+    "loc": "footer",
+    "blocks": [
+     {
+      "t": "h2",
+      "text": "PAGES"
+     }
+    ],
+    "imgs": [],
+    "links": []
+   },
+   {
+    "type": "icon-list",
+    "loc": "footer",
+    "blocks": [
+     {
+      "t": "li",
+      "text": "Blog"
+     },
+     {
+      "t": "li",
+      "text": "Gallery"
+     },
+     {
+      "t": "li",
+      "text": "FAQ"
+     }
+    ],
+    "imgs": [],
+    "links": [
+     "https://trustayurved.com/blog/",
+     "https://trustayurved.com/gallery/",
+     "https://trustayurved.com/faq"
+    ]
+   },
+   {
+    "type": "heading",
+    "loc": "footer",
+    "blocks": [
+     {
+      "t": "h2",
+      "text": "POLICIES"
+     }
+    ],
+    "imgs": [],
+    "links": []
+   },
+   {
+    "type": "icon-list",
+    "loc": "footer",
+    "blocks": [
+     {
+      "t": "li",
+      "text": "Privacy Policy"
+     },
+     {
+      "t": "li",
+      "text": "Terms Condition"
+     }
+    ],
+    "imgs": [],
+    "links": [
+     "https://trustayurved.com/privacy-policy/",
+     "https://trustayurved.com/terms-condition/"
+    ]
+   },
+   {
+    "type": "heading",
+    "loc": "footer",
+    "blocks": [
+     {
+      "t": "h2",
+      "text": "© 2026 Shraddha Ayurvedic Clinic All rights reserved."
+     }
+    ],
+    "imgs": [],
+    "links": []
+   },
+   {
+    "type": "heading",
+    "loc": "footer",
+    "blocks": [
+     {
+      "t": "h2",
+      "text": "Natural Healing for Mind & Body!"
+     }
+    ],
+    "imgs": [],
+    "links": []
+   }
+  ],
+  "maps": [
+   "https://maps.google.com/maps?q=Flat%20No%201%2C%20Chetan%20Plaza%2C%20Beside%20%20Renuka%20Driving%20School%2C%20Opposite%20Roplekar%20Hospital%2C%20Samrat%20Nagar%2C%20%20Chatrapati%20Sambhajinagar%2C%20Maharashtra%20431005&t=m&z=10&output=embed&iwloc=near",
+   "https://maps.google.com/maps?q=Varad%20polyclinic%2C%20Shivram%20smruti%20appartment%20561%2C%20%20Shaniwar%20peth%2C%20opp%20hdfc%20bank%20%2Cabove%20vrundavan%20fresh%20%2Craman%20baug%20chowk%2C%20%20Pune%2030&t=m&z=10&output=embed&iwloc=near"
+  ]
+ },
+ "compare": {
+  "path": "/compare/",
+  "title": "Compare – Shraddha Ayurvedic Clinic",
+  "description": "",
+  "widgets": [
+   {
+    "type": "heading",
+    "loc": "main",
+    "blocks": [
+     {
+      "t": "h2",
+      "text": "Compare"
+     }
+    ],
+    "imgs": [],
+    "links": []
+   },
+   {
+    "type": "text-editor",
+    "loc": "main",
+    "blocks": [],
+    "imgs": [],
+    "links": []
+   },
+   {
+    "type": "heading",
+    "loc": "footer",
+    "blocks": [
+     {
+      "t": "h2",
+      "text": "Connect with"
+     },
+     {
+      "t": "h2",
+      "text": "Shraddha Ayurvedic Clinic!"
+     }
+    ],
+    "imgs": [],
+    "links": []
+   },
+   {
+    "type": "icon-box",
+    "loc": "footer",
+    "blocks": [
+     {
+      "t": "h3",
+      "text": "info@shraddhaayurveda.com"
+     }
+    ],
+    "imgs": [],
+    "links": [
+     "mailto:info@shraddhaayurveda.com"
+    ]
+   },
+   {
+    "type": "text-editor",
+    "loc": "footer",
+    "blocks": [
+     {
+      "t": "p",
+      "text": "Shraddha Ayurvedic Clinic is dedicated to providing authentic Ayurvedic treatments, Panchakarma therapies, and holistic wellness solutions for complete physical, mental, and emotional healing naturally."
+     }
+    ],
+    "imgs": [],
+    "links": []
+   },
+   {
+    "type": "heading",
+    "loc": "footer",
+    "blocks": [
+     {
+      "t": "h2",
+      "text": "COMPANY"
+     }
+    ],
+    "imgs": [],
+    "links": []
+   },
+   {
+    "type": "icon-list",
+    "loc": "footer",
+    "blocks": [
+     {
+      "t": "li",
+      "text": "Home"
+     },
+     {
+      "t": "li",
+      "text": "About Us"
+     },
+     {
+      "t": "li",
+      "text": "Contact Us"
+     }
+    ],
+    "imgs": [],
+    "links": [
+     "https://trustayurved.com/",
+     "https://trustayurved.com/about/",
+     "https://trustayurved.com/contact/"
+    ]
+   },
+   {
+    "type": "heading",
+    "loc": "footer",
+    "blocks": [
+     {
+      "t": "h2",
+      "text": "PAGES"
+     }
+    ],
+    "imgs": [],
+    "links": []
+   },
+   {
+    "type": "icon-list",
+    "loc": "footer",
+    "blocks": [
+     {
+      "t": "li",
+      "text": "Blog"
+     },
+     {
+      "t": "li",
+      "text": "Gallery"
+     },
+     {
+      "t": "li",
+      "text": "FAQ"
+     }
+    ],
+    "imgs": [],
+    "links": [
+     "https://trustayurved.com/blog/",
+     "https://trustayurved.com/gallery/",
+     "https://trustayurved.com/faq"
+    ]
+   },
+   {
+    "type": "heading",
+    "loc": "footer",
+    "blocks": [
+     {
+      "t": "h2",
+      "text": "POLICIES"
+     }
+    ],
+    "imgs": [],
+    "links": []
+   },
+   {
+    "type": "icon-list",
+    "loc": "footer",
+    "blocks": [
+     {
+      "t": "li",
+      "text": "Privacy Policy"
+     },
+     {
+      "t": "li",
+      "text": "Terms Condition"
+     }
+    ],
+    "imgs": [],
+    "links": [
+     "https://trustayurved.com/privacy-policy/",
+     "https://trustayurved.com/terms-condition/"
+    ]
+   },
+   {
+    "type": "heading",
+    "loc": "footer",
+    "blocks": [
+     {
+      "t": "h2",
+      "text": "© 2026 Shraddha Ayurvedic Clinic All rights reserved."
+     }
+    ],
+    "imgs": [],
+    "links": []
+   },
+   {
+    "type": "heading",
+    "loc": "footer",
+    "blocks": [
+     {
+      "t": "h2",
+      "text": "Natural Healing for Mind & Body!"
+     }
+    ],
+    "imgs": [],
+    "links": []
+   }
+  ],
+  "maps": []
+ },
+ "faq": {
+  "path": "/faq/",
+  "title": "FAQ – Shraddha Ayurvedic Clinic",
+  "description": "",
+  "widgets": [
+   {
+    "type": "heading",
+    "loc": "main",
+    "blocks": [
+     {
+      "t": "h2",
+      "text": "FAQ"
+     }
+    ],
+    "imgs": [],
+    "links": []
+   },
+   {
+    "type": "wd_accordion",
+    "loc": "main",
+    "blocks": [
+     {
+      "t": "p",
+      "text": "What is Ayurveda?"
+     },
+     {
+      "t": "p",
+      "text": "Ayurveda is an ancient Indian system of natural healing that focuses on balancing the body, mind, and soul through herbal medicines, therapies, diet, and lifestyle modifications."
+     },
+     {
+      "t": "p",
+      "text": "What conditions do you treat at Shraddha Ayurvedic Clinic?"
+     },
+     {
+      "t": "p",
+      "text": "We provide Ayurvedic treatment for diabetes, digestive disorders, joint pain, arthritis, skin diseases, stress, anxiety, obesity, hormonal imbalance, hair problems, and many chronic lifestyle disorders."
+     },
+     {
+      "t": "p",
+      "text": "What is Panchakarma therapy?"
+     },
+     {
+      "t": "p",
+      "text": "Panchakarma is a detoxification and rejuvenation treatment in Ayurveda that helps remove toxins from the body, improve immunity, and restore internal balance naturally."
+     },
+     {
+      "t": "p",
+      "text": "Are Ayurvedic treatments safe?"
+     },
+     {
+      "t": "p",
+      "text": "Yes, Ayurvedic treatments are natural and generally safe when prescribed by qualified Ayurvedic doctors based on an individual’s body constitution and health condition."
+     },
+     {
+      "t": "p",
+      "text": "Do you provide personalized treatment plans?"
+     },
+     {
+      "t": "p",
+      "text": "Yes, every patient receives a customized treatment plan based on Dosha analysis, medical history, lifestyle, and overall health condition."
+     },
+     {
+      "t": "p",
+      "text": "Can Ayurveda help with stress and mental health issues?"
+     },
+     {
+      "t": "p",
+      "text": "Yes, Ayurveda offers effective therapies for stress, anxiety, insomnia, emotional imbalance, burnout, and mental wellness through herbal medicines, Panchakarma, meditation, and lifestyle guidance."
+     },
+     {
+      "t": "p",
+      "text": "How long does Ayurvedic treatment take to show results?"
+     },
+     {
+      "t": "p",
+      "text": "The duration depends on the patient’s condition, severity, and body response. Ayurveda focuses on root-cause healing, so results are gradual, natural, and long-lasting."
+     },
+     {
+      "t": "p",
+      "text": "Do you offer treatments for skin and hair problems?"
+     },
+     {
+      "t": "p",
+      "text": "Yes, we provide Ayurvedic solutions for acne, eczema, psoriasis, pigmentation, dandruff, and hair fall using herbal therapies and detox treatments."
+     },
+     {
+      "t": "p",
+      "text": "Is prior appointment required before visiting?"
+     },
+     {
+      "t": "p",
+      "text": "Yes, we recommend booking an appointment in advance for proper consultation and personalized treatment guidance."
+     },
+     {
+      "t": "p",
+      "text": "Do you provide online consultation services?"
+     },
+     {
+      "t": "p",
+      "text": "Yes, online consultations may be available for selected health concerns and follow-up guidance. Please contact the clinic for more details."
+     }
+    ],
+    "imgs": [],
+    "links": []
+   },
+   {
+    "type": "heading",
+    "loc": "footer",
+    "blocks": [
+     {
+      "t": "h2",
+      "text": "Connect with"
+     },
+     {
+      "t": "h2",
+      "text": "Shraddha Ayurvedic Clinic!"
+     }
+    ],
+    "imgs": [],
+    "links": []
+   },
+   {
+    "type": "icon-box",
+    "loc": "footer",
+    "blocks": [
+     {
+      "t": "h3",
+      "text": "info@shraddhaayurveda.com"
+     }
+    ],
+    "imgs": [],
+    "links": [
+     "mailto:info@shraddhaayurveda.com"
+    ]
+   },
+   {
+    "type": "text-editor",
+    "loc": "footer",
+    "blocks": [
+     {
+      "t": "p",
+      "text": "Shraddha Ayurvedic Clinic is dedicated to providing authentic Ayurvedic treatments, Panchakarma therapies, and holistic wellness solutions for complete physical, mental, and emotional healing naturally."
+     }
+    ],
+    "imgs": [],
+    "links": []
+   },
+   {
+    "type": "heading",
+    "loc": "footer",
+    "blocks": [
+     {
+      "t": "h2",
+      "text": "COMPANY"
+     }
+    ],
+    "imgs": [],
+    "links": []
+   },
+   {
+    "type": "icon-list",
+    "loc": "footer",
+    "blocks": [
+     {
+      "t": "li",
+      "text": "Home"
+     },
+     {
+      "t": "li",
+      "text": "About Us"
+     },
+     {
+      "t": "li",
+      "text": "Contact Us"
+     }
+    ],
+    "imgs": [],
+    "links": [
+     "https://trustayurved.com/",
+     "https://trustayurved.com/about/",
+     "https://trustayurved.com/contact/"
+    ]
+   },
+   {
+    "type": "heading",
+    "loc": "footer",
+    "blocks": [
+     {
+      "t": "h2",
+      "text": "PAGES"
+     }
+    ],
+    "imgs": [],
+    "links": []
+   },
+   {
+    "type": "icon-list",
+    "loc": "footer",
+    "blocks": [
+     {
+      "t": "li",
+      "text": "Blog"
+     },
+     {
+      "t": "li",
+      "text": "Gallery"
+     },
+     {
+      "t": "li",
+      "text": "FAQ"
+     }
+    ],
+    "imgs": [],
+    "links": [
+     "https://trustayurved.com/blog/",
+     "https://trustayurved.com/gallery/",
+     "https://trustayurved.com/faq"
+    ]
+   },
+   {
+    "type": "heading",
+    "loc": "footer",
+    "blocks": [
+     {
+      "t": "h2",
+      "text": "POLICIES"
+     }
+    ],
+    "imgs": [],
+    "links": []
+   },
+   {
+    "type": "icon-list",
+    "loc": "footer",
+    "blocks": [
+     {
+      "t": "li",
+      "text": "Privacy Policy"
+     },
+     {
+      "t": "li",
+      "text": "Terms Condition"
+     }
+    ],
+    "imgs": [],
+    "links": [
+     "https://trustayurved.com/privacy-policy/",
+     "https://trustayurved.com/terms-condition/"
+    ]
+   },
+   {
+    "type": "heading",
+    "loc": "footer",
+    "blocks": [
+     {
+      "t": "h2",
+      "text": "© 2026 Shraddha Ayurvedic Clinic All rights reserved."
+     }
+    ],
+    "imgs": [],
+    "links": []
+   },
+   {
+    "type": "heading",
+    "loc": "footer",
+    "blocks": [
+     {
+      "t": "h2",
+      "text": "Natural Healing for Mind & Body!"
+     }
+    ],
+    "imgs": [],
+    "links": []
+   }
+  ],
+  "maps": []
+ },
+ "privacy-policy": {
+  "path": "/privacy-policy/",
+  "title": "Privacy Policy – Shraddha Ayurvedic Clinic",
+  "description": "",
+  "widgets": [
+   {
+    "type": "heading",
+    "loc": "main",
+    "blocks": [
+     {
+      "t": "h2",
+      "text": "Privacy Policy"
+     }
+    ],
+    "imgs": [],
+    "links": []
+   },
+   {
+    "type": "text-editor",
+    "loc": "main",
+    "blocks": [
+     {
+      "t": "p",
+      "text": "Welcome to Shraddha Ayurvedic Clinic. We respect your privacy and are committed to protecting the personal information you share with us. This Privacy Policy explains how we collect, use, maintain, and protect your information when you visit our website, book appointments, submit inquiries, or use our healthcare services."
+     },
+     {
+      "t": "p",
+      "text": "By accessing our website or using our services, you agree to the terms outlined in this Privacy Policy."
+     },
+     {
+      "t": "h1",
+      "text": "1. Information We Collect"
+     },
+     {
+      "t": "p",
+      "text": "We may collect personal information that you voluntarily provide to us, including but not limited to:"
+     },
+     {
+      "t": "li",
+      "text": "Full Name"
+     },
+     {
+      "t": "li",
+      "text": "Phone Number"
+     },
+     {
+      "t": "li",
+      "text": "Email Address"
+     },
+     {
+      "t": "li",
+      "text": "Residential Address"
+     },
+     {
+      "t": "li",
+      "text": "Age and Gender"
+     },
+     {
+      "t": "li",
+      "text": "Health and Medical Information"
+     },
+     {
+      "t": "li",
+      "text": "Appointment Details"
+     },
+     {
+      "t": "li",
+      "text": "Any information submitted through contact forms, inquiry forms, or consultation forms"
+     },
+     {
+      "t": "p",
+      "text": "We may also automatically collect certain non-personal information such as:"
+     },
+     {
+      "t": "li",
+      "text": "IP Address"
+     },
+     {
+      "t": "li",
+      "text": "Browser Type"
+     },
+     {
+      "t": "li",
+      "text": "Device Information"
+     },
+     {
+      "t": "li",
+      "text": "Website Usage Statistics"
+     },
+     {
+      "t": "li",
+      "text": "Cookies and Tracking Data"
+     },
+     {
+      "t": "h1",
+      "text": "2. How We Use Your Information"
+     },
+     {
+      "t": "p",
+      "text": "The information collected may be used for the following purposes:"
+     },
+     {
+      "t": "li",
+      "text": "Scheduling and managing appointments"
+     },
+     {
+      "t": "li",
+      "text": "Providing Ayurvedic consultations and treatments"
+     },
+     {
+      "t": "li",
+      "text": "Responding to inquiries and support requests"
+     },
+     {
+      "t": "li",
+      "text": "Maintaining patient records"
+     },
+     {
+      "t": "li",
+      "text": "Sending appointment confirmations and reminders"
+     },
+     {
+      "t": "li",
+      "text": "Improving our healthcare services"
+     },
+     {
+      "t": "li",
+      "text": "Enhancing website performance and user experience"
+     },
+     {
+      "t": "li",
+      "text": "Complying with legal and regulatory obligations"
+     },
+     {
+      "t": "h1",
+      "text": "3. Medical Confidentiality"
+     },
+     {
+      "t": "p",
+      "text": "Shraddha Ayurvedic Clinic values patient confidentiality. Any medical or health-related information shared during consultations, treatments, or online submissions will be handled with the highest level of privacy and used solely for healthcare-related purposes."
+     },
+     {
+      "t": "p",
+      "text": "We do not disclose patient information to unauthorized individuals or organizations."
+     },
+     {
+      "t": "h1",
+      "text": "4. Cookies and Website Tracking"
+     },
+     {
+      "t": "p",
+      "text": "Our website may use cookies and similar technologies to:"
+     },
+     {
+      "t": "li",
+      "text": "Improve website functionality"
+     },
+     {
+      "t": "li",
+      "text": "Analyze website traffic"
+     },
+     {
+      "t": "li",
+      "text": "Enhance user experience"
+     },
+     {
+      "t": "li",
+      "text": "Remember user preferences"
+     },
+     {
+      "t": "p",
+      "text": "Users can modify browser settings to disable cookies; however, some website features may not function properly."
+     },
+     {
+      "t": "h1",
+      "text": "5. Information Sharing and Disclosure"
+     },
+     {
+      "t": "p",
+      "text": "We do not sell, rent, trade, or share your personal information with third parties for marketing purposes."
+     },
+     {
+      "t": "p",
+      "text": "Information may only be disclosed under the following circumstances:"
+     },
+     {
+      "t": "li",
+      "text": "When required by law or government authorities"
+     },
+     {
+      "t": "li",
+      "text": "To protect our legal rights and interests"
+     },
+     {
+      "t": "li",
+      "text": "To prevent fraud or security threats"
+     },
+     {
+      "t": "li",
+      "text": "With your explicit consent"
+     },
+     {
+      "t": "h1",
+      "text": "6. Data Security"
+     },
+     {
+      "t": "p",
+      "text": "We implement appropriate administrative, technical, and physical security measures to protect your personal information from unauthorized access, misuse, alteration, disclosure, or destruction."
+     },
+     {
+      "t": "p",
+      "text": "While we strive to use commercially acceptable means to protect your information, no method of internet transmission or electronic storage is completely secure."
+     },
+     {
+      "t": "h1",
+      "text": "7. Third-Party Services"
+     },
+     {
+      "t": "p",
+      "text": "Our website may use third-party services such as:"
+     },
+     {
+      "t": "li",
+      "text": "Website hosting providers"
+     },
+     {
+      "t": "li",
+      "text": "Analytics services"
+     },
+     {
+      "t": "li",
+      "text": "Contact form services"
+     },
+     {
+      "t": "li",
+      "text": "Appointment booking systems"
+     },
+     {
+      "t": "li",
+      "text": "Email communication platforms"
+     },
+     {
+      "t": "p",
+      "text": "These providers may have access only to the information necessary to perform their services and are obligated to maintain confidentiality."
+     },
+     {
+      "t": "h1",
+      "text": "8. External Links"
+     },
+     {
+      "t": "p",
+      "text": "Our website may contain links to third-party websites, including Google Maps, healthcare resources, and other informational websites."
+     },
+     {
+      "t": "p",
+      "text": "We are not responsible for the privacy practices, content, or policies of external websites. Users are encouraged to review the privacy policies of any third-party sites they visit."
+     },
+     {
+      "t": "h1",
+      "text": "9. Your Rights"
+     },
+     {
+      "t": "p",
+      "text": "You have the right to:"
+     },
+     {
+      "t": "li",
+      "text": "Request access to your personal information"
+     },
+     {
+      "t": "li",
+      "text": "Request correction of inaccurate information"
+     },
+     {
+      "t": "li",
+      "text": "Update your contact details"
+     },
+     {
+      "t": "li",
+      "text": "Request deletion of information where legally permissible"
+     },
+     {
+      "t": "li",
+      "text": "Withdraw consent for certain communications"
+     },
+     {
+      "t": "p",
+      "text": "To exercise these rights, please contact us using the details provided below."
+     },
+     {
+      "t": "h1",
+      "text": "10. Children’s Privacy"
+     },
+     {
+      "t": "p",
+      "text": "Our services are not specifically directed toward children under the age of 18 without parental or guardian supervision. We do not knowingly collect personal information from minors without appropriate consent."
+     },
+     {
+      "t": "h1",
+      "text": "11. Changes to This Privacy Policy"
+     },
+     {
+      "t": "p",
+      "text": "Shraddha Ayurvedic Clinic reserves the right to update, modify, or revise this Privacy Policy at any time without prior notice."
+     },
+     {
+      "t": "p",
+      "text": "Any changes will be posted on this page along with the updated effective date. Continued use of our website and services constitutes acceptance of the revised Privacy Policy."
+     },
+     {
+      "t": "h1",
+      "text": "12. Contact Information"
+     },
+     {
+      "t": "p",
+      "text": "If you have any questions regarding this Privacy Policy or the handling of your personal information, please contact us:"
+     },
+     {
+      "t": "h3",
+      "text": "Shraddha Ayurvedic Clinic"
+     },
+     {
+      "t": "h4",
+      "text": "Chhatrapati Sambhajinagar Clinic"
+     },
+     {
+      "t": "p",
+      "text": "Flat No. 1, Chetan Plaza, Beside Renuka Driving School, Opposite Roplekar Hospital, Samrat Nagar, Chhatrapati Sambhajinagar, Maharashtra – 431005"
+     },
+     {
+      "t": "p",
+      "text": "Phone: 0240-2344854, +91 9822303175, +91 9595450251, +91 9552561079"
+     },
+     {
+      "t": "h4",
+      "text": "Pune Clinic"
+     },
+     {
+      "t": "p",
+      "text": "Varad Polyclinic, Shivram Smruti Apartment, 561, Shaniwar Peth, Opp. HDFC Bank, Above Vrundavan Fresh, Raman Baug Chowk, Pune, Maharashtra – 411030"
+     },
+     {
+      "t": "p",
+      "text": "Phone: +91 9822303175"
+     },
+     {
+      "t": "p",
+      "text": "Email: info@shraddhaayurveda.com"
+     }
+    ],
+    "imgs": [],
+    "links": []
+   },
+   {
+    "type": "heading",
+    "loc": "footer",
+    "blocks": [
+     {
+      "t": "h2",
+      "text": "Connect with"
+     },
+     {
+      "t": "h2",
+      "text": "Shraddha Ayurvedic Clinic!"
+     }
+    ],
+    "imgs": [],
+    "links": []
+   },
+   {
+    "type": "icon-box",
+    "loc": "footer",
+    "blocks": [
+     {
+      "t": "h3",
+      "text": "info@shraddhaayurveda.com"
+     }
+    ],
+    "imgs": [],
+    "links": [
+     "mailto:info@shraddhaayurveda.com"
+    ]
+   },
+   {
+    "type": "text-editor",
+    "loc": "footer",
+    "blocks": [
+     {
+      "t": "p",
+      "text": "Shraddha Ayurvedic Clinic is dedicated to providing authentic Ayurvedic treatments, Panchakarma therapies, and holistic wellness solutions for complete physical, mental, and emotional healing naturally."
+     }
+    ],
+    "imgs": [],
+    "links": []
+   },
+   {
+    "type": "heading",
+    "loc": "footer",
+    "blocks": [
+     {
+      "t": "h2",
+      "text": "COMPANY"
+     }
+    ],
+    "imgs": [],
+    "links": []
+   },
+   {
+    "type": "icon-list",
+    "loc": "footer",
+    "blocks": [
+     {
+      "t": "li",
+      "text": "Home"
+     },
+     {
+      "t": "li",
+      "text": "About Us"
+     },
+     {
+      "t": "li",
+      "text": "Contact Us"
+     }
+    ],
+    "imgs": [],
+    "links": [
+     "https://trustayurved.com/",
+     "https://trustayurved.com/about/",
+     "https://trustayurved.com/contact/"
+    ]
+   },
+   {
+    "type": "heading",
+    "loc": "footer",
+    "blocks": [
+     {
+      "t": "h2",
+      "text": "PAGES"
+     }
+    ],
+    "imgs": [],
+    "links": []
+   },
+   {
+    "type": "icon-list",
+    "loc": "footer",
+    "blocks": [
+     {
+      "t": "li",
+      "text": "Blog"
+     },
+     {
+      "t": "li",
+      "text": "Gallery"
+     },
+     {
+      "t": "li",
+      "text": "FAQ"
+     }
+    ],
+    "imgs": [],
+    "links": [
+     "https://trustayurved.com/blog/",
+     "https://trustayurved.com/gallery/",
+     "https://trustayurved.com/faq"
+    ]
+   },
+   {
+    "type": "heading",
+    "loc": "footer",
+    "blocks": [
+     {
+      "t": "h2",
+      "text": "POLICIES"
+     }
+    ],
+    "imgs": [],
+    "links": []
+   },
+   {
+    "type": "icon-list",
+    "loc": "footer",
+    "blocks": [
+     {
+      "t": "li",
+      "text": "Privacy Policy"
+     },
+     {
+      "t": "li",
+      "text": "Terms Condition"
+     }
+    ],
+    "imgs": [],
+    "links": [
+     "https://trustayurved.com/privacy-policy/",
+     "https://trustayurved.com/terms-condition/"
+    ]
+   },
+   {
+    "type": "heading",
+    "loc": "footer",
+    "blocks": [
+     {
+      "t": "h2",
+      "text": "© 2026 Shraddha Ayurvedic Clinic All rights reserved."
+     }
+    ],
+    "imgs": [],
+    "links": []
+   },
+   {
+    "type": "heading",
+    "loc": "footer",
+    "blocks": [
+     {
+      "t": "h2",
+      "text": "Natural Healing for Mind & Body!"
+     }
+    ],
+    "imgs": [],
+    "links": []
+   }
+  ],
+  "maps": []
+ },
+ "terms-condition": {
+  "path": "/terms-condition/",
+  "title": "Terms Condition – Shraddha Ayurvedic Clinic",
+  "description": "",
+  "widgets": [
+   {
+    "type": "heading",
+    "loc": "main",
+    "blocks": [
+     {
+      "t": "h2",
+      "text": "Terms Condition"
+     }
+    ],
+    "imgs": [],
+    "links": []
+   },
+   {
+    "type": "text-editor",
+    "loc": "main",
+    "blocks": [
+     {
+      "t": "p",
+      "text": "Welcome to Shraddha Ayurvedic Clinic. By accessing our website, booking appointments, or using any of our services, you agree to comply with and be bound by the following Terms & Conditions. Please read them carefully before using our website or services."
+     },
+     {
+      "t": "h2",
+      "text": "1. Acceptance of Terms"
+     },
+     {
+      "t": "p",
+      "text": "By accessing or using this website, you acknowledge that you have read, understood, and agreed to these Terms & Conditions. If you do not agree with any part of these terms, you should discontinue the use of our website and services."
+     },
+     {
+      "t": "h2",
+      "text": "2. Medical Disclaimer"
+     },
+     {
+      "t": "p",
+      "text": "The information provided on this website is intended for general educational and informational purposes only and should not be considered medical advice, diagnosis, or treatment."
+     },
+     {
+      "t": "p",
+      "text": "Patients are advised to consult a qualified healthcare professional before making any medical decisions. Results from Ayurvedic treatments may vary depending on an individual’s health condition, lifestyle, and response to treatment."
+     },
+     {
+      "t": "h2",
+      "text": "3. Appointments and Consultations"
+     },
+     {
+      "t": "li",
+      "text": "Appointments are subject to availability."
+     },
+     {
+      "t": "li",
+      "text": "Patients are encouraged to provide accurate and complete health information during consultations."
+     },
+     {
+      "t": "li",
+      "text": "The clinic reserves the right to reschedule or cancel appointments when necessary."
+     },
+     {
+      "t": "li",
+      "text": "Late arrivals may result in shortened consultation time or rescheduling."
+     },
+     {
+      "t": "h2",
+      "text": "4. Treatment Outcomes"
+     },
+     {
+      "t": "p",
+      "text": "Shraddha Ayurvedic Clinic strives to provide the highest quality Ayurvedic care. However, no treatment or therapy can guarantee specific results."
+     },
+     {
+      "t": "p",
+      "text": "Healing outcomes vary based on factors including:"
+     },
+     {
+      "t": "li",
+      "text": "Individual health conditions"
+     },
+     {
+      "t": "li",
+      "text": "Severity and duration of illness"
+     },
+     {
+      "t": "li",
+      "text": "Lifestyle and dietary compliance"
+     },
+     {
+      "t": "li",
+      "text": "Patient response to treatment"
+     },
+     {
+      "t": "h2",
+      "text": "5. Patient Responsibilities"
+     },
+     {
+      "t": "p",
+      "text": "Patients agree to:"
+     },
+     {
+      "t": "li",
+      "text": "Provide truthful and accurate information."
+     },
+     {
+      "t": "li",
+      "text": "Follow prescribed treatment plans and recommendations."
+     },
+     {
+      "t": "li",
+      "text": "Inform the clinic of any changes in health conditions."
+     },
+     {
+      "t": "li",
+      "text": "Attend follow-up appointments as advised."
+     },
+     {
+      "t": "p",
+      "text": "Failure to follow treatment recommendations may affect the effectiveness of the treatment."
+     },
+     {
+      "t": "h2",
+      "text": "6. Website Usage"
+     },
+     {
+      "t": "p",
+      "text": "You agree to use this website only for lawful purposes and in a manner that does not infringe upon the rights of others."
+     },
+     {
+      "t": "p",
+      "text": "You must not:"
+     },
+     {
+      "t": "li",
+      "text": "Attempt unauthorized access to the website or its systems."
+     },
+     {
+      "t": "li",
+      "text": "Upload malicious software or harmful content."
+     },
+     {
+      "t": "li",
+      "text": "Copy, reproduce, or misuse website content without permission."
+     },
+     {
+      "t": "li",
+      "text": "Use the website for fraudulent activities."
+     },
+     {
+      "t": "h2",
+      "text": "7. Intellectual Property Rights"
+     },
+     {
+      "t": "p",
+      "text": "All content on this website, including text, graphics, images, logos, designs, videos, and other materials, is the property of Shraddha Ayurvedic Clinic unless otherwise stated."
+     },
+     {
+      "t": "p",
+      "text": "No content may be copied, reproduced, distributed, modified, or published without prior written permission."
+     },
+     {
+      "t": "h2",
+      "text": "8. Limitation of Liability"
+     },
+     {
+      "t": "p",
+      "text": "Shraddha Ayurvedic Clinic shall not be held liable for:"
+     },
+     {
+      "t": "li",
+      "text": "Any indirect, incidental, or consequential damages arising from the use of the website."
+     },
+     {
+      "t": "li",
+      "text": "Temporary website interruptions or technical issues."
+     },
+     {
+      "t": "li",
+      "text": "Decisions made based on information available on the website."
+     },
+     {
+      "t": "li",
+      "text": "Treatment outcomes that may vary from patient to patient."
+     },
+     {
+      "t": "p",
+      "text": "Users access and use the website at their own risk."
+     },
+     {
+      "t": "h2",
+      "text": "9. Third-Party Links"
+     },
+     {
+      "t": "p",
+      "text": "This website may contain links to external websites, including Google Maps and informational resources. These links are provided for convenience only."
+     },
+     {
+      "t": "p",
+      "text": "Shraddha Ayurvedic Clinic is not responsible for the content, policies, or practices of third-party websites."
+     },
+     {
+      "t": "h2",
+      "text": "10. Privacy"
+     },
+     {
+      "t": "p",
+      "text": "Your use of this website is also governed by our Privacy Policy. By using our website, you consent to the collection and use of information as described in our Privacy Policy."
+     },
+     {
+      "t": "h2",
+      "text": "11. Changes to Terms & Conditions"
+     },
+     {
+      "t": "p",
+      "text": "Shraddha Ayurvedic Clinic reserves the right to modify or update these Terms & Conditions at any time without prior notice."
+     },
+     {
+      "t": "p",
+      "text": "Changes become effective immediately upon being posted on this website. Continued use of the website constitutes acceptance of the revised terms."
+     },
+     {
+      "t": "h2",
+      "text": "12. Governing Law"
+     },
+     {
+      "t": "p",
+      "text": "These Terms & Conditions shall be governed and interpreted in accordance with the laws of India."
+     },
+     {
+      "t": "p",
+      "text": "Any disputes arising from the use of this website or services shall be subject to the jurisdiction of the courts located in Maharashtra, India."
+     },
+     {
+      "t": "h2",
+      "text": "13. Contact Information"
+     },
+     {
+      "t": "p",
+      "text": "For any questions regarding these Terms & Conditions, please contact:"
+     },
+     {
+      "t": "h3",
+      "text": "Shraddha Ayurvedic Clinic"
+     },
+     {
+      "t": "h4",
+      "text": "Chhatrapati Sambhajinagar Clinic"
+     },
+     {
+      "t": "p",
+      "text": "Flat No. 1, Chetan Plaza,"
+     },
+     {
+      "t": "p",
+      "text": "Beside Renuka Driving School,"
+     },
+     {
+      "t": "p",
+      "text": "Opposite Roplekar Hospital,"
+     },
+     {
+      "t": "p",
+      "text": "Samrat Nagar,"
+     },
+     {
+      "t": "p",
+      "text": "Chhatrapati Sambhajinagar,"
+     },
+     {
+      "t": "p",
+      "text": "Maharashtra – 431005"
+     },
+     {
+      "t": "p",
+      "text": "Phone:"
+     },
+     {
+      "t": "p",
+      "text": "0240-2344854"
+     },
+     {
+      "t": "p",
+      "text": "+91 9822303175"
+     },
+     {
+      "t": "p",
+      "text": "+91 9595450251"
+     },
+     {
+      "t": "p",
+      "text": "+91 9552561079"
+     },
+     {
+      "t": "h4",
+      "text": "Pune Clinic"
+     },
+     {
+      "t": "p",
+      "text": "Varad Polyclinic,"
+     },
+     {
+      "t": "p",
+      "text": "Shivram Smruti Apartment,"
+     },
+     {
+      "t": "p",
+      "text": "561, Shaniwar Peth,"
+     },
+     {
+      "t": "p",
+      "text": "Opp. HDFC Bank,"
+     },
+     {
+      "t": "p",
+      "text": "Above Vrundavan Fresh,"
+     },
+     {
+      "t": "p",
+      "text": "Raman Baug Chowk,"
+     },
+     {
+      "t": "p",
+      "text": "Pune, Maharashtra – 411030"
+     },
+     {
+      "t": "p",
+      "text": "Phone:"
+     },
+     {
+      "t": "p",
+      "text": "+91 9822303175"
+     },
+     {
+      "t": "p",
+      "text": "Email:"
+     },
+     {
+      "t": "p",
+      "text": "info@shraddhaayurveda.com"
+     },
+     {
+      "t": "p",
+      "text": "By accessing and using our website and services, you acknowledge that you have read, understood, and agreed to these Terms & Conditions."
+     }
+    ],
+    "imgs": [],
+    "links": [
+     "mailto:info@shraddhaayurveda.com"
+    ]
+   },
+   {
+    "type": "heading",
+    "loc": "footer",
+    "blocks": [
+     {
+      "t": "h2",
+      "text": "Connect with"
+     },
+     {
+      "t": "h2",
+      "text": "Shraddha Ayurvedic Clinic!"
+     }
+    ],
+    "imgs": [],
+    "links": []
+   },
+   {
+    "type": "icon-box",
+    "loc": "footer",
+    "blocks": [
+     {
+      "t": "h3",
+      "text": "info@shraddhaayurveda.com"
+     }
+    ],
+    "imgs": [],
+    "links": [
+     "mailto:info@shraddhaayurveda.com"
+    ]
+   },
+   {
+    "type": "text-editor",
+    "loc": "footer",
+    "blocks": [
+     {
+      "t": "p",
+      "text": "Shraddha Ayurvedic Clinic is dedicated to providing authentic Ayurvedic treatments, Panchakarma therapies, and holistic wellness solutions for complete physical, mental, and emotional healing naturally."
+     }
+    ],
+    "imgs": [],
+    "links": []
+   },
+   {
+    "type": "heading",
+    "loc": "footer",
+    "blocks": [
+     {
+      "t": "h2",
+      "text": "COMPANY"
+     }
+    ],
+    "imgs": [],
+    "links": []
+   },
+   {
+    "type": "icon-list",
+    "loc": "footer",
+    "blocks": [
+     {
+      "t": "li",
+      "text": "Home"
+     },
+     {
+      "t": "li",
+      "text": "About Us"
+     },
+     {
+      "t": "li",
+      "text": "Contact Us"
+     }
+    ],
+    "imgs": [],
+    "links": [
+     "https://trustayurved.com/",
+     "https://trustayurved.com/about/",
+     "https://trustayurved.com/contact/"
+    ]
+   },
+   {
+    "type": "heading",
+    "loc": "footer",
+    "blocks": [
+     {
+      "t": "h2",
+      "text": "PAGES"
+     }
+    ],
+    "imgs": [],
+    "links": []
+   },
+   {
+    "type": "icon-list",
+    "loc": "footer",
+    "blocks": [
+     {
+      "t": "li",
+      "text": "Blog"
+     },
+     {
+      "t": "li",
+      "text": "Gallery"
+     },
+     {
+      "t": "li",
+      "text": "FAQ"
+     }
+    ],
+    "imgs": [],
+    "links": [
+     "https://trustayurved.com/blog/",
+     "https://trustayurved.com/gallery/",
+     "https://trustayurved.com/faq"
+    ]
+   },
+   {
+    "type": "heading",
+    "loc": "footer",
+    "blocks": [
+     {
+      "t": "h2",
+      "text": "POLICIES"
+     }
+    ],
+    "imgs": [],
+    "links": []
+   },
+   {
+    "type": "icon-list",
+    "loc": "footer",
+    "blocks": [
+     {
+      "t": "li",
+      "text": "Privacy Policy"
+     },
+     {
+      "t": "li",
+      "text": "Terms Condition"
+     }
+    ],
+    "imgs": [],
+    "links": [
+     "https://trustayurved.com/privacy-policy/",
+     "https://trustayurved.com/terms-condition/"
+    ]
+   },
+   {
+    "type": "heading",
+    "loc": "footer",
+    "blocks": [
+     {
+      "t": "h2",
+      "text": "© 2026 Shraddha Ayurvedic Clinic All rights reserved."
+     }
+    ],
+    "imgs": [],
+    "links": []
+   },
+   {
+    "type": "heading",
+    "loc": "footer",
+    "blocks": [
+     {
+      "t": "h2",
+      "text": "Natural Healing for Mind & Body!"
+     }
+    ],
+    "imgs": [],
+    "links": []
+   }
+  ],
+  "maps": []
+ }
+}

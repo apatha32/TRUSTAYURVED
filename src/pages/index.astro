@@ -1,0 +1,259 @@
+---
+import Base from '../layouts/Base.astro';
+import Icon from '../components/Icon.astro';
+import Motif from '../components/Motif.astro';
+import Photo from '../components/Photo.astro';
+import Condensation from '../components/Condensation.astro';
+import Testimonials from '../components/Testimonials.astro';
+import Faq from '../components/Faq.astro';
+import { w, text, faqs, page, footer, posts, postPath, WHATSAPP_URL } from '../lib/content';
+import { HERO } from '../data/hero';
+import { SHIRODHARA } from '../lib/images';
+
+const P = 'home';
+const marquee = w(P, 2, 'wd_marquee').blocks.map((b) => b.text).slice(0, 15);
+const [mAuthentic, m27, mRejuv, mPlans, mDoctors] = marquee;
+const mTradition = marquee[14];
+
+/* Services: the eight conditions from the live marquee, each linked to the page that covers it. */
+const services = [
+  { title: marquee[5], icon: 'mind', href: '/mental-health/' },
+  { title: marquee[6], icon: 'drop', href: '/general-lifestyle-disorders/' },
+  { title: marquee[7], icon: 'leaf', href: '/specialized-treatments/' },
+  { title: marquee[8], icon: 'joint', href: '/specialized-treatments/' },
+  { title: marquee[10], icon: 'roots', href: '/about/' },
+  { title: marquee[11], icon: 'breath', href: '/mental-health/' },
+  { title: marquee[12], icon: 'shield', href: '/general-lifestyle-disorders/' },
+  { title: marquee[13], icon: 'moon', href: '/vd-ashwini-pathak/' },
+];
+
+/* Gallery teaser */
+const galleryTitle = text(w(P, 3, 'heading'));
+const browseAll = text(w(P, 4, 'button'));
+const galleryImgs = w(P, 5, 'image-carousel').imgs;
+const viewAll = text(w(P, 6, 'button'));
+const galleryAlt = 'Shraddha Ayurvedic Clinic';
+
+/* Why choose — the five points paired with the clinic's own rooms */
+const whyTitle = text(w(P, 7, 'heading'));
+const whyIntro = w(P, 8, 'text-editor').blocks;
+const whyPhotos = [
+  { src: '2026/05/WhatsApp-Image-2023-03-31-at-3.47.08-PM.jpeg', alt: 'Panchakarma treatment room with a wooden therapy table at Shraddha Ayurvedic Clinic' },
+  { src: '2026/05/WhatsApp-Image-2023-03-31-at-3.46.58-PM.jpeg', alt: 'Consultation room at Shraddha Ayurvedic Clinic' },
+  { src: '2026/05/WhatsApp-Image-2023-03-31-at-3.46.57-PM-2.jpeg', alt: 'Therapy room with a forest mural at Shraddha Ayurvedic Clinic' },
+  { src: '2026/05/WhatsApp-Image-2023-03-31-at-3.47.03-PM.jpeg', alt: 'Meditation room with an Om mural at Shraddha Ayurvedic Clinic' },
+  { src: '2026/05/WhatsApp-Image-2023-03-31-at-3.47.07-PM.jpeg', alt: 'Waiting area at Shraddha Ayurvedic Clinic' },
+];
+const why = [9, 10, 11, 12, 13].map((i, n) => {
+  const x = w(P, i, 'image-box');
+  return { title: x.blocks[0].text, body: x.blocks.slice(1).map((b) => b.text).join(' '), photo: whyPhotos[n] };
+});
+
+/* Doctors teaser — from the About page */
+const doctors = [
+  { photo: '2026/05/New-Project-84.png', quals: text(w('about', 21)), name: text(w('about', 22)), bio: w('about', 23).blocks[0].text, cta: text(w('about', 24)), href: '/vd-sohan-pathak/', mask: 'mask-leaf' },
+  { photo: '2026/05/New-Project-85.png', quals: text(w('about', 25)), name: text(w('about', 26)), bio: w('about', 27).blocks[0].text, cta: text(w('about', 28)), href: '/vd-ashwini-pathak/', mask: 'mask-pebble' },
+];
+
+/* Testimonials */
+const tEyebrow = text(w(P, 14, 'heading'));
+const tTitle = text(w(P, 15, 'heading'));
+const tw = w(P, 16, 'nested-carousel');
+const portraits = tw.imgs.filter((i) => !i.src.includes('Icon-1'));
+const testimonials = [0, 2, 4, 6].map((k, n) => ({ name: tw.blocks[k].text, quote: tw.blocks[k + 1].text, photo: portraits[n].src }));
+
+/* News — the cards exactly as listed on the live homepage */
+const newsTitle = text(w(P, 17, 'heading'));
+const seeAll = text(w(P, 18, 'button'));
+const nb = w(P, 19, 'posts.classic').blocks;
+const news = [0, 4, 8].map((k, n) => {
+  const post = posts.find((p) => p.title === nb[k].text) ?? posts[n];
+  return { title: nb[k].text, date: nb[k + 1].text, iso: post.date.slice(0, 10), excerpt: nb[k + 2].text, more: nb[k + 3].text, href: postPath(post) };
+});
+
+/* FAQ */
+const faqTitle = w(P, 20, 'heading').blocks.map((b) => b.text);
+const faqIntro = text(w(P, 21, 'text-editor'));
+const faqItems = faqs(w(P, 22, 'wd_accordion'));
+
+const contactLabel = footer()[4].blocks[2].text; // "Contact Us"
+---
+<Base title={page(P).title} description={text(footer()[2])}>
+  <!-- ============ HERO: one drop of water onto still water ============ -->
+  <section class="hero" aria-labelledby="hero-title" data-hero>
+    <div class="container hero__grid">
+      <div class="hero__copy">
+        <p class="eyebrow">{HERO.welcome}</p>
+        <h1 id="hero-title" class="display hero__title">{HERO.title}</h1>
+        <p class="lede">{HERO.destination}</p>
+        <div class="hero__actions">
+          <a class="btn" href={WHATSAPP_URL} target="_blank" rel="noopener" data-ripple><Icon name="whatsapp" />WhatsApp us</a>
+          <a class="btn btn--ghost" href="/contact/" data-ripple>{contactLabel}<Icon name="arrow-right" /></a>
+        </div>
+        <ul class="chips">
+          {[m27, mRejuv, mPlans, mDoctors].map((c) => <li>{c}</li>)}
+        </ul>
+      </div>
+
+      <div class="pool float" data-pool aria-hidden="true" style="--i:1;--float-d:11s">
+        <div class="pool__vessel"><Motif name="vessel" /></div>
+        <div class="pool__basin" data-basin>
+          <Photo src={SHIRODHARA} alt="" eager widths={[480, 720, 960]} sizes="(min-width: 60rem) 34rem, 26rem" position="62% 50%" />
+          <canvas data-ripple-canvas></canvas>
+        </div>
+        <div class="pool__rings" data-rings>
+          <svg viewBox="-100 -100 200 200" preserveAspectRatio="xMidYMid slice" class="pool__still">
+            <g fill="none" stroke="var(--surface)" stroke-opacity="0.85">
+              <ellipse rx="16" ry="6" stroke-width="1.2" />
+              <ellipse rx="38" ry="14" stroke-width="1" stroke-opacity="0.55" />
+              <ellipse rx="64" ry="23" stroke-width="0.8" stroke-opacity="0.3" />
+            </g>
+          </svg>
+        </div>
+        <svg class="pool__drop" viewBox="0 0 14 20" data-drop>
+          <defs>
+            <radialGradient id="dropfill" cx="35%" cy="62%" r="70%">
+              <stop offset="0" stop-color="#fff" stop-opacity="0.95" />
+              <stop offset="0.45" stop-color="var(--water)" stop-opacity="0.55" />
+              <stop offset="1" stop-color="var(--water)" stop-opacity="0.9" />
+            </radialGradient>
+          </defs>
+          <path d="M7 0.5C7 0.5 1 9.2 1 13a6 6 0 0 0 12 0C13 9.2 7 0.5 7 0.5z" fill="url(#dropfill)" stroke="var(--water)" stroke-width="0.6" />
+        </svg>
+      </div>
+    </div>
+    <button class="sound-toggle hero__sound" type="button" aria-pressed="false" data-sound style="visibility:hidden" tabindex="-1" aria-hidden="true">
+      <Icon name="sound-off" class="i-off" /><Icon name="sound-on" class="i-on" /><span>Ambient sound</span>
+    </button>
+  </section>
+
+  <!-- ============ SERVICES ============ -->
+  <section class="section" aria-labelledby="services-title">
+    <div class="container">
+      <div class="section-head" data-reveal>
+        <p class="eyebrow">{mAuthentic}</p>
+        <h2 id="services-title" class="h2">{mTradition}</h2>
+      </div>
+      <ul class="services" role="list">
+        {services.map((s, i) => (
+          <li class="card card--link float" data-reveal style={`--i:${i % 4}`}>
+            <span class="card__leaf" aria-hidden="true"><Motif name={i % 2 ? 'leaf-tulsi' : 'leaf-neem'} seed={i} /></span>
+            <div>
+              <span class="card__icon"><Icon name={s.icon} /></span>
+              <h3 class="card__title"><a class="stretched" href={s.href}>{s.title}</a></h3>
+            </div>
+            <span class="link-arrow" aria-hidden="true"><Icon name="arrow-right" /></span>
+          </li>
+        ))}
+      </ul>
+    </div>
+  </section>
+
+  <!-- ============ GALLERY TEASER ============ -->
+  <section class="section section--tight" aria-labelledby="gallery-title">
+    <div class="container">
+      <div class="section-head section-head--split" data-reveal>
+        <h2 id="gallery-title" class="h2">{galleryTitle}</h2>
+        <a class="link-arrow" href="/gallery/">{browseAll}<Icon name="arrow-right" /></a>
+      </div>
+      <div class="strip" tabindex="0" role="group" aria-labelledby="gallery-title" data-reveal>
+        {galleryImgs.map((g, i) => (
+          <Photo src={g.src} alt={`${galleryAlt} — ${i + 1} of ${galleryImgs.length}`} widths={[360, 540, 720]} sizes="(min-width: 64rem) 22rem, 78vw" />
+        ))}
+      </div>
+      <p style="margin-top:2rem;text-align:center"><a class="btn btn--ghost" href="/gallery/" data-ripple>{viewAll}</a></p>
+    </div>
+  </section>
+
+  <!-- ============ WHY CHOOSE ============ -->
+  <section class="section" aria-labelledby="why-title" data-ambient-section>
+    <div class="container">
+      <div class="section-head" data-reveal>
+        <h2 id="why-title" class="h2">{whyTitle}</h2>
+        <div class="stack measure lede">{whyIntro.map((b) => <p>{b.text}</p>)}</div>
+      </div>
+      <ol class="why" role="list" style="list-style:none;padding:0;margin:0">
+        {why.map((x, i) => (
+          <li class="why__row">
+            <div class="why__media float" data-reveal style={`--i:${i}`}>
+              <Photo src={x.photo.src} alt={x.photo.alt} widths={[480, 720, 960, 1280]} sizes="(min-width: 52rem) 560px, 100vw" />
+              <Condensation seed={i + 2} rolling={i % 2 === 0 ? 3 : 2} />
+            </div>
+            <div class="why__text" data-reveal style="--i:1">
+              <span class="why__index" aria-hidden="true">{String(i + 1).padStart(2, '0')}</span>
+              <h3 class="h3">{x.title}</h3>
+              <p class="muted">{x.body}</p>
+            </div>
+          </li>
+        ))}
+      </ol>
+    </div>
+  </section>
+
+  <!-- ============ DOCTORS ============ -->
+  <section class="section" aria-labelledby="doctors-title" style="background:var(--surface-tint)">
+    <div class="container">
+      <div class="section-head" data-reveal>
+        <h2 id="doctors-title" class="h2">{mDoctors}</h2>
+      </div>
+      <div class="doctors">
+        {doctors.map((d, i) => (
+          <article class="doctor" data-reveal style={`--i:${i}`}>
+            <div class:list={['doctor__portrait', 'float', d.mask]} style={`--i:${i * 2}`}>
+              <Photo src={d.photo} alt={`Portrait of ${d.name}`} widths={[360, 540, 720]} sizes="(min-width: 52rem) 22rem, 90vw" />
+            </div>
+            <h3 class="doctor__name">{d.name}</h3>
+            <p class="doctor__quals">{d.quals}</p>
+            <p class="muted">{d.bio}</p>
+            <a class="link-arrow" href={d.href} aria-label={`${d.cta} — ${d.name}`}>{d.cta}<Icon name="arrow-right" /></a>
+          </article>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ TESTIMONIALS ============ -->
+  <section class="section" aria-labelledby="t-title">
+    <div class="container">
+      <div class="section-head section-head--center" data-reveal>
+        <p class="eyebrow">{tEyebrow}</p>
+        <h2 id="t-title" class="h2">{tTitle}</h2>
+      </div>
+      <Testimonials items={testimonials} label={tTitle} />
+    </div>
+  </section>
+
+  <!-- ============ NEWS ============ -->
+  <section class="section" aria-labelledby="news-title" style="padding-top:0">
+    <div class="container">
+      <div class="section-head section-head--split" data-reveal>
+        <h2 id="news-title" class="h2">{newsTitle}</h2>
+        <a class="link-arrow" href="/blog/">{seeAll}<Icon name="arrow-right" /></a>
+      </div>
+      <ul class="news" role="list" style="list-style:none;padding:0;margin:0">
+        {news.map((n, i) => (
+          <li class="card card--link float" data-reveal style={`--i:${i}`}>
+            <div class="news__art" aria-hidden="true"><Motif name="ripple-card" seed={i} /></div>
+            <div class="news__body">
+              <p class="caption"><time datetime={n.iso}>{n.date}</time></p>
+              <h3 class="news__title"><a class="stretched" href={n.href}>{n.title}</a></h3>
+              <p class="muted">{n.excerpt}</p>
+              <span class="link-arrow" aria-hidden="true">{n.more}<Icon name="arrow-right" /></span>
+            </div>
+          </li>
+        ))}
+      </ul>
+    </div>
+  </section>
+
+  <!-- ============ FAQ ============ -->
+  <section class="section" aria-labelledby="faq-title" style="padding-top:0">
+    <div class="container">
+      <div class="section-head section-head--center" data-reveal>
+        <h2 id="faq-title" class="h2">{faqTitle[0]}<br />{faqTitle[1]}</h2>
+        <p class="lede measure">{faqIntro}</p>
+      </div>
+      <Faq items={faqItems} />
+    </div>
+  </section>
+</Base>

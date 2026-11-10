@@ -1,0 +1,119 @@
+/* ==========================================================================
+   Shraddha Ayurvedic Clinic — design tokens (single source of truth)
+   "A monsoon morning in a Kerala treatment room."
+   Light = morning mist. Dark = dusk in the garden.
+   ========================================================================== */
+
+@import '@fontsource/marcellus/latin-400.css';
+@import '@fontsource/figtree/latin-400.css';
+@import '@fontsource/figtree/latin-500.css';
+@import '@fontsource/figtree/latin-600.css';
+
+:root {
+  color-scheme: light dark;
+
+  /* ---- Color: light (Morning Mist) ------------------------------------ */
+  --surface: #F3F6F2;         /* page background                          */
+  --surface-2: #E8EEE8;       /* recessed panels, chips                    */
+  --surface-3: #FFFFFF;       /* raised cards                              */
+  --ink: #1C2A23;             /* Neem Ink — headings, body   13.7:1        */
+  --ink-2: #4A5A51;           /* secondary text, captions     6.7:1        */
+  --accent: #2E6A4E;          /* Tulsi — CTAs, links, active  5.9:1        */
+  --accent-ink: #FFFFFF;      /* text on accent               6.4:1        */
+  --accent-hover: #245840;
+  --brass: #9A7430;           /* rules, icons, text ≥24px only (3.9:1)     */
+  --water: #6E9E9B;           /* ripples, drops, light — never text        */
+  --line: rgb(28 42 35 / 0.08);   /* 1px ink @ 8%                          */
+  --line-strong: rgb(28 42 35 / 0.16);
+  --veil: rgb(243 246 242 / 0.88); /* ≥85% surface behind text over motion */
+  --glass: rgb(243 246 242 / 0.72);/* frosted header / bottom bar           */
+  --shadow-leaf: 0 18px 40px -24px rgb(46 106 78 / 0.35);
+  --light-dapple: rgb(255 244 214 / 0.9);
+  --light-dapple-opacity: 0.1;
+  /* Golden light — ambient only, never an interactive colour (that's --accent).
+     Text contrast verified at the glow's peak (#F3E2B9): ink 11.7, ink-2 5.7, accent 5.0. */
+  --glow: rgb(242 199 107 / 0.42);       /* sun, upper right            */
+  --glow-soft: rgb(242 199 107 / 0.18);  /* ember, lower left           */
+  --glow-shaft: rgb(248 220 150 / 0.34); /* light shafts                */
+  --glow-pool: rgb(246 214 140 / 0.9);   /* drifting pools (× 0.3)      */
+  --glow-pool-opacity: 0.3;
+  --shadow-glow: 0 28px 56px -30px rgb(154 116 48 / 0.45), 0 2px 6px -2px rgb(28 42 35 / 0.06);
+  --surface-tint: rgb(232 238 232 / 0.62); /* translucent recessed band — lets the light through */
+
+  /* ---- Type ------------------------------------------------------------ */
+  --font-display: 'Marcellus', 'Iowan Old Style', 'Palatino Linotype', Georgia, serif;
+  --font-body: 'Figtree', ui-sans-serif, system-ui, -apple-system, 'Segoe UI', sans-serif;
+  --fs-h1: clamp(2.5rem, 1.75rem + 3vw, 4rem);          /* 40 → 64 */
+  --fs-h2: clamp(2rem, 1.625rem + 1.5vw, 2.75rem);      /* 32 → 44 */
+  --fs-h3: clamp(1.3125rem, 1.22rem + 0.375vw, 1.5rem); /* 21 → 24 */
+  --fs-body: clamp(1.0625rem, 1.03rem + 0.125vw, 1.125rem); /* 17 → 18 */
+  --fs-small: 1rem;
+  --fs-caption: 0.875rem;                               /* 14 — floor */
+  --lh-body: 1.65;
+  --lh-tight: 1.15;
+  --tracking-display: 0.01em;
+  --tracking-eyebrow: 0.12em;
+  --measure: 68ch;
+
+  /* ---- Layout ---------------------------------------------------------- */
+  --max: 75rem;                                   /* 1200px */
+  --gutter: 1.5rem;                               /* 24px   */
+  --page-pad: clamp(1rem, 0.5rem + 2.5vw, 1.5rem);
+  --section-y: clamp(5rem, 3.4rem + 6.4vw, 8rem); /* 80 → 128 */
+  --radius-card: 1.25rem;                         /* 20px   */
+  --radius-pill: 999px;
+  --tap: 2.75rem;                                 /* 44px   */
+  --header-h: 4.5rem;
+
+  /* ---- Motion ---------------------------------------------------------- */
+  --ease-out: cubic-bezier(0.22, 1, 0.36, 1);
+  --dur-reveal: 600ms;
+  --rise: 16px;
+  --drop-interval: 6s;
+  --ripple-fade: 2.5s;
+}
+
+/* ---- Color: dark (Dusk in the Garden) ---------------------------------- */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --surface: #0F1813;
+    --surface-2: #16221B;
+    --surface-3: #1A2820;
+    --ink: #E7EEE9;          /* 15.3:1 */
+    --ink-2: #A9B8AF;        /*  8.8:1 */
+    --accent: #7FC4A1;       /*  8.9:1 */
+    --accent-ink: #0F1813;   /*  8.9:1 on accent */
+    --accent-hover: #96D3B3;
+    --brass: #D2AE68;
+    --water: #8FBDBA;
+    --line: rgb(231 238 233 / 0.1);
+    --line-strong: rgb(231 238 233 / 0.2);
+    --veil: rgb(15 24 19 / 0.88);
+    --glass: rgb(15 24 19 / 0.72);
+    --shadow-leaf: 0 18px 40px -24px rgb(0 0 0 / 0.6);
+    --light-dapple: rgb(210 174 104 / 0.7);
+    --light-dapple-opacity: 0.06;
+    /* Dusk: lamp light. Peak (#2E3021): ink 11.4, ink-2 6.5, accent 6.6. */
+    --glow: rgb(210 174 104 / 0.16);
+    --glow-soft: rgb(210 174 104 / 0.08);
+    --glow-shaft: rgb(210 174 104 / 0.09);
+    --glow-pool: rgb(210 174 104 / 0.8);
+    --glow-pool-opacity: 0.1;
+    --shadow-glow: 0 28px 56px -30px rgb(0 0 0 / 0.7), 0 0 40px -18px rgb(210 174 104 / 0.25);
+    --surface-tint: rgb(22 34 27 / 0.7);
+  }
+}
+
+/* ---- Higher contrast ----------------------------------------------------- */
+@media (prefers-contrast: more) {
+  :root {
+    --ink-2: var(--ink);
+    --line: var(--line-strong);
+    --line-strong: currentColor;
+  }
+}
+
+/* ---- Reduced transparency: solid chrome ---------------------------------- */
+@media (prefers-reduced-transparency: reduce) {
+  :root { --glass: var(--surface); --veil: var(--surface); --surface-tint: var(--surface-2); }
+}

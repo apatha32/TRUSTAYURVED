@@ -1,0 +1,13 @@
+---
+import Inner from '../layouts/Inner.astro';
+import { NAV } from '../lib/nav';
+const links = NAV.flatMap((n) => n.children ?? [{ label: n.label, href: n.href! }]);
+const seen = new Set<string>();
+---
+<Inner title="Page not found – Shraddha Ayurvedic Clinic" description="Page not found" heading="Page not found" noindex>
+  <section class="section"><div class="container">
+    <ul class="feature-grid feature-grid--3" role="list" style="list-style:none;padding:0;margin:0">
+      {links.filter((l) => !seen.has(l.href) && seen.add(l.href)).map((l) => <li><a class="link-arrow" href={l.href}>{l.label}</a></li>)}
+    </ul>
+  </div></section>
+</Inner>

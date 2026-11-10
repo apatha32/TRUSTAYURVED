@@ -1,0 +1,135 @@
+---
+/** Living style guide — tokens, type, components, motion. Not indexed. */
+import Inner from '../../layouts/Inner.astro';
+import Icon from '../../components/Icon.astro';
+import Motif from '../../components/Motif.astro';
+import Faq from '../../components/Faq.astro';
+import { faqs, w } from '../../lib/content';
+
+const colors = [
+  { token: '--surface', role: 'Page background — “Morning Mist”', light: '#F3F6F2', dark: '#0F1813', cr: '—' },
+  { token: '--ink', role: 'Headings, body — “Neem Ink”', light: '#1C2A23', dark: '#E7EEE9', cr: '13.7 / 15.3' },
+  { token: '--ink-2', role: 'Secondary text, captions', light: '#4A5A51', dark: '#A9B8AF', cr: '6.7 / 8.8' },
+  { token: '--accent', role: 'CTAs, links, active nav — “Tulsi”', light: '#2E6A4E', dark: '#7FC4A1', cr: '5.9 / 8.9' },
+  { token: '--brass', role: 'Rules, icons, text ≥ 24px only', light: '#9A7430', dark: '#D2AE68', cr: '3.9 / 8.6' },
+  { token: '--water', role: 'Ripples, drops, light — never text', light: '#6E9E9B', dark: '#8FBDBA', cr: 'decorative' },
+];
+const type = [
+  { name: 'H1 · Marcellus', size: '64 → 40px', cls: 'h1', sample: 'Natural Healing' },
+  { name: 'H2 · Marcellus', size: '44 → 32px', cls: 'h2', sample: 'Traditional Ayurveda for Modern Life' },
+  { name: 'H3 · Figtree 600', size: '24 → 21px', cls: 'h3', sample: 'Specialized Panchakarma Therapies' },
+  { name: 'Body · Figtree 400 / 1.65', size: '18 → 17px', cls: '', sample: 'Every patient receives a customized treatment plan based on their body constitution (Prakriti), lifestyle, and specific health condition.' },
+  { name: 'Caption · Figtree 400', size: '14px (floor)', cls: 'caption', sample: 'May 29, 2026' },
+  { name: 'Eyebrow · Figtree 600 +0.12em', size: '14px', cls: 'eyebrow', sample: 'Authentic Ayurvedic Treatments' },
+];
+const motion = [
+  ['Shirodhara drop', 'One drop every 6s from the brass vessel; 2.1s fall (gather → release → gravity).', 'WebGL displacement shader; SVG ring fallback'],
+  ['Ripples', '2–3 crests per landing, fade over 2.5s, displace the photo beneath.', 'GL loop runs only while a ripple is alive'],
+  ['Falling leaves', 'Site-wide: 7 neem/tulsi leaves (4 on small/low-power), 16–26s fall, sine sway, depth blur, scroll parallax, favour the page margins, carry across pages.', 'Fixed Canvas 2D, pre-rendered sprites, 60fps cap'],
+  ['Golden light', 'Site-wide: sun glow (upper right), ember (lower left), two light shafts swaying ±2.5°, drifting gold pools; 16–29s cycles. Dimmer lamp-light in dark mode.', 'Fixed CSS layer'],
+  ['Floating cards', 'Cards and photos drift 8px over 7.5s; hover lifts 4px with a pointer-following golden glow.', 'CSS translate (composited)'],
+  ['Page transitions', 'Cross-fade + 14px settle; header and light layer stay still.', 'CSS cross-document View Transitions'],
+  ['Condensation', 'Beads + 1–4 drops rolling down the glass over 16–26s on every photo row and the closing band.', 'CSS only'],
+  ['Scroll reveal', 'Fade + rise 24px + scale 0.985 → 1 over 900–1100ms; images ease from 1.06; 90ms stagger.', 'IntersectionObserver'],
+  ['Buttons', 'Ripple from the tap point (900ms), 2px lift on hover.', 'CSS + pointerdown'],
+  ['Cards', 'Faint leaf shadow drifts in on hover/focus.', 'CSS'],
+  ['Reduced motion', 'Still water with one ring, a leaf at rest, still glow, no floating, fade-only page transitions, no carousel autoplay.', 'prefers-reduced-motion'],
+  ['Pausing', 'Everything pauses offscreen and in hidden tabs.', 'IntersectionObserver + visibilitychange'],
+];
+const icons = ['mind', 'drop', 'leaf', 'joint', 'roots', 'breath', 'shield', 'moon', 'phone', 'mail', 'pin', 'whatsapp', 'arrow-right', 'quote'];
+const sample = faqs(w('home', 22, 'wd_accordion')).slice(0, 2);
+---
+<Inner title="Style Guide – Shraddha Ayurvedic Clinic" description="Design tokens, type scale, components and motion for trustayurved.com." heading="Style Guide" eyebrow="Design system" noindex>
+  <p slot="hero" class="lede measure">A single drop of water onto still water. Everything else stays quiet. Tokens live in <code>src/styles/tokens.css</code>.</p>
+
+  <section class="section" aria-labelledby="sg-color">
+    <div class="container">
+      <h2 id="sg-color" class="h2" style="margin-bottom:2rem">Colour</h2>
+      <div class="sg-table" role="table" aria-label="Colour tokens">
+        <div role="row" class="sg-row sg-row--head"><span role="columnheader">Token</span><span role="columnheader">Light</span><span role="columnheader">Dark</span><span role="columnheader">Contrast vs surface</span></div>
+        {colors.map((c) => (
+          <div role="row" class="sg-row">
+            <span role="cell"><code>{c.token}</code><br /><span class="caption">{c.role}</span></span>
+            <span role="cell" class="sg-sw"><i style={`background:${c.light}`}></i><code>{c.light}</code></span>
+            <span role="cell" class="sg-sw"><i style={`background:${c.dark}`}></i><code>{c.dark}</code></span>
+            <span role="cell">{c.cr}</span>
+          </div>
+        ))}
+      </div>
+      <p class="caption" style="margin-top:1rem">Buttons: #FFFFFF on accent (6.4:1) light · #0F1813 on accent (8.9:1) dark. Verified with the WCAG 2.x relative-luminance formula.</p>
+    </div>
+  </section>
+
+  <section class="section" style="padding-top:0" aria-labelledby="sg-type">
+    <div class="container">
+      <h2 id="sg-type" class="h2" style="margin-bottom:2rem">Type</h2>
+      <div style="display:grid;gap:2rem">
+        {type.map((t) => (
+          <div class="sg-type">
+            <p class="caption">{t.name}<br />{t.size}</p>
+            <p class:list={[t.cls, { display: t.cls === 'h1' || t.cls === 'h2' }]}>{t.sample}</p>
+          </div>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <section class="section" style="padding-top:0" aria-labelledby="sg-comp">
+    <div class="container" style="display:grid;gap:3rem;grid-template-columns:minmax(0,1fr)">
+      <h2 id="sg-comp" class="h2">Components</h2>
+      <div style="display:flex;flex-wrap:wrap;gap:0.75rem;align-items:center">
+        <a class="btn" href="#sg-comp" data-ripple><Icon name="whatsapp" />WhatsApp us</a>
+        <a class="btn btn--ghost" href="#sg-comp" data-ripple>Contact Us<Icon name="arrow-right" /></a>
+        <a class="btn btn--sm" href="#sg-comp" data-ripple>Small</a>
+        <a class="link-arrow" href="#sg-comp">Read More<Icon name="arrow-right" /></a>
+        <button class="icon-btn" type="button" aria-label="Icon button example"><Icon name="arrow-left" /></button>
+      </div>
+      <ul class="services" role="list" style="max-width:40rem;grid-template-columns:repeat(auto-fit,minmax(min(100%,14rem),1fr))">
+        {['Stress & Anxiety Management', 'Ayurvedic Immunity Support'].map((t, i) => (
+          <li class="card card--link">
+            <span class="card__leaf" aria-hidden="true"><Motif name={i ? 'leaf-tulsi' : 'leaf-neem'} seed={i} /></span>
+            <div><span class="card__icon"><Icon name={i ? 'shield' : 'mind'} /></span><h3 class="card__title"><a class="stretched" href="#sg-comp">{t}</a></h3></div>
+            <span class="link-arrow" aria-hidden="true"><Icon name="arrow-right" /></span>
+          </li>
+        ))}
+      </ul>
+      <ul class="chips" style="max-width:40rem">
+        <li>27+ Years of Trusted Ayurvedic Care</li><li>Rejuvenation Therapies</li>
+      </ul>
+      <div style="display:flex;flex-wrap:wrap;gap:1.25rem;color:var(--brass)">
+        {icons.map((n) => <span title={n} style="width:2rem;height:2rem;display:block"><Icon name={n} /></span>)}
+      </div>
+      <div style="display:flex;flex-wrap:wrap;gap:2rem;align-items:center">
+        <Motif name="leaf-neem" class="sg-motif" />
+        <Motif name="leaf-tulsi" class="sg-motif" seed={1} />
+        <span style="width:6rem;color:var(--brass)"><Motif name="vessel" /></span>
+        <span style="width:min(14rem,100%);color:var(--water)"><Motif name="still-water" /></span>
+      </div>
+      <div style="max-width:40rem"><Faq items={sample} /></div>
+    </div>
+  </section>
+
+  <section class="section" style="padding-top:0" aria-labelledby="sg-motion">
+    <div class="container">
+      <h2 id="sg-motion" class="h2" style="margin-bottom:2rem">Motion</h2>
+      <div class="sg-table" role="table" aria-label="Motion specs">
+        <div role="row" class="sg-row sg-row--head sg-row--3"><span role="columnheader">Layer</span><span role="columnheader">Behaviour</span><span role="columnheader">Implementation</span></div>
+        {motion.map(([a, b, c]) => <div role="row" class="sg-row sg-row--3"><span role="cell"><strong>{a}</strong></span><span role="cell">{b}</span><span role="cell" class="caption">{c}</span></div>)}
+      </div>
+      <p class="caption" style="margin-top:1rem">Easing <code>cubic-bezier(0.22, 1, 0.36, 1)</code> · no preloader · ambience starts after first paint · optional generated rain sound, off by default.</p>
+    </div>
+  </section>
+</Inner>
+
+<style is:global>
+  .sg-table { border-top: 1px solid var(--line-strong); }
+  .sg-row { display: grid; grid-template-columns: 1.4fr 1fr 1fr 0.8fr; gap: 1rem; padding: 1rem 0; border-bottom: 1px solid var(--line); align-items: center; }
+  .sg-row--3 { grid-template-columns: 0.8fr 2fr 1.2fr; }
+  .sg-row--head { font-size: var(--fs-caption); font-weight: 600; letter-spacing: var(--tracking-eyebrow); text-transform: uppercase; color: var(--ink-2); }
+  .sg-sw { display: flex; align-items: center; gap: 0.6rem; }
+  .sg-sw i { width: 2rem; height: 2rem; border-radius: 50%; border: 1px solid var(--line-strong); flex: none; }
+  .sg-type { display: grid; gap: 0.5rem 2rem; grid-template-columns: minmax(10rem, 14rem) 1fr; align-items: baseline; border-bottom: 1px solid var(--line); padding-bottom: 1.5rem; }
+  .sg-motif { width: 5rem; color: var(--accent); }
+  @media (max-width: 40rem) { .sg-row, .sg-row--3, .sg-type { grid-template-columns: 1fr; } }
+  code { overflow-wrap: anywhere; font-size: 0.9em; background: var(--surface-2); padding: 0.1em 0.35em; border-radius: 0.35em; }
+</style>

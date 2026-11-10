@@ -1,0 +1,9 @@
+---
+/* The live Compare page (a WooCommerce compare-list stub) contains only its title. Kept as-is. */
+import Inner from '../../layouts/Inner.astro';
+import { w, text, page } from '../../lib/content';
+const P = 'compare';
+---
+<Inner title={page(P).title} description={text(w('home', 8)).slice(0, 155)} heading={text(w(P, 0))} crumbs={[{ label: text(w(P, 0)) }]} noindex>
+  <section class="section"><div class="container"><a class="link-arrow" href="/">Home</a></div></section>
+</Inner>

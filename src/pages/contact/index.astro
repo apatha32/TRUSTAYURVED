@@ -1,0 +1,68 @@
+---
+import Inner from '../../layouts/Inner.astro';
+import Icon from '../../components/Icon.astro';
+import { w, text, page, WHATSAPP_URL } from '../../lib/content';
+
+const P = 'contact';
+const heading = text(w(P, 0));
+const [kicker, getInTouch] = w(P, 1, 'wd_title').blocks.map((b) => b.text);
+const intro = text(w(P, 2, 'text-editor'));
+const list = w(P, 4, 'wd_list').blocks.map((b) => b.text);
+const [addrA, addrB, ...rest] = list;
+const phones = rest.filter((x) => x.startsWith('+'));
+const email = rest.find((x) => x.includes('@'))!;
+const [kicker2, questions] = w(P, 5, 'wd_title').blocks.map((b) => b.text);
+const maps = page(P).maps;
+const endpoint = import.meta.env.PUBLIC_FORM_ENDPOINT as string | undefined;
+// Form fields exactly as the live Elementor form (placeholders used as visible labels).
+const fields = [
+  { name: 'Name', type: 'text', required: false, auto: 'name' },
+  { name: 'Email', type: 'email', required: true, auto: 'email' },
+  { name: 'Phone', type: 'tel', required: true, auto: 'tel' },
+  { name: 'Business Information', type: 'text', required: true, auto: 'organization' },
+];
+---
+<Inner title={page(P).title} description={intro.slice(0, 155)} heading={heading} eyebrow={kicker} crumbs={[{ label: heading }]}>
+  <section class="section">
+    <div class="container split">
+      <div data-reveal>
+        <h2 class="h2">{getInTouch}</h2>
+        <p class="lede measure" style="margin-top:1.25rem">{intro}</p>
+        <hr class="rule rule--brass" style="margin:2.5rem 0" />
+        <ul class="contact-list">
+          <li><Icon name="pin" /><address style="font-style:normal">{addrA}</address></li>
+          <li><Icon name="pin" /><address style="font-style:normal">{addrB}</address></li>
+          {phones.map((p) => <li><Icon name="phone" /><a href={`tel:${p.replace(/\s+/g, '')}`}>{p}</a></li>)}
+          <li><Icon name="mail" /><a href={`mailto:${email}`}>{email}</a></li>
+          <li><Icon name="whatsapp" /><a href={WHATSAPP_URL} target="_blank" rel="noopener">WhatsApp us</a></li>
+        </ul>
+      </div>
+      <div class="card" data-reveal style="--i:1">
+        <p class="eyebrow">{kicker2}</p>
+        <h2 class="h3" style="margin:0.75rem 0 1.5rem">{questions}</h2>
+        <form class="form" data-contact-form data-mailto={email} data-endpoint={endpoint} novalidate={false}>
+          <div class="form__row">
+            {fields.slice(0, 2).map((f) => (
+              <div class="field"><label for={`f-${f.auto}`}>{f.name}</label><input id={`f-${f.auto}`} name={f.name} type={f.type} autocomplete={f.auto} required={f.required} /></div>
+            ))}
+          </div>
+          <div class="form__row">
+            {fields.slice(2).map((f) => (
+              <div class="field"><label for={`f-${f.auto}`}>{f.name}</label><input id={`f-${f.auto}`} name={f.name} type={f.type} autocomplete={f.auto} required={f.required} pattern={f.type === 'tel' ? '[0-9()#&+*=.\\- ]+' : undefined} /></div>
+            ))}
+          </div>
+          <div class="field"><label for="f-message">Message</label><textarea id="f-message" name="Message" rows="5"></textarea></div>
+          <div><button class="btn" type="submit" data-ripple>Send Message</button></div>
+          <p class="form__status" role="status" aria-live="polite" data-status></p>
+        </form>
+      </div>
+    </div>
+  </section>
+  <section class="section" style="padding-top:0" aria-label="Map">
+    <div class="container maps">
+      {maps.map((src, i) => (
+        <div class="map"><iframe src={src} title={i ? addrB : addrA} loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+      ))}
+    </div>
+  </section>
+</Inner>

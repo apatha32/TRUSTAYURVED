@@ -1,0 +1,29 @@
+---
+import Inner from '../layouts/Inner.astro';
+import Blocks from './Blocks.astro';
+import Photo from './Photo.astro';
+import Icon from './Icon.astro';
+import { w, text, page, WHATSAPP_URL } from '../lib/content';
+import { wpImage } from '../lib/images';
+
+interface Props { slug: string; mask: string }
+const { slug, mask } = Astro.props;
+const name = text(w(slug, 0));
+const photo = w(slug, 1, 'image').imgs[0].src;
+const quals = text(w(slug, 2));
+const bio = w(slug, 4, 'text-editor').blocks;
+---
+<Inner title={page(slug).title} description={bio[0].text} heading={name} crumbs={[{ label: 'About Us', href: '/about/' }, { label: name }]} image={wpImage(photo)}>
+  <p slot="hero" class="doctor__quals" style="font-size:1rem">{quals}</p>
+  <section class="section">
+    <div class="container" style="display:grid;gap:clamp(2.5rem,2rem + 3vw,5rem);grid-template-columns:repeat(auto-fit,minmax(min(100%,20rem),1fr));align-items:start">
+      <div class:list={['doctor__portrait', 'float', mask]} style="position:sticky;top:calc(var(--header-h) + 2rem)" data-reveal>
+        <Photo src={photo} alt={`Portrait of ${name}`} eager widths={[360, 540, 720, 1080]} sizes="(min-width: 52rem) 26rem, 90vw" />
+      </div>
+      <div data-reveal style="--i:1">
+        <Blocks blocks={bio} class="lede" />
+        <p style="margin-top:2.5rem"><a class="btn" href={WHATSAPP_URL} target="_blank" rel="noopener" data-ripple><Icon name="whatsapp" />WhatsApp us</a></p>
+      </div>
+    </div>
+  </section>
+</Inner>

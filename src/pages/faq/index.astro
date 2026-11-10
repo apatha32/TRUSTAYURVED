@@ -1,0 +1,10 @@
+---
+import Inner from '../../layouts/Inner.astro';
+import Faq from '../../components/Faq.astro';
+import { w, text, faqs, page } from '../../lib/content';
+const P = 'faq';
+const items = faqs(w(P, 1, 'wd_accordion'));
+---
+<Inner title={page(P).title} description={items[0].a} heading={text(w(P, 0))} crumbs={[{ label: text(w(P, 0)) }]}>
+  <section class="section"><div class="container"><Faq items={items} /></div></section>
+</Inner>

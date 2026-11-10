@@ -1,0 +1,30 @@
+---
+import Inner from '../../../../../layouts/Inner.astro';
+import Icon from '../../../../../components/Icon.astro';
+import { posts, postPath, formatDate, cleanPostHtml, page, w, text, WHATSAPP_URL } from '../../../../../lib/content';
+import type { Post } from '../../../../../lib/content';
+
+export function getStaticPaths() {
+  // Every post lives at /YYYY/MM/DD/slug/ on the live site; all current posts are 2026/05/29.
+  return posts.filter((p) => postPath(p).startsWith('/2026/05/29/')).map((p) => ({ params: { slug: p.slug }, props: { post: p } }));
+}
+const { post } = Astro.props as { post: Post };
+const blogTitle = text(w('blog', 0));
+const others = posts.filter((p) => p.slug !== post.slug);
+---
+<Inner title={`${post.title} – Shraddha Ayurvedic Clinic`} description={post.excerpt.slice(0, 155)} heading={post.title} type="article" published={post.date}
+  crumbs={[{ label: 'Blog', href: '/blog/' }, { label: post.title }]}>
+  <p slot="hero" class="caption"><time datetime={post.date.slice(0, 10)}>{formatDate(post.date)}</time></p>
+  <article class="section">
+    <div class="container">
+      <div class="prose" style="margin-inline:auto" set:html={cleanPostHtml(post.content)} />
+      <div class="measure" style="margin:4rem auto 0;display:grid;gap:1.5rem">
+        <hr class="rule rule--brass" />
+        <ul role="list" style="list-style:none;padding:0;margin:0;display:grid;gap:0.5rem">
+          {others.map((o) => <li><a class="link-arrow" href={postPath(o)}>{o.title}<Icon name="arrow-right" /></a></li>)}
+        </ul>
+        <p><a class="btn" href={WHATSAPP_URL} target="_blank" rel="noopener" data-ripple><Icon name="whatsapp" />WhatsApp us</a></p>
+      </div>
+    </div>
+  </article>
+</Inner>

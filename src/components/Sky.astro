@@ -1,0 +1,23 @@
+---
+/**
+ * The room's light — a fixed layer behind every page.
+ * Morning sun from the upper right, two slow shafts of light through the
+ * canopy, drifting golden pools, and the falling-leaf canvas.
+ * Decorative only; the still frame (reduced motion) keeps the glow and one leaf at rest.
+ */
+import Motif from './Motif.astro';
+---
+<div class="sky" aria-hidden="true">
+  <div class="sky__sun"></div>
+  <div class="sky__ember"></div>
+  <div class="sky__shaft sky__shaft--a"></div>
+  <div class="sky__shaft sky__shaft--b"></div>
+  <div class="sky__pools">
+    <i style="--d:26s;--dx:6%;--dy:4%;left:58%;top:4%;width:42rem;height:42rem"></i>
+    <i style="--d:21s;--dx:-5%;--dy:6%;--delay:-8s;left:72%;top:46%;width:26rem;height:26rem"></i>
+    <i style="--d:29s;--dx:4%;--dy:-5%;--delay:-14s;left:4%;top:58%;width:32rem;height:32rem"></i>
+    <i style="--d:24s;--dx:-3%;--dy:-4%;--delay:-4s;left:24%;top:-8%;width:22rem;height:22rem"></i>
+  </div>
+  <canvas data-leaves></canvas>
+  <Motif name="leaf-neem" class="leaf-rest" seed={0} />
+</div>

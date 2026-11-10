@@ -1,0 +1,97 @@
+---
+/**
+ * Shared template for the six treatment pages. Reads the crawled widget order:
+ *   [0] page title (h2 on live → h1 here)
+ *   [1] optional eyebrow (h4)
+ *   intro heading (h2) + intro text-editor
+ *   then image/heading/text rows → alternating feature sections
+ *   then optional h3/text pairs → feature cards (TADVIT)
+ */
+import Inner from '../layouts/Inner.astro';
+import Blocks from './Blocks.astro';
+import Photo from './Photo.astro';
+import Icon from './Icon.astro';
+import Condensation from './Condensation.astro';
+import { main, text, sections, pairs, page, WHATSAPP_URL } from '../lib/content';
+import { wpImage } from '../lib/images';
+
+interface Props { slug: string; textFirst?: boolean }
+const { slug, textFirst = false } = Astro.props;
+const ws = main(slug);
+const title = text(ws[0]);
+const hasEyebrow = ws[1].type === 'heading' && ws[1].blocks[0].t === 'h4';
+const iIntro = hasEyebrow ? 2 : 1;
+const introHeading = text(ws[iIntro]);
+const intro = ws[iIntro + 1].blocks;
+const firstH3 = ws.findIndex((x, i) => i > iIntro && x.type === 'heading' && x.blocks[0]?.t === 'h3');
+const rows = sections(slug, iIntro + 2, { textFirst, to: firstH3 > 0 ? firstH3 : undefined });
+const cards = firstH3 > 0 ? pairs(slug, firstH3) : [];
+const desc = intro[0].text.length > 155 ? intro[0].text.slice(0, intro[0].text.lastIndexOf(' ', 152)) + '…' : intro[0].text;
+const ogImage = rows.find((r) => r.image)?.image;
+---
+<Inner
+  title={page(slug).title}
+  description={desc}
+  heading={title}
+  eyebrow={hasEyebrow ? text(ws[1]) : undefined}
+  crumbs={[{ label: 'Treatments' }, { label: title }]}
+  image={ogImage ? wpImage(ogImage.src) : undefined}
+>
+  <section class="section" aria-labelledby="intro-title">
+    <div class="container split">
+      <h2 id="intro-title" class="h2" data-reveal>{introHeading}</h2>
+      <div data-reveal style="--i:1">
+        <Blocks blocks={intro} class="lede" />
+        <p style="margin-top:2rem"><a class="btn" href={WHATSAPP_URL} target="_blank" rel="noopener" data-ripple><Icon name="whatsapp" />WhatsApp us</a></p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" style="padding-top:0" aria-label={title}>
+    {rows.some((r) => r.image) ? (
+      <div class="container features">
+        {rows.map((r, i) => (
+          <article class:list={['feature', { 'feature--flip': i % 2 === 1 }]} aria-labelledby={`s-${i}`}>
+            {r.image && (
+              <div class="feature__media float" data-reveal style={`--i:${i}`}>
+                <Photo src={r.image.src} alt={r.heading} widths={[480, 720, 1080]} sizes="(min-width: 56rem) 560px, 100vw" />
+                <Condensation seed={i + 11} rolling={i % 2 ? 1 : 2} beads={22} aspect={1.96} />
+              </div>
+            )}
+            <div data-reveal style="--i:1">
+              <h2 id={`s-${i}`} class="h2 feature__title">{r.heading}</h2>
+              <Blocks blocks={r.blocks} class="feature__body" />
+            </div>
+          </article>
+        ))}
+      </div>
+    ) : (
+      <div class="container text-rows">
+        {rows.map((r, i) => (
+          <article aria-labelledby={`s-${i}`} data-reveal style={`--i:${i % 2}`}>
+            <span class="why__index" aria-hidden="true">{String(i + 1).padStart(2, '0')}</span>
+            <h2 id={`s-${i}`} class="h2 feature__title">{r.heading}</h2>
+            <Blocks blocks={r.blocks} class="feature__body muted" />
+          </article>
+        ))}
+      </div>
+    )}
+  </section>
+
+  {cards.length > 0 && (
+    <section class="section" style="padding-top:0" aria-label="Features">
+      <div class="container">
+        <ul class="feature-grid feature-grid--3" role="list" style="list-style:none;padding:0;margin:0">
+          {cards.map((c, i) => (
+            <li class="card float" data-reveal style={`--i:${i}`}>
+              <span class="card__icon" style="width:2rem;height:2rem;margin-bottom:0.5rem"><Icon name={['leaf', 'breath', 'shield', 'mind', 'roots', 'moon'][i % 6]} /></span>
+              <h3 class="card__title">{c.heading}</h3>
+              {c.body.map((b) => <p>{b.text}</p>)}
+            </li>
+          ))}
+        </ul>
+      </div>
+    </section>
+  )}
+</Inner>
+

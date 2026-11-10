@@ -1,0 +1,50 @@
+---
+import Icon from './Icon.astro';
+import Motif from './Motif.astro';
+import Condensation from './Condensation.astro';
+import { footer, text, WHATSAPP_URL } from '../lib/content';
+
+
+const f = footer();
+const connect = f[0].blocks.map((b) => b.text);           // "Connect with" / "Shraddha Ayurvedic Clinic!"
+const email = text(f[1]);
+const about = text(f[2]);
+const cols = [3, 5, 7].map((i) => ({
+  title: text(f[i]),
+  links: f[i + 1].blocks.map((b, j) => ({ label: b.text, href: new URL(f[i + 1].links[j]).pathname })),
+}));
+const copyright = text(f[9]);
+const tagline = text(f[10]);
+---
+<section class="cta-band" aria-labelledby="cta-title" data-ambient-section>
+  <div class="cta-band__water"><Motif name="water-band" /></div>
+  <Condensation seed={7} rolling={4} beads={60} aspect={3.6} />
+  <div class="container cta-band__inner" data-reveal>
+    <h2 id="cta-title" class="display">{connect[0]} <br />{connect[1]}</h2>
+    <div class="hero__actions" style="justify-content:center">
+      <a class="btn" href={WHATSAPP_URL} target="_blank" rel="noopener" data-ripple><Icon name="whatsapp" />WhatsApp us</a>
+      <a class="btn btn--ghost" href="/contact/" data-ripple>{cols[0].links[2].label}</a>
+    </div>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-about">
+        <p class="muted">{about}</p>
+        <a class="link-arrow" href={`mailto:${email}`}><Icon name="mail" />{email}</a>
+      </div>
+      {cols.map((c) => (
+        <div class="footer-col">
+          <h2>{c.title}</h2>
+          <ul>{c.links.map((l) => <li><a href={l.href}>{l.label}</a></li>)}</ul>
+        </div>
+      ))}
+    </div>
+    <div class="footer-bottom">
+      <p>{copyright}</p>
+      <p class="tagline">{tagline}</p>
+    </div>
+  </div>
+</footer>

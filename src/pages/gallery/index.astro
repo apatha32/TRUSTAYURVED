@@ -1,0 +1,52 @@
+---
+import { getImage } from 'astro:assets';
+import { readFileSync } from 'node:fs';
+import { createHash } from 'node:crypto';
+import Inner from '../../layouts/Inner.astro';
+import Photo from '../../components/Photo.astro';
+import Icon from '../../components/Icon.astro';
+import { w, text, page } from '../../lib/content';
+import { wpImage } from '../../lib/images';
+
+const P = 'gallery';
+const heading = text(w(P, 0));
+const all = w(P, 1, 'gallery').links.filter((l) => l.includes('/wp-content/uploads/'));
+// The live gallery lists several byte-identical files twice (e.g. "-1" re-uploads); show each photo once.
+const seen = new Set<string>();
+const unique = all.filter((url) => {
+  const rel = url.split('/wp-content/uploads/')[1];
+  const hash = createHash('md5').update(readFileSync(`src/assets/wp/${rel}`)).digest('hex');
+  if (seen.has(hash)) return false;
+  seen.add(hash);
+  return true;
+});
+const items = await Promise.all(unique.map(async (url, i) => ({
+  url,
+  full: (await getImage({ src: wpImage(url), width: Math.min(1600, wpImage(url).width), format: 'webp', quality: 82 })).src,
+  alt: `Shraddha Ayurvedic Clinic — ${heading} ${i + 1} of ${unique.length}`,
+})));
+---
+<Inner title={page(P).title} description={`${heading} — Shraddha Ayurvedic Clinic`} heading={heading} crumbs={[{ label: heading }]}>
+  <section class="section">
+    <div class="container">
+      <div class="masonry">
+        {items.map((it) => (
+          <button type="button" data-full={it.full} aria-label={`Open image: ${it.alt}`}>
+            <Photo src={it.url} alt={it.alt} widths={[360, 540, 720]} sizes="(min-width: 60rem) 380px, (min-width: 36rem) 50vw, 100vw" />
+          </button>
+        ))}
+      </div>
+    </div>
+  </section>
+  <dialog class="lightbox" aria-label={heading} data-lightbox>
+    <div class="lightbox__bar">
+      <span class="caption" style="color:#A9B8AF" data-count></span>
+      <button class="icon-btn" type="button" aria-label="Close" data-lb-close><Icon name="close" /></button>
+    </div>
+    <div class="lightbox__stage"><img src="" alt="" /></div>
+    <div class="lightbox__nav">
+      <button class="icon-btn" type="button" aria-label="Previous image" data-lb-prev><Icon name="arrow-left" /></button>
+      <button class="icon-btn" type="button" aria-label="Next image" data-lb-next><Icon name="arrow-right" /></button>
+    </div>
+  </dialog>
+</Inner>

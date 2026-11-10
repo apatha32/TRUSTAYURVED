@@ -1,0 +1,29 @@
+---
+/**
+ * Faint condensation on glass: static beads (SVG) + a few drops that slowly
+ * roll down (CSS only — paused offscreen via .is-paused on an ancestor,
+ * frozen to a still frame under prefers-reduced-motion).
+ */
+interface Props { seed?: number; rolling?: number; beads?: number; aspect?: number }
+const { seed = 1, rolling = 3, beads = 34, aspect = 1.25 } = Astro.props;
+const W = 100 * aspect;
+let s = seed * 9301 + 49297;
+const rnd = () => ((s = (s * 9301 + 49297) % 233280) / 233280);
+const dots = Array.from({ length: beads }, () => ({ x: rnd() * W, y: rnd() * 100, r: 0.25 + rnd() * rnd() * 0.9 }));
+// Two paths instead of hundreds of ellipses (keeps the DOM small).
+const circle = (x: number, y: number, r: number) => `M${(x - r).toFixed(2)} ${y.toFixed(2)}a${r.toFixed(2)} ${r.toFixed(2)} 0 1 0 ${(2 * r).toFixed(2)} 0a${r.toFixed(2)} ${r.toFixed(2)} 0 1 0 ${(-2 * r).toFixed(2)} 0`;
+const beadPath = dots.map((d) => circle(d.x, d.y, d.r)).join('');
+const glintPath = dots.map((d) => circle(d.x - d.r * 0.3, d.y - d.r * 0.35, d.r * 0.35)).join('');
+const rollers = Array.from({ length: rolling }, (_, i) => ({
+  x: 10 + rnd() * 80, y: 4 + rnd() * 30, s: 6 + rnd() * 5, d: 16 + rnd() * 10, delay: -(rnd() * 20) - i * 3,
+}));
+---
+<div class="condensation" aria-hidden="true">
+  <svg viewBox={`0 0 ${W} 100`} preserveAspectRatio="xMidYMid slice">
+    <path d={beadPath} fill="rgb(255 255 255 / 0.22)" />
+    <path d={glintPath} fill="rgb(255 255 255 / 0.55)" />
+  </svg>
+  {rollers.map((r) => (
+    <i style={`--x:${r.x.toFixed(1)}%;--y:${r.y.toFixed(1)}%;--s:${r.s.toFixed(1)}px;--d:${r.d.toFixed(1)}s;--delay:${r.delay.toFixed(1)}s;--fall:${(35 + r.s * 4).toFixed(0)}cqh`}></i>
+  ))}
+</div>

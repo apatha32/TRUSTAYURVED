@@ -1,0 +1,36 @@
+---
+/**
+ * Slow, swipeable testimonial carousel.
+ * Scroll-snap track (works without JS) + arrows/dots. Auto-advances every 9s
+ * only when motion is allowed; pauses on hover, focus, or offscreen.
+ */
+import Icon from './Icon.astro';
+import Photo from './Photo.astro';
+interface Props { items: { name: string; quote: string; photo: string }[]; label: string }
+const { items, label } = Astro.props;
+---
+<div class="carousel" role="group" aria-roledescription="carousel" aria-label={label} data-carousel data-interval="9000" data-reveal>
+  <div class="carousel__track" tabindex="0" aria-live="polite" data-track>
+    {items.map((t, i) => (
+      <div class="carousel__slide" role="group" aria-roledescription="slide" aria-label={`${i + 1} of ${items.length}`} id={`t-slide-${i}`}>
+       <figure style="display:contents">
+        <Icon name="quote" class="carousel__mark" />
+        <blockquote class="carousel__quote"><p>{t.quote}</p></blockquote>
+        <figcaption class="carousel__person">
+          <Photo src={t.photo} alt="" widths={[120]} sizes="56px" />
+          <span class="carousel__name">{t.name}</span>
+        </figcaption>
+       </figure>
+      </div>
+    ))}
+  </div>
+  <div class="carousel__controls">
+    <button class="icon-btn" type="button" aria-label="Previous testimonial" data-prev><Icon name="arrow-left" /></button>
+    <div class="dots">
+      {items.map((t, i) => (
+        <button type="button" aria-label={`Show testimonial ${i + 1}: ${t.name}`} aria-controls={`t-slide-${i}`} aria-current={i === 0 ? 'true' : 'false'} data-dot={i}></button>
+      ))}
+    </div>
+    <button class="icon-btn" type="button" aria-label="Next testimonial" data-next><Icon name="arrow-right" /></button>
+  </div>
+</div>

@@ -1,0 +1,70 @@
+---
+import { Image } from 'astro:assets';
+import Icon from './Icon.astro';
+import seal from '../assets/brand/seal.png';
+import { NAV, norm } from '../lib/nav';
+import { WHATSAPP_URL } from '../lib/content';
+
+const here = norm(Astro.url.pathname);
+const isCurrent = (href?: string) => !!href && norm(href) === here;
+---
+<header class="site-header" data-header>
+  <div class="container site-header__inner">
+    <a class="brand" href="/" aria-label="Shraddha Ayurvedic Clinic — Home">
+      <Image src={seal} alt="" width={88} height={88} loading="eager" fetchpriority="low" />
+      <span class="brand__name" aria-hidden="true">Shraddha<br />Ayurvedic Clinic</span>
+    </a>
+
+    <nav class="nav" aria-label="Main">
+      <ul class="nav__list">
+        {NAV.map((item, i) => item.children ? (
+          <li class:list={['nav__item', { 'is-current': item.children.some((c) => isCurrent(c.href)) }]} data-dropdown>
+            <button class="nav__trigger" type="button" aria-expanded="false" aria-controls={`menu-${i}`}>
+              {item.label}<Icon name="chevron-down" />
+            </button>
+            <ul class="nav__menu" id={`menu-${i}`}>
+              {item.children.map((c) => (
+                <li><a href={c.href} aria-current={isCurrent(c.href) ? 'page' : undefined}>{c.label}</a></li>
+              ))}
+            </ul>
+          </li>
+        ) : (
+          <li class="nav__item"><a class="nav__link" href={item.href} aria-current={isCurrent(item.href) ? 'page' : undefined}>{item.label}</a></li>
+        ))}
+      </ul>
+    </nav>
+
+    <a class="btn btn--sm header-cta" href={WHATSAPP_URL} target="_blank" rel="noopener" data-ripple>
+      <Icon name="whatsapp" />WhatsApp us
+    </a>
+    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="mobile-menu" aria-label="Open menu" data-menu-open>
+      <Icon name="menu" />
+    </button>
+  </div>
+</header>
+
+<div class="mobile-menu" id="mobile-menu" role="dialog" aria-modal="true" aria-label="Menu" hidden data-menu>
+  <div class="mobile-menu__top">
+    <a class="brand" href="/" aria-label="Shraddha Ayurvedic Clinic — Home">
+      <Image src={seal} alt="" width={88} height={88} />
+      <span class="brand__name" aria-hidden="true">Shraddha<br />Ayurvedic Clinic</span>
+    </a>
+    <button class="menu-toggle" type="button" aria-label="Close menu" data-menu-close><Icon name="close" /></button>
+  </div>
+  <nav aria-label="Mobile">
+    <ul class="mobile-menu__list">
+      {NAV.map((item) => item.children ? (
+        <li>
+          <details open={item.children.some((c) => isCurrent(c.href))}>
+            <summary>{item.label}<Icon name="chevron-down" /></summary>
+            <ul>
+              {item.children.map((c) => <li><a href={c.href} aria-current={isCurrent(c.href) ? 'page' : undefined}>{c.label}</a></li>)}
+            </ul>
+          </details>
+        </li>
+      ) : (
+        <li><a href={item.href} aria-current={isCurrent(item.href) ? 'page' : undefined}>{item.label}</a></li>
+      ))}
+    </ul>
+  </nav>
+</div>

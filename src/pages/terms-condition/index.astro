@@ -1,0 +1,10 @@
+---
+import Inner from '../../layouts/Inner.astro';
+import Blocks from '../../components/Blocks.astro';
+import { w, text, page } from '../../lib/content';
+const P = 'terms-condition';
+const body = w(P, 1, 'text-editor').blocks;
+---
+<Inner title={page(P).title} description={body[0].text.slice(0, 155)} heading={text(w(P, 0))} crumbs={[{ label: text(w(P, 0)) }]}>
+  <section class="section"><div class="container"><Blocks blocks={body} class="policy" /></div></section>
+</Inner>

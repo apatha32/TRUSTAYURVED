@@ -1,0 +1,33 @@
+---
+import Inner from '../../layouts/Inner.astro';
+import Icon from '../../components/Icon.astro';
+import Motif from '../../components/Motif.astro';
+import { w, text, page, posts, postPath, formatDate } from '../../lib/content';
+const P = 'blog';
+const heading = text(w(P, 0));
+const listed = w(P, 1, 'posts.classic').blocks;
+const more = listed[3].text; // "Read More"
+const items = posts.map((p) => {
+  const k = listed.findIndex((b) => b.t === 'h3' && b.text === p.title);
+  return { ...p, excerpt: k >= 0 ? listed[k + 2].text : p.excerpt, display: k >= 0 ? listed[k + 1].text : formatDate(p.date) };
+});
+---
+<Inner title={page(P).title} description={items[0].excerpt} heading={heading} crumbs={[{ label: heading }]}>
+  <section class="section">
+    <div class="container">
+      <ul class="news" role="list" style="list-style:none;padding:0;margin:0">
+        {items.map((n, i) => (
+          <li class="card card--link float" data-reveal style={`--i:${i}`}>
+            <div class="news__art" aria-hidden="true"><Motif name="ripple-card" seed={i} /></div>
+            <div class="news__body">
+              <p class="caption"><time datetime={n.date.slice(0, 10)}>{n.display}</time></p>
+              <h2 class="news__title"><a class="stretched" href={postPath(n)}>{n.title}</a></h2>
+              <p class="muted">{n.excerpt}</p>
+              <span class="link-arrow" aria-hidden="true">{more}<Icon name="arrow-right" /></span>
+            </div>
+          </li>
+        ))}
+      </ul>
+    </div>
+  </section>
+</Inner>

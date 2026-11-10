@@ -1,0 +1,90 @@
+---
+import Inner from '../../layouts/Inner.astro';
+import Blocks from '../../components/Blocks.astro';
+import Photo from '../../components/Photo.astro';
+import Icon from '../../components/Icon.astro';
+import Motif from '../../components/Motif.astro';
+import { w, text, pairs, page } from '../../lib/content';
+
+const P = 'about';
+const t = (i: number) => text(w(P, i));
+const highlights = [[6, 8], [9, 11], [12, 14]].map(([h, b]) => ({ title: t(h), body: t(b) }));
+const mission = { title: t(17), body: w(P, 16).blocks };
+const vision = { title: t(19), body: w(P, 18).blocks };
+const doctors = [
+  { photo: '2026/05/New-Project-84.png', quals: t(21), name: t(22), bio: t(23), cta: t(24), href: '/vd-sohan-pathak/', mask: 'mask-leaf' },
+  { photo: '2026/05/New-Project-85.png', quals: t(25), name: t(26), bio: t(27), cta: t(28), href: '/vd-ashwini-pathak/', mask: 'mask-pebble' },
+];
+const cards = pairs(P, 33);
+const icons = ['leaf', 'drop', 'joint', 'roots', 'breath', 'shield'];
+---
+<Inner title={page(P).title} description={t(4)} heading={t(0)} eyebrow={t(1)} crumbs={[{ label: t(0) }]}>
+  <section class="section" aria-labelledby="who">
+    <div class="container split">
+      <h2 id="who" class="h2" data-reveal>{t(2)}</h2>
+      <div class="prose lede" data-reveal style="--i:1"><p>{t(4)}</p><p>{t(5)}</p></div>
+    </div>
+  </section>
+
+  <section class="section" style="padding-top:0">
+    <div class="container">
+      <ul class="stat-row" role="list" style="list-style:none;padding:0;margin:0">
+        {highlights.map((h, i) => (
+          <li class="card float" data-reveal style={`--i:${i}`}>
+            <h3>{h.title}</h3><hr aria-hidden="true" /><p class="muted">{h.body}</p>
+          </li>
+        ))}
+      </ul>
+      <div class="prose lede" style="margin:clamp(3rem,2rem + 3vw,5rem) auto 0" data-reveal>
+        <Blocks blocks={w(P, 15).blocks} />
+      </div>
+    </div>
+  </section>
+
+  <section class="section" style="background:var(--surface-tint)" aria-label={`${mission.title} · ${vision.title}`}>
+    <div class="container split">
+      {[mission, vision].map((m, i) => (
+        <article data-reveal style={`--i:${i}`}>
+          <Motif name={i ? 'leaf-tulsi' : 'leaf-neem'} class="card__icon" seed={i + 1} />
+          <h2 class="h2">{m.title}</h2>
+          <Blocks blocks={m.body} class="muted" />
+        </article>
+      ))}
+    </div>
+  </section>
+
+  <section class="section" aria-label="Doctors">
+    <div class="container doctors">
+      {doctors.map((d, i) => (
+        <article class="doctor" data-reveal style={`--i:${i}`}>
+          <div class:list={['doctor__portrait', 'float', d.mask]} style={`--i:${i * 2}`}>
+            <Photo src={d.photo} alt={`Portrait of ${d.name}`} widths={[360, 540, 720]} sizes="(min-width: 52rem) 22rem, 90vw" />
+          </div>
+          <h2 class="doctor__name">{d.name}</h2>
+          <p class="doctor__quals">{d.quals}</p>
+          <p class="muted">{d.bio}</p>
+          <a class="link-arrow" href={d.href} aria-label={`${d.cta} — ${d.name}`}>{d.cta}<Icon name="arrow-right" /></a>
+        </article>
+      ))}
+    </div>
+  </section>
+
+  <section class="section" style="padding-top:0" aria-labelledby="journey">
+    <div class="container">
+      <div class="section-head" data-reveal>
+        <p class="eyebrow">{t(30)}</p>
+        <h2 id="journey" class="h2">{t(31)}</h2>
+        <Blocks blocks={w(P, 32).blocks} class="lede" />
+      </div>
+      <ul class="feature-grid feature-grid--3" role="list" style="list-style:none;padding:0;margin:0">
+        {cards.map((c, i) => (
+          <li class="card float" data-reveal style={`--i:${i + 3}`}>
+            <span class="card__icon" style="width:2rem;height:2rem;margin-bottom:0.5rem"><Icon name={icons[i]} /></span>
+            <h3 class="card__title">{c.heading}</h3>
+            {c.body.map((b) => <p>{b.text}</p>)}
+          </li>
+        ))}
+      </ul>
+    </div>
+  </section>
+</Inner>

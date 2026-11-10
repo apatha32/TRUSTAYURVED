@@ -1,0 +1,75 @@
+---
+/**
+ * Still leaf / water motifs. Decorative only (aria-hidden).
+ *  - still-water: concentric ripple rings + a leaf at rest (inner page heroes)
+ *  - leaf-neem / leaf-tulsi: single leaf
+ *  - vessel: the brass Shirodhara vessel (dhara patra) above the hero pool
+ *  - ripple-card: news card art
+ *  - water-band: wide calm water lines for the CTA band
+ */
+import { NEEM, NEEM_VEIN, TULSI, TULSI_VEIN } from '../lib/motifs';
+interface Props { name: 'still-water' | 'leaf-neem' | 'leaf-tulsi' | 'vessel' | 'ripple-card' | 'water-band'; class?: string; seed?: number }
+const { name, class: cls, seed = 0 } = Astro.props;
+const rot = [-28, 14, -8, 32][seed % 4];
+---
+{name === 'still-water' && (
+  <svg class={cls} viewBox="-200 -200 400 400" aria-hidden="true" focusable="false">
+    <g fill="none" stroke="currentColor">
+      <ellipse rx="40" ry="14" stroke-width="1.2" opacity="0.9" />
+      <ellipse rx="92" ry="32" stroke-width="1" opacity="0.6" />
+      <ellipse rx="150" ry="52" stroke-width="0.9" opacity="0.38" />
+      <ellipse rx="196" ry="68" stroke-width="0.8" opacity="0.2" />
+    </g>
+    <g transform="translate(34 -6) rotate(62) scale(0.9)" style="color: var(--accent)">
+      <path d={NEEM} fill="currentColor" opacity="0.55" />
+      <path d={NEEM_VEIN} fill="none" stroke="var(--surface)" stroke-width="1.2" opacity="0.6" />
+    </g>
+    <circle cx="0" cy="-150" r="4.5" fill="currentColor" opacity="0.7" />
+  </svg>
+)}
+{name === 'leaf-neem' && (
+  <svg class={cls} viewBox="-60 -60 120 120" aria-hidden="true" focusable="false">
+    <g transform={`rotate(${rot})`}><path d={NEEM} fill="currentColor" /><path d={NEEM_VEIN} fill="none" stroke="var(--surface)" stroke-width="1.4" opacity="0.5" /></g>
+  </svg>
+)}
+{name === 'leaf-tulsi' && (
+  <svg class={cls} viewBox="-60 -60 120 120" aria-hidden="true" focusable="false">
+    <g transform={`rotate(${rot})`}><path d={TULSI} fill="currentColor" /><path d={TULSI_VEIN} fill="none" stroke="var(--surface)" stroke-width="1.4" opacity="0.45" /></g>
+  </svg>
+)}
+{name === 'vessel' && (
+  <svg class={cls} viewBox="0 0 120 120" aria-hidden="true" focusable="false" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round">
+    <path d="M60 2v26M60 28L28 44M60 28l32 16" opacity="0.7" />
+    <path d="M22 44h76" />
+    <path d="M24 46c2 26 16 40 36 40s34-14 36-40" />
+    <path d="M40 58c4 10 11 15 20 15" opacity="0.45" />
+    <path d="M56 86c0 6 2 9 4 12 2-3 4-6 4-12" />
+  </svg>
+)}
+{name === 'ripple-card' && (
+  <svg class={cls} viewBox="0 0 320 180" preserveAspectRatio="xMidYMid slice" aria-hidden="true" focusable="false">
+    <g fill="none" stroke="var(--water)" transform={`translate(${[190, 140, 210][seed % 3]} ${[104, 96, 110][seed % 3]})`}>
+      <ellipse rx="22" ry="7" stroke-width="1.2" opacity="0.9" />
+      <ellipse rx="56" ry="18" stroke-width="1" opacity="0.55" />
+      <ellipse rx="96" ry="31" stroke-width="0.9" opacity="0.3" />
+      <ellipse rx="140" ry="45" stroke-width="0.8" opacity="0.15" />
+    </g>
+    <g transform={`translate(${[110, 200, 96][seed % 3]} ${[78, 70, 86][seed % 3]}) rotate(${[54, -40, 70][seed % 3]}) scale(0.62)`}>
+      <path d={seed % 2 ? TULSI : NEEM} fill="currentColor" opacity="0.5" />
+    </g>
+  </svg>
+)}
+{name === 'water-band' && (
+  <svg class={cls} viewBox="0 0 1440 400" preserveAspectRatio="xMidYMid slice" aria-hidden="true" focusable="false">
+    <g fill="none" stroke="currentColor">
+      {Array.from({ length: 9 }, (_, i) => (
+        <path
+          d={`M-20 ${250 + i * 18} C 300 ${238 + i * 18 - (i % 2) * 8}, 560 ${262 + i * 18}, 760 ${250 + i * 18} S 1200 ${240 + i * 18}, 1460 ${252 + i * 18}`}
+          stroke-width="1" opacity={(0.42 - i * 0.04).toFixed(2)} />
+      ))}
+      <ellipse cx="1080" cy="268" rx="70" ry="12" stroke-width="1" opacity="0.5" />
+      <ellipse cx="1080" cy="268" rx="150" ry="26" stroke-width="0.9" opacity="0.28" />
+      <ellipse cx="1080" cy="268" rx="240" ry="42" stroke-width="0.8" opacity="0.14" />
+    </g>
+  </svg>
+)}
